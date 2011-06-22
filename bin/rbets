@@ -2,5 +2,5 @@
 $LOAD_PATH.unshift File.expand_path("../../lib",__FILE__)
 require 'rbets'
 
-script=EventsGetter.new
+script=Gamebookers.new
 script.run

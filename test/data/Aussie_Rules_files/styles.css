@@ -1,0 +1,8423 @@
+/* local/skins//framework/css/sso/secure_login.css */
+.clear{
+	clear:both;
+}
+#dialog2_div form{
+		margin : 0px;
+		padding : 0px;
+}
+#container_sl {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	/*height: 320px;
+	border: 2px solid #016600;*/
+}
+#header_sl{
+	height: 51px;
+	width:566px;
+}
+#header_sl h2{
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 16px 0 0 15px;
+	font: bold 16px Geneva, Arial, Helvetica, sans-serif;
+}
+#header_close_sl {
+	float: right;
+	padding:5px;
+}
+
+#container_body_sl {
+	padding:9px;
+	font: normal 11px  Arial, Helvetica, sans-serif;
+	/*height: 269px;
+	width: 566px;*/
+	
+}
+
+#container_body p{
+	padding:0px;
+	font: normal 11px  Arial, Helvetica, sans-serif;
+	margin:0px 0px 18px;
+}
+
+#container_alert {
+	background: url('https://www.gamebookers.com/a/framework/css/sso/images/alert_30x26.gif') no-repeat left top;
+	margin: 5px 0px 0px 0px;
+	padding: 0px 0px 0px 40px;
+}
+.input-item {
+	background:#E5E6DB;
+	margin:0 0 4px;
+	padding:5px;
+}
+.input-item-alert{
+	margin:0 0 4px;
+	padding:5px;
+	background:#fee6e6 url('https://www.gamebookers.com/a/framework/css/sso/images/icon_alert_small.gif') no-repeat 10px center;
+}
+.input-item-alert span {
+	padding:0 0 0 26px;
+	display:block;
+}
+.txt_sl {
+	font-weight:bold;
+	padding:3px 0 2px 11px;
+	font-size: 11px;
+}
+.txtStar .txtBoxSmall, .noStar .txtBoxSmall, .txtStar .txtBoxBig {
+	border:1px solid #8B848B;
+	height:16px;
+	margin:0;
+	padding:0;
+	width:74px;
+	font-weight:normal;
+}
+.txtStar .txtBoxBig {
+	width:130px;
+}
+.txtStar, .noStar {
+	background:transparent url('https://www.gamebookers.com/a/framework/css/sso/images/icon_star.gif') no-repeat scroll left center;
+	font-weight:bold;
+	padding:0 0 3px 11px;
+}
+.noStar {
+	background:none;
+	font-weight:bold;
+	padding:0 0 3px 11px;
+}
+.txtStar select {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	height:18px;
+}
+.footer {
+	margin: 0px;
+	padding:6px 9px 0;
+	border-top: 1px solid rgb(187, 187, 187);
+}
+span.txtRed {
+	color: #FF0000;
+	padding: 0px 0px 0px 9px;
+	font: 11px Verdana;
+	background:url('https://www.gamebookers.com/a/framework/css/sso/images/icon_star.gif') no-repeat left center;
+	float:left;
+}
+#alerts {
+	padding: 0px 9px 9px 29px;
+	background:url('https://www.gamebookers.com/a/framework/css/sso/images/icon_alert.gif') no-repeat 4px 0px;
+	line-height: 0px;
+}
+#alerts ul{
+	padding:0px;
+	margin:0px;
+}
+#alerts li {
+	background:url('https://www.gamebookers.com/a/framework/css/sso/images/icon_dot.gif') no-repeat 0px 5px;
+	list-style: none;
+	padding: 0px 0px 0px 12px;
+	color: #FF0000;
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+.float_right{float:right;}
+
+div.contentScroll {
+	height: 285px;
+	width: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+
+#container_alert p {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	padding:0px 0px 8px 0px;
+	margin:0px;
+}
+
+.span_sl{
+font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#container_body_contactus {
+	    height:240px;
+        padding:9px;
+        color:#000000;
+        font-family:Verdana,Arial,Helvetica,sans-serif;
+        font-size:11px;
+        font-size-adjust:none;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        line-height:normal;
+	
+}
+
+#message{
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.contact_details {
+	background:#E5E6DB none repeat scroll 0 0;
+	color:#6A6A6A;
+	float:right;
+	margin:0;
+	padding:5px;
+	text-align:center;
+	width:360px;
+}
+
+
+
+/*.contact_details {
+	background:#E5E6DB;
+	color:#6a6a6a;
+	margin:9px 9px 9px 0;
+	padding:5px 10px 10px 10px;
+	width:370px;
+	height:237px;
+	float:right;
+	text-align:center;
+}
+*/
+.contact_anytime {
+	margin:0;
+	padding:23px 10px 10px 14px;
+	width:143px;
+	float:left;
+}
+p.bold_text {
+	font-size:11px;
+	font-weight:bold;
+	margin:0 0 2px 0;
+	padding:0;
+}
+p.bold_text2 {
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+p.p_text {
+	font-size:10px;
+	margin:0;
+	padding:0;
+	margin-bottom:3px;
+}
+p.p_text2 {
+	margin:0 0 10px 0;
+}
+.secure_left {
+	height: 190px;
+}
+/* local/skins//framework/css/sso/sso_dialog.css */
+
+/*dialog*/
+.ui-dialog {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	background: #ffffff url(https://www.gamebookers.com/a/framework/css/sso/images/ffffff_40x100_textures_01_flat_0.png) 0 0 repeat-x;
+	color: #222222;
+	/* border: 2px solid #336699; */
+	position: relative;
+}
+.ui-resizable-handle {
+	position: absolute;
+	font-size: 0.1px;
+	z-index: 99999;
+}
+.ui-resizable .ui-resizable-handle {
+	display: block; 
+}
+body .ui-resizable-disabled .ui-resizable-handle { display: none; } /* use 'body' to make it more specific (css order) */
+body .ui-resizable-autohide .ui-resizable-handle { display: none; } /* use 'body' to make it more specific (css order) */
+.ui-resizable-n { 
+	cursor: n-resize; 
+	height: 7px; 
+	width: 100%; 
+	top: -5px; 
+	left: 0px;  
+}
+.ui-resizable-s { 
+	cursor: s-resize; 
+	height: 7px; 
+	width: 100%; 
+	bottom: -5px; 
+	left: 0px; 
+}
+.ui-resizable-e { 
+	cursor: e-resize; 
+	width: 7px; 
+	right: -5px; 
+	top: 0px; 
+	height: 100%; 
+}
+.ui-resizable-w { 
+	cursor: w-resize; 
+	width: 7px; 
+	left: -5px; 
+	top: 0px; 
+	height: 100%;
+}
+.ui-resizable-se { 
+	cursor: se-resize; 
+	width: 13px; 
+	height: 13px; 
+	right: 0px; 
+	bottom: 0px; 
+	background: url(https://www.gamebookers.com/a/framework/css/sso/images/222222_11x11_icon_resize_se.gif) no-repeat 0 0;
+}
+.ui-resizable-sw { 
+	cursor: sw-resize; 
+	width: 9px; 
+	height: 9px; 
+	left: 0px; 
+	bottom: 0px;  
+}
+.ui-resizable-nw { 
+	cursor: nw-resize; 
+	width: 9px; 
+	height: 9px; 
+	left: 0px; 
+	top: 0px; 
+}
+.ui-resizable-ne { 
+	cursor: ne-resize; 
+	width: 9px; 
+	height: 9px; 
+	right: 0px; 
+	top: 0px; 
+}
+.ui-dialog-titlebar {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	padding: .5em 1.5em .5em 1em;
+	color: #fff;
+/*	background: #e6e6e6 url(https://www.gamebookers.com/a/framework/css/sso/images/head_bg.gif) 0 50% repeat-x; */
+	border-bottom: 1px solid #d3d3d3;
+	font-size: 12px;
+	font-weight: normal;
+	position: relative;
+}
+
+*html .ui-dialog-titlebar{
+	margin-top:-1px;
+}
+
+html>body  .ui-dialog-titlebar{
+margin-top:-1px;
+}
+
+.ui-dialog-title {}
+.ui-dialog-titlebar-close {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	background: url(https://www.gamebookers.com/a/framework/css/sso/images/ffffff_11x11_icon_close.gif) 0 0 no-repeat;
+	position: absolute;
+	right: 8px;
+	top: .7em;
+	width: 11px;
+	height: 11px;
+	z-index: 100;
+}
+.ui-dialog-titlebar-close-hover, .ui-dialog-titlebar-close:hover {
+	background: url(https://www.gamebookers.com/a/framework/css/sso/images/eeeeee_11x11_icon_close.gif) 0 0 no-repeat;
+}
+.ui-dialog-titlebar-close:active {
+	background: url(https://www.gamebookers.com/a/framework/css/sso/images/aaaaaa_11x11_icon_close.gif) 0 0 no-repeat;
+}
+.ui-dialog-titlebar-close span {
+	display: none;
+}
+.ui-dialog-content {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	color: #222222;
+	padding: 0px;	
+	overflow:auto;
+	margin:5px;
+}
+.ui-dialog-buttonpane {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	border-top: 1px solid #dddddd;
+	background: #ffffff;
+}
+.ui-dialog-buttonpane button {
+	margin: .5em 0 .5em 8px;
+	color: #fff;
+/*	background: #e6e6e6 url(https://www.gamebookers.com/a/framework/css/sso/images/head_bg.gif) 0 50% repeat-x; */
+	border: 1px solid #d3d3d3;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	font: normal 11px  Arial, Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+.ui-dialog-buttonpane button:hover {
+	color: #212121;
+	background: #dadada url(https://www.gamebookers.com/a/framework/css/sso/images/dadada_40x100_textures_02_glass_75.png) 0 50% repeat-x;
+	border: 1px solid #999999;
+}
+.ui-dialog-buttonpane button:active {
+	color: #222222;
+	background: #ffffff url(https://www.gamebookers.com/a/framework/css/sso/images/ffffff_40x100_textures_02_glass_65.png) 0 50% repeat-x;
+	border: 1px solid #dddddd;
+}
+/* This file skins dialog */
+.ui-dialog.ui-draggable .ui-dialog-titlebar,
+.ui-dialog.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}
+/* local/skins//framework/css/dialog/ui.dialog.css */
+
+/*dialog*/
+.ui-dialog {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	background: #ffffff url(https://www.gamebookers.com/a/framework/css/dialog/images/ffffff_40x100_textures_01_flat_0.png) 0 0 repeat-x;
+	color: #222222;
+	/* border: 2px solid #336699; */
+	position: relative;
+}
+.ui-resizable-handle {
+	position: absolute;
+	font-size: 0.1px;
+	z-index: 99999;
+}
+.ui-resizable .ui-resizable-handle {
+	display: block; 
+}
+body .ui-resizable-disabled .ui-resizable-handle { display: none; } /* use 'body' to make it more specific (css order) */
+body .ui-resizable-autohide .ui-resizable-handle { display: none; } /* use 'body' to make it more specific (css order) */
+.ui-resizable-n { 
+	cursor: n-resize; 
+	height: 7px; 
+	width: 100%; 
+	top: -5px; 
+	left: 0px;  
+}
+.ui-resizable-s { 
+	cursor: s-resize; 
+	height: 7px; 
+	width: 100%; 
+	bottom: -5px; 
+	left: 0px; 
+}
+.ui-resizable-e { 
+	cursor: e-resize; 
+	width: 7px; 
+	right: -5px; 
+	top: 0px; 
+	height: 100%; 
+}
+.ui-resizable-w { 
+	cursor: w-resize; 
+	width: 7px; 
+	left: -5px; 
+	top: 0px; 
+	height: 100%;
+}
+.ui-resizable-se { 
+	cursor: se-resize; 
+	width: 13px; 
+	height: 13px; 
+	right: 0px; 
+	bottom: 0px; 
+	background: url(https://www.gamebookers.com/a/framework/css/dialog/images/222222_11x11_icon_resize_se.gif) no-repeat 0 0;
+}
+.ui-resizable-sw { 
+	cursor: sw-resize; 
+	width: 9px; 
+	height: 9px; 
+	left: 0px; 
+	bottom: 0px;  
+}
+.ui-resizable-nw { 
+	cursor: nw-resize; 
+	width: 9px; 
+	height: 9px; 
+	left: 0px; 
+	top: 0px; 
+}
+.ui-resizable-ne { 
+	cursor: ne-resize; 
+	width: 9px; 
+	height: 9px; 
+	right: 0px; 
+	top: 0px; 
+}
+.ui-dialog-titlebar {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	padding: .5em 1.5em .5em 1em;
+	color: #fff;
+/*	background: #e6e6e6 url(https://www.gamebookers.com/a/framework/css/dialog/images/head_bg.gif) 0 50% repeat-x; */
+	border-bottom: 1px solid #d3d3d3;
+	font-size: 12px;
+	font-weight: normal;
+	position: relative;
+}
+
+*html .ui-dialog-titlebar{
+	margin-top:-1px;
+}
+
+html>body  .ui-dialog-titlebar{
+margin-top:-1px;
+}
+
+.ui-dialog-title {}
+.ui-dialog-titlebar-close {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	background: url(https://www.gamebookers.com/a/framework/css/dialog/images/ffffff_11x11_icon_close.gif) 0 0 no-repeat;
+	position: absolute;
+	right: 8px;
+	top: .7em;
+	width: 11px;
+	height: 11px;
+	z-index: 100;
+}
+.ui-dialog-titlebar-close-hover, .ui-dialog-titlebar-close:hover {
+	background: url(https://www.gamebookers.com/a/framework/css/dialog/images/eeeeee_11x11_icon_close.gif) 0 0 no-repeat;
+}
+.ui-dialog-titlebar-close:active {
+	background: url(https://www.gamebookers.com/a/framework/css/dialog/images/aaaaaa_11x11_icon_close.gif) 0 0 no-repeat;
+}
+.ui-dialog-titlebar-close span {
+	display: none;
+}
+.ui-dialog-content {
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	color: #222222;
+	padding: 0px;	
+	overflow:auto;
+	margin:5px;
+}
+.ui-dialog-buttonpane {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	border-top: 1px solid #dddddd;
+	background: #ffffff;
+}
+.ui-dialog-buttonpane button {
+	margin: .5em 0 .5em 8px;
+	color: #fff;
+/*	background: #e6e6e6 url(https://www.gamebookers.com/a/framework/css/dialog/images/head_bg.gif) 0 50% repeat-x; */
+	border: 1px solid #d3d3d3;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	font: normal 11px  Arial, Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+.ui-dialog-buttonpane button:hover {
+	color: #212121;
+	background: #dadada url(https://www.gamebookers.com/a/framework/css/dialog/images/dadada_40x100_textures_02_glass_75.png) 0 50% repeat-x;
+	border: 1px solid #999999;
+}
+.ui-dialog-buttonpane button:active {
+	color: #222222;
+	background: #ffffff url(https://www.gamebookers.com/a/framework/css/dialog/images/ffffff_40x100_textures_02_glass_65.png) 0 50% repeat-x;
+	border: 1px solid #dddddd;
+}
+/* This file skins dialog */
+.ui-dialog.ui-draggable .ui-dialog-titlebar,
+.ui-dialog.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}
+
+/* Overlays */
+.ui-widget-overlay { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	opacity: 0.5; 
+	background:#000000; 
+	filter:alpha(opacity=50); /** IE7**/
+}
+@charset "utf-8";
+/* CENTER */
+html {
+	width:100%;
+}
+body {
+	background-color:#464449;
+	margin:0 !important;
+	padding:0 !important;
+	height:100%;
+	width:100%;
+	_width:98%;
+}
+td, div, input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.mainCenter {
+	margin:0px auto;
+	width:1000px;
+}
+.bodyHolder {
+	background:#58565a;
+	float:left;
+	width:1000px;
+	min-height:700px;
+	_height:700px;
+}
+
+.hpBody, .mainBody, .liveBody {
+	float:right;
+	width:862px;
+	padding-top:9px;
+}
+.liveBody {
+	width:822px;
+}
+.liveHomeBody {
+	width:100%;
+	padding-top:9px;
+}
+form {
+	margin:0;
+	padding:0;
+}
+a:link, a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color:#fff;
+}
+a:hover {
+	text-decoration:none;
+}
+.h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+}
+.maintable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left: 4px;
+	color:#FFF;
+}
+.maintableLive {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.txt {
+	color:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0 5px 0 0;
+}
+.lt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 2px;
+	color: #FFF;
+}
+/*IE8 History fix */ 
+.lt form a div { float /*\**/:left\9; }
+.lt, .lt a, .lt a:active, .lt a:hover, .lt a:visited {
+	color:#FFF !important;
+}
+.lt_hints {
+	color:#000 !important;
+}
+.bottomLt {
+	padding:0 0 20px 0;
+	margin-left:7px;
+	width:538px;
+}
+.bottomLtLive {
+	padding-bottom:20px;
+	width:510px;
+}
+.bluebg, .bluebg a, .bluebg a:active, .bluebg a:hover, .bluebg a:visited {
+	background-color :#336699;
+	color:#FFF;
+}
+input.odd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 2px;
+	font-size: 11px;
+	width: 50px;
+	color: #333333;
+}
+.betbtn {
+	height: 19px;
+}
+.betbtn a:hover, .hover {
+	height: 19px;
+	background-color: #FF9900;
+	color: #FFF;
+	text-decoration: none;
+	cursor:pointer;
+	cursor: hand;
+}
+.captcha {
+	width:140px;
+	height:14px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
+.bgColor {
+	background:#464449;
+}
+/* HP */
+
+ table.formRow {
+	font-size:10px;
+}
+.tb {
+	padding: 2px 0 2px 0;
+}
+.to {
+	color:#525B62;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 6px;
+}
+.lv {
+	color:#525B62;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	padding-left:5px;
+	padding-right:2px;
+}
+.nb {
+	color:#676367;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.nd {
+	color:#676367;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+}
+.nr, .nr a:link, .nr a:hover, .nr a:active, .nr a:visited, .nrr, .nrr a:link, .nrr a:active, .nrr a:visited {
+	color:#FFF;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.nrr a:hover {
+	color:#FFF;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.nrrr {
+	width:268px;
+	height:17px;
+	overflow:hidden;
+	float:left;
+}
+.nrri {
+	width:32px;
+	height:17px !important;
+	float:right;
+	margin-top:-3px;
+}
+.sl {
+	font:9px Verdana, Arial, Helvetica, sans-serif;
+	width:170px;
+	margin:0;
+	padding:0;
+}
+.nw {
+	padding-left:2px;
+}
+.hl {
+	border-bottom: 1px dashed #CCC;
+	padding:0 0 4px 0;
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#333;
+}
+.lb {
+	border-bottom: 1px dashed #CCC;
+	padding:0;
+}
+.boxhead {
+	background-color:#30062A;
+	height:25px;
+	color:#FFF;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding-left:5px;
+}
+.boxhead a, .boxhead a:active, .boxhead a:hover, .boxhead a:visited {
+	color:#FFF;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding-left:5px;
+}
+.boxtable {
+	border:1px solid #000;
+	background-color:#525B62;
+}
+.top_login_size {
+	height:28px;
+}
+.top_header_bg {
+	width:1000px;
+}
+
+.ssoCapchacont{
+	padding:0 45px 0 0;
+}
+
+#ssoCaptcha {
+	height:20px;
+	margin:0 0 0 0;
+}
+#ssoCaptchaImage {
+	width: 150px;
+	float: right;
+	overflow:hidden;
+	width:117px;
+}
+#redbox {
+	margin-bottom:5px;
+	background-color:#FFF2DF;
+	text-align:left;
+}
+.newsfront {
+	background-color:#2C2B2D;
+	text-align:left;
+	width:460px;
+	height:320px;
+	margin: 0 5px 5px 0;
+	cursor:pointer;
+}
+.news_transparent {
+	position:absolute;
+	top:431px;
+	_top:433px;
+	height:80px;
+	width:460px;
+	overflow:hidden;
+	background-color:#000;
+	filter:alpha(opacity=50); /* IE's opacity*/
+	opacity: 0.50;
+}
+.news_transparent_small {
+        position:absolute;
+        top:492px;
+        _top:494px;
+        height:19px;
+        width:460px;
+        overflow:hidden;
+        background-color:#000;
+        filter:alpha(opacity=50); /* IE's opacity*/
+        opacity: 0.50;
+}
+.news_transparent_txt {
+	color:#FFF;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:9px;
+	height:68px;
+	position:absolute;
+	width:440px;
+	top:431px;
+	z-index:70;
+}
+.tfbProgressBarContainer {
+	background-color:#464449;
+	height:5px;
+	margin:0 0 0 10px;
+	overflow:hidden;
+	position:absolute;
+	top:500px;
+	_top:502px;
+	visibility:visible;
+	width:440px;
+	z-index:77
+}
+.tfbProgressBarContainer img {
+	margin-bottom:5px;
+}
+
+.tfbProgressBar {
+	width: 0px;
+	height:10px;
+}
+.tfbHeadlineDiv {
+	font-weight: bold;
+	height:14px;
+	overflow:hidden;
+}
+#tfbLongText {
+	height:41px;
+	overflow:hidden;
+}
+.tfbsection {
+	width:256px;
+	height:320px;
+	margin:0 5px 5px 0;
+}
+.tfbsection_title {
+	font-size:8pt;
+	margin:0 0 4px 0;
+	font-weight:bold;
+	height:13px;
+	overflow:hidden;
+}
+.tfbsection_title a {
+	text-decoration:none;
+}
+
+.tfbsection_content {
+	color:#FFF;
+	font-size:11px;
+	padding:5px;
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sb.png);
+	background-repeat:no-repeat;
+	background-position:-468px 0;
+	font-size:10px;
+	height:70px;
+	overflow:hidden;
+}
+.tfbImg {
+	float:left;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	border:1px solid #757575
+}
+.tfbImgHover {
+	float:left;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	border:1px solid #ff9900;
+}
+.tfbsection_text {
+	height:50px;
+	overflow:hidden;
+}
+.dailyDouble {
+	color:#FFF;
+	height:140px;
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sb.png);
+	background-repeat:no-repeat;
+	background-position:-468px -91px;
+}
+.dailyDouble h4 {
+	color:#FFF;
+	margin:0 0 9px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	padding:5px 9px 0px 9px;
+}
+.frontServices {
+	color:#FFF;
+	height:162px;
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sb.png);
+	background-repeat:no-repeat;
+	background-position:-468px -91px;
+	width:256px;
+}
+.frontServices h4 {
+	color:#FFF;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	padding:9px 9px 0;
+}
+.frontServices div {
+	margin:9px 0 0;
+	clear:both;
+}
+.frontServices img {
+	margin:0 9px;
+}
+.frontServicesTxt {
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	float:right;
+	text-align:left;
+	width:222px;
+	_width:219px;
+	margin:0 5px 0 0;	
+}
+.frontServicesTxt, .frontServicesTxt a, .frontServicesTxt a:active, .frontServicesTxt a:visited {
+	color: #FFF;
+	text-decoration:none;
+font-size:11px;
+}
+.frontServicesTxt a:hover {
+	color: #FFF;
+	text-decoration:underline;
+font-size:11px;
+}
+.dailyDouble_orange {
+	color:#FF9900;
+	overflow:hidden;
+}
+
+.dailyDouble_white {
+	color:#FFF;
+	overflow:hidden;
+}
+
+.daily_cont{ 
+	padding:0 0 0 9px;
+	margin: 0 0 6px 0;
+}
+.dailyDoubleBtnLeft {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/dailylc.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:26px;
+	padding-left:12px;
+	text-align:left;
+	float:right;
+	margin:6px 0 0;
+}
+.dailyDoubleBtnRight {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/dailyrc.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	height:26px;
+	text-decoration:none;
+	font-weight:bold;
+	padding-right:12px;
+	_width:50px;
+}
+.dailyDoubleBtnRight a {
+	text-decoration:none;
+	_margin:0 0 0 10px;
+	line-height:25px;
+	text-align:center;
+}
+.dailyDoubleBtnRightlink {
+	margin:10px 0 0 0;
+}
+
+.empty_cell_livecalendar{
+	width:55px;
+	padding:2px 2px 0;
+}
+
+.liveCalendarBtnOdds{
+	width:55px;
+	padding:2px 2px;
+}
+#redboxright {
+	margin-bottom:7px;
+	background-color:#E4E4E4
+}
+#redhead {
+	color:#FFF;
+	font:16px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:0 0 10px;
+}
+#redhead a, #redhead a:active, #redhead a:hover, #redhead a:visited {
+	color:#FFF;
+	font:16px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+#btmlinks, #btmlinks a, #btmlinks a:active, #btmlinks a:visited {
+	color: #FFF;
+	text-decoration:none;
+font-size:11px;
+}
+#btmlinks a:hover {
+	color: #FFF;
+	text-decoration:underline;
+font-size:11px;
+}
+.orange_hr {
+	height:1px;
+	border-top:1px solid #ff9900;
+	margin:10px 0 0 0;
+	height:1px;
+}
+#hometerms{color: #FFF;}
+
+#hometerms, #hometerms a, #hometerms a:active, #hometerms a:visited {
+	color: #FFF;
+	text-decoration:none;
+	font-size:11px;
+}
+#hometerms a:hover {
+	color: #FFF;
+	text-decoration:underline;
+	font-size:11px;
+}
+#logos {
+	height:57px;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/fp_balls.gif) no-repeat left center;
+	margin-top:20px;
+}
+#fullLBC, #fullLBC a, #fullLBC a:active, #fullLBC a:hover, #fullLBC a:visited {
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+}
+.bfConfBtn {
+	padding:8px 0 2px 0;
+	font-size:10px;
+}
+.submitBtn {
+	border:1px solid #101010;
+	color:#FFF;
+	font-size:10px;
+	padding:2px 29px 2px 9px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sub_btn_bgr_hp.gif) no-repeat center right #7c7c7c;
+	margin:0px;
+	text-decoration:none;
+	font-weight:bold;
+	background-color:#7C7C7C;
+}
+.stakeBox {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid #ccc;
+	padding:4px 0 0 0;
+}
+#underDots {
+	width:50%;
+	border-bottom: 1px dotted #000;
+}
+#dailyTable {
+	margin:0;
+	color:#FFF;
+	height:101px;
+	padding:0 5px 0 0;
+	width:250px;
+}
+#addBtnC {
+background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/anywhere_casino_btn.gif) no-repeat;
+	width:142px;
+	height:34px;
+	cursor:pointer;
+	cursor:hand;
+	margin-top:7px;
+	padding-top:8px;
+}
+#addBtnC a, #addBtnC a:active, #addBtnC a:hover, #addBtnC a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	font-style:italic;
+	text-decoration:none;
+}
+#addBtnP {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/promo/anywhere_poker_btn.gif) no-repeat;
+	width:142px;
+	height:34px;
+	cursor:pointer;
+	cursor:hand;
+	margin-top:7px;
+	padding-top:8px;
+}
+#addBtnP a, #addBtnP a:active, #addBtnP a:hover, #addBtnP a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	font-style:italic;
+	text-decoration:none;
+}
+#addBtnG {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/anywhere_gammon_btn.gif) no-repeat;
+	width:142px;
+	height:34px;
+	cursor:pointer;
+	cursor:hand;
+	margin-top:7px;
+	padding-top:8px;
+}
+#addBtnG a, #addBtnG a:active, #addBtnG a:hover, #addBtnG a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	font-style:italic;
+	text-decoration:none;
+}
+#clockDiv {
+	clear:both;
+	height:43px;
+	text-align:right;
+	width:535px;
+	padding-top:7px;
+}
+.bannerDivContainer {
+	background-color:#828184;
+	padding:5px 0 1px;
+	width:136px;
+}
+#bannerDiv {
+	margin:0 0 7px;
+	text-align:center;
+}
+#bannerDiv img {
+	width:126px;
+	margin:0 auto;
+}
+#linksDiv, #linksDiv a, #linksDiv a:active, #linksDiv a:hover, #linksDiv a:visited {
+	color:#000;
+	text-decoration:none;
+}
+#FBText {
+	height:75px;
+	overflow:hidden;
+	font-size:10px;
+}
+.ddHF {
+	background-color:#c5c6c8;
+	color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.ddHead {
+	color:#FFF;
+	font:16px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.ddHead a, .ddHead a:active, .ddHead a:hover, .ddHead a:visited {
+	color:#525B62;
+	font:16px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+.dd {
+	background-color:white;
+}
+.pb {
+	background-color:#FF9E02;
+}
+.rnBody {
+	background-color:#fff2df;
+	position:absolute;
+	width:305;
+	height:68;
+	margin:0 0 0 0;
+	overflow:hidden;
+}
+.casino_footer {
+	height:22px;
+	width:638px
+}
+.pcMainboxNoBg {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:10px 0 0 8px;
+	padding:0 6px 0 43px;
+	width:735px;
+	color:#FFF;
+}
+.pcMainboxNoBg a, .pcMainboxNoBg a:active, .pcMainboxNoBg a:hover, .pcMainboxNoBg a:visited {
+	color:#FF9900;
+}
+.pcHead {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/casino/header_bg_reg.gif") no-repeat scroll 0 0 transparent;
+	color:#FFFFFF;
+	height:56px;
+	margin:0;
+	padding:0 0 0 16px;
+	line-height:42px;
+	width:984px;
+}
+.pcHead h2 {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:160%;
+	margin-top:0;
+	padding-top:6px;
+	_padding-top:0;
+}
+.pcPlaynow {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/casino/casnio_btn_bg.gif) no-repeat scroll 0 0 transparent;
+	background-position:center;
+	font-style:italic;
+	font-weight:bold;
+	height:53px;
+	padding:10px 0 10px 0;
+	width:460px;
+	line-height:45px;
+}
+.pcPlaynow a {
+	color:#FFFFFF;
+	font-size:21px;
+	text-decoration:none;
+}
+.pcPlaynowbtn {
+	background-color:#880000;
+	font-style:italic;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+.pcPlaynowbtn a {
+	color:#FFF;
+	font-size:140%;
+	text-decoration:none;
+}
+.casinoHeader {
+	font-size:19px;
+	font-weight:bold;
+	margin:15px 15px 15px 0;
+	width:420px;
+}
+
+.casinoContentLeft {
+	font-size:12px;
+	margin:15px 0 0 15px;
+	min-height:440px;
+	width:410px;
+	_height:440px;
+}
+.casinoContentRight {
+	font-size:12px;
+	margin:15px 0 0 30px;
+	min-height:440px;
+	width:410px;
+	_height:440px;
+}
+.casinoRightImg {
+	clear:both;
+	display:block;
+	height:120px;
+	margin:20px 0 0 0 ;
+	width:410px;
+}
+.casinoRightImg img {
+	float:none!important;
+}
+.casinoBoxOld {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/casino/casinoBoxBg.png) repeat-x scroll 0 0 transparent;
+	width:495px;
+	height:550px;
+	float:left;
+	margin:23px 0 0 23px;
+	color:white;
+	_margin-left:11px;
+}
+.casinoBoxOld img {
+	float:left;
+	margin:0 5px 5px 0;
+}
+
+.casinoBoxNew {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/casino/casinoBoxBg2.png) repeat-x scroll 0 0 transparent;
+	width:460px;
+	height:550px;
+	float:left;
+	margin-top:23px;
+	color:white;
+}
+.casinoBoxNew img {
+	float:right;
+	margin:0 0 5px 5px;
+}
+/* PBF */
+
+.tx1, .ltxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+}
+.tx1 a, .tx1 a:visited, .tx1 a:active {
+	color: #000;
+	text-decoration: none;
+}
+.tx1 a:hover {
+	text-decoration: underline;
+}
+.topbody {
+	padding: 0;
+	margin: 0;
+	height:150px;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/header_full.gif) 0 0 no-repeat;
+}
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 0;
+}
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.firstLine {
+	padding: 6px;
+	height:20px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	font-size: .70em;
+}
+.firstLine a {
+	color: black;
+	text-decoration: none;
+}
+.firstLine a:hover {
+	color: black;
+	text-decoration: underline;
+}
+table.tableMain {
+	background-color: #525B62;
+	font-size: .70em;
+}
+table.tableAbout, table.tableAbout a, table.tableAbout a:visited {
+	color: white;
+	text-decoration: none;
+}
+table.tableAbout a:hover, table.tableAbout a:active {
+	color: white;
+	text-decoration: underline;
+}
+td.myAccount {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/account_back.gif) 0 0 no-repeat;
+	text-align:center;
+	width:93px;
+	font-size: 1em;
+}
+table.password a {
+	color: white;
+	text-decoration: none;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/arrow_account.gif) 0 .45em no-repeat;
+	padding-left: 8px;
+}
+table.password a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.topLogoDiv {
+	height:120px;
+	width:320px;
+}
+.logoClick {
+	cursor:pointer;
+	cursor:hand;
+	width:320px;
+	height:120px;
+}
+.logolinksize{	
+	width:320px;
+}
+
+.logolinksize a{	
+	cursor:pointer;
+	cursor:hand;
+}
+
+.topRightSide {
+	float:right;
+	width:535px;
+	_width:537px;
+}
+.tableAboutDiv {
+	padding:0 10px 0 0;
+	float:right;
+	height:30px;
+}
+.tableAboutDivLinks {
+	float:right;
+	color:#FFF;
+	margin-top:6px;
+}
+.tableAboutDivLinks a {
+	color:#FFF;
+	text-decoration:none;
+}
+.tableAboutDivLinks a:hover {
+	color:#FFF;
+	text-decoration:underline;
+}
+.topNav {
+	background: url("https://secure.footprint.net/gamebookers/b/stand_alone/images/nav_background.gif") 0 0 repeat-x;
+	margin: 0;
+	padding:0 10px 0 0;
+	clear:both;
+	font-weight: bold;
+	font-size: 10px;
+	height:30px;
+	line-height:25px;
+	text-align:right;
+	_height:32px;
+	width:400px;
+	float:right;
+}
+
+.topNav span {
+	float: left;
+	padding: 5px 15px 5px 15px;
+	margin: 0;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/nav_divider.gif) 0 .8em no-repeat;
+}
+.topNav a, .topNav a:visited {
+	color:#000;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin-left:5px;
+}
+.topNav a:hover, .topNav a:active {
+	color:#000;
+	text-decoration: underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+.topNavFP {
+	color:#747474;
+}
+.topCur {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-weight: bold;
+	font-size:10px;
+}
+.topCur span {
+	float: left;
+	padding: 5px 15px 5px 15px;
+	margin: 0;
+}
+.topCur a {
+	color: black;
+	text-decoration: none;
+}
+.topCur a:hover {
+	color: black;
+	text-decoration: underline;
+}
+.languageSelector {
+	float:right;
+	padding:0 7px 0 0;
+	margin-top:5px;
+}
+.languageSelector a {
+	text-decoration:none;
+	display:block;
+	padding:0 4px;
+	margin:0;
+	height:15px;
+}
+.languageSelector a:hover {
+	background-color:#777;
+	display:block;
+	padding:0 4px;
+	margin:0;
+}
+.choiseLanguage {
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/language_background.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+	font-size:10px;
+	color:white;
+	width:99px;
+	height:17px;
+	margin:3px 0 0 0;
+	padding:3px 0 0 3px;
+	cursor:pointer;
+}
+.languageDeSel {
+	display:none;
+	width:99px;
+	font-size:10px;
+}
+.languageSel {
+	color:white;
+	font-size:10px;
+	width:97px;
+	background-color:#666369;
+	float:left;
+	visibility:visible;
+	margin:0px;
+	position:absolute;
+	z-index:1000;
+	margin:0 0 0 1px;
+}
+html.imageEnd {
+	position: relative;
+	top: -2px;
+}
+.inputBox {
+	background-color:white;
+	font-size: 10px;
+	width: 115px;
+	height:14px;
+	padding:0;
+	border:1px solid #ccc;
+}
+.corner {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/corner.gif) 0 0 no-repeat;
+}
+.leftNavText {
+	color: white;
+	font-size: 11px;
+	text-decoration:none;
+	padding:0px 0 0 5px;
+}
+.leftNavText ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.leftNavText a, .leftNavText a:active, .leftNavText a:hover, .leftNavText a:visited {
+	text-decoration:none;
+	color:#FFF;
+}
+.leftNavTextlive {
+	color: white;
+	font-size: 11px;
+	text-decoration:none;
+	padding:9px 0 0 4px;
+	width:165px;
+}
+.leftNavTextlive ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:125px;
+}
+.leftNavTextlive a, .leftNavTextlive a:active, .leftNavTextlive a:hover, .leftNavTextlive a:visited {
+	text-decoration:none;
+	color:#FFF;
+}
+#navigationContainer {
+	background-color:#747276;
+}
+.mdiv {
+	width:90px;
+	height:1px;
+	margin: 14px 0 13px 0;
+}
+#mtbl {
+	border: 1px solid #525B62;
+}
+#tblhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #ff9900;
+	padding:5px;
+}
+#tblhead a, #tblhead a:active, #tblhead a:visited, #tblhead a:hover {
+	font-weight: bold;
+	color: #FFF;
+}
+#tblhead img {
+	padding-left:5px;
+}
+
+.tblheadslmtrbg {
+	padding:1px 0;
+	background-color:#acb2a8;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/head_betting_pages.gif) repeat-y;
+}
+
+#tblheadslm {
+	background-color:#3B3A3C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	padding:3px;
+}
+#tblheadslm a, #tblheadslm a:active, #tblheadslm a:visited, #tblheadslm a:hover {
+	font-weight: bold;
+	color: #FFF;
+}
+#tblheadslm img {
+	padding-left:5px;
+}
+#tblheadrnd {
+	background-color:#3B3A3C;
+	color:#FFFFFF;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	padding:3px;
+}
+.tblfootrndl {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/tblfootrndl.gif") no-repeat left bottom;
+	background-color:#464448;
+}
+.tblfootrndr {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/tblfootrndr.gif") no-repeat right bottom;
+	background-color:#464448;
+}
+.ltbf {
+	background-color:#464448;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding:2px 2px 0 2px;
+	color: #FFF;
+	text-align: left;
+}
+.ltbf a, .ltbf a:hover, .ltbf a:active, .ltbf a:visited {
+	color:#000!Important;
+	text-decoration:none;
+}
+
+.halftimedivider{
+	background:#747276;
+}
+
+.ltbfc {
+	background-color:#464448;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding:0 2px 0 2px;
+	color: #333333;
+	text-align: center;
+}
+.ltbfc a, .ltbfc a:hover, .ltbfc a:active, .ltbfc a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+
+.ltbftnew {
+	background-color:#464448;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding:0 5px 0 5px;
+	color: #333333;
+	text-align: left;
+}
+.ltbftnew a, .ltbftnew a:hover, .ltbftnew a:active, .ltbftnew a:visited {
+	color:#FFF !important;
+	text-decoration:none;
+}
+
+.ltbft {
+	background-color:#464448;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding:0 5px 0 5px;
+	color: #333333;
+	text-align: center;
+}
+.ltbft a, .ltbft a:hover, .ltbft a:active, .ltbft a:visited {
+	color:#FFF !important;
+	text-decoration:none;
+}
+
+.ltbfw {
+	background-color:#464448;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-align: left;
+}
+.ltbfw a, .ltbfw a:hover, .ltbfw a:active, .ltbfw a:visited {
+	color:#FFF;
+	text-decoration:none;
+	cursor:pointer;
+	cursor:hand;
+}
+.ltbfw td {
+	padding:2px 2px 0 2px;
+}
+.tablelivecombos a, .tablelivecombos a:hover, .tablelivecombos a:active, .tablelivecombos a:visited {
+	color:#fff !important;
+}
+#tdc {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	padding: 0px 2px 0px 2px;
+	background-color: #ebebeb;
+}
+.tdm {
+	background-color: #525B62;
+	height:27px;
+}
+.sportBtn {
+	text-align:left;
+	background:#747276;
+}
+.sportBtn a {
+	color:#FFF;
+	padding:2px 0 0 4px;
+	display:block;
+}
+.sportBtn a:hover {
+	display:block;
+	color:#FFF;
+	background-color:#FF9900;
+	padding:2px 0 0 4px;
+}
+.sportBtn a.nonselectedBtn {
+	display:block;
+	color:#FFF;
+	padding:2px 0 0 4px;
+}
+.sportBtn a:hover.nonselectedBtn {
+	display:block;
+	color:#FFF;
+	padding:2px 0 0 4px;
+}
+.sportBtn a:visited.nonselectedBtn {
+	display:block;
+	color:#FFF;
+	padding:2px 0 0 4px;
+}
+.sportBtn a.selectedBtn {
+	display:block;
+	color:#FFF;
+	background:#8e9499;
+	padding:2px 0 0 4px;
+}
+.liveBtn {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/left_livebetting_bgr.gif) no-repeat center top;
+	padding:16px 0px 14px 0;
+	width:125px;
+	text-align:center;
+}
+.liveBtn a, .liveBtn a:hover, .liveBtn a:active, .liveBtn a:visited {
+	font-weight:bold;
+	color:#fff;
+}
+.logo_size {
+	width: 334;
+	height: 65;
+}
+.openBts {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	height:20px;
+	_height:17px;
+	width:400px;
+	float:right;
+	padding:4px 10px 0 0;
+}
+.openBts a {
+	margin-left:3px;
+}
+#blnc {
+	display:inline;
+	margin-right:10px;
+}
+#opnbts {
+	display:inline;
+}
+#rightnowhead {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	background-color:#747276;
+	color:#FFF;
+	border-top: 1px solid;
+	border-color:#FFF;
+}
+#rightnowheadtime {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFF;
+}
+.rightnowTable {
+	margin:0 0 0 7px;
+	width:536px;
+	border-bottom:2px solid #FF9900;
+}
+.tablelivecombos {
+	padding:0 0 3px 0;
+	background-color:#464448;
+}
+.topMenuOrange {
+	background-color:#FF9900;
+	font-size:11px;
+	font-weight:none;
+	height:20px;
+	_height:20px;
+	margin:0;
+	padding:9px 0 3px 0;
+	width:100%
+}
+.topMenuOrange a, .topMenuOrange a:visited {
+	color: black;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.topMenuOrange a:hover, .topMenuOrange a:active {
+	color: black;
+	text-decoration: underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+#login {
+	clear:both;
+	float:right;
+	width:100%;
+	height:70px;
+}
+#loggedin {
+	z-index:23;
+	float:right;
+	height:70px;
+	width:535px;
+}
+.logoutBtnLeft {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/loginlc.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:16px;
+	padding-left:5px;
+	text-align:left;
+	float:right;
+	_width:80px;
+}
+.logoutBtnRight {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/loginrc.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	height:16px;
+	text-decoration:none;
+	font-weight:bold;
+	padding-right:5px;
+	_text-align:center;
+}
+.logoutBtnRight a {
+	text-decoration:none;
+}
+.histBtn a {
+	text-decoration:none;
+}
+.histBtn  {
+	text-decoration:none;
+}
+
+.loginBg {
+	color:#FFF;
+	float:right;
+	font-size:11px;
+	height:16px;
+	_height:19px;
+	width:400px;
+	padding-right:10px;
+}
+.loginBg strong {
+	color:#f90;
+}
+.headerLoginForm {
+	height:40px;
+	padding:0 10px 0 0;
+	text-align:right;
+	clear:both;
+}
+.headerLoginForm input {
+	float:right;
+	margin:0 0 0 4px;
+	padding:0;
+}
+/* LEFT */
+
+.leftMenu {
+	padding:9px 0 0 0;
+	width:133px;
+}
+.betSearchContainerSpace {
+	height:10px;
+	font-size:8px;
+}
+.betSearchContainerTd {
+	background-color:#525B62;
+	padding-left:4px;
+}
+.betSearchContainerDiv {
+	color:#58565a;
+	height:25px;
+}
+.betSearchContainerDiv form {
+	width:125px;
+}
+.betSearchContainerDiv a {
+	float:right;
+	margin:6px 0 0;
+}
+.betSearchInput {
+	width:90px;
+	_width:86px;
+	height:14px;
+	font-size:10px;
+	background:#fff;
+	color:#666;
+	border:1px solid #ccc;
+	border:none;
+	margin:5px 0 0 0;
+}
+.oddsType {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	float:right;
+}
+.oddsType select {
+	margin:0;
+	height:16px;
+	font-size:9px;
+	margin:0 10px 0 0;
+}
+.hotComboHPleft {
+    background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/hot_combo_button_lc.png);
+    background-position:left top;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    height:36px;
+    margin-bottom:4px;
+    padding-left:5px;
+}
+
+.hotComboHPleft a {
+    display:block;
+}
+.hotComboHPright {
+    background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/hot_combo_button_rc.png);
+    background-position:right bottom;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    height:36px;
+    text-align:center;
+    margin-bottom:4px;
+    padding-right:5px;
+}
+.hotComboHPlright a {
+    display:block;
+}
+/* ERROR */
+#errorContainer {
+	text-align:center;
+}
+#errorPanel {
+	padding:40px 0 0 40px;
+	width:500px;
+	margin:0;
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#errorPanel h1 {
+	color:#ff9900;
+	font-size:24px;
+	margin-bottom:20px;
+	padding-top:14px;
+}
+#errorPane2 {
+	padding:40px 0 0 0;
+	width:450px;
+	margin:0 auto;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#errorPane2 h1 {
+	color:#ff9900;
+	font-size:24px;
+	margin:0 0 20px 0;
+}
+#erLogoPrpl {
+	height:35px;
+	background:#FFF;
+	color:#FFF;
+background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_headprpl_mdl.gif) repeat-x #FFF;
+	padding-right:5px;
+}
+#erLogoRed {
+	height:32px;
+	background:#FF9900;
+	color:#FFF;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_partybets_mdl.gif) repeat-x #FFF;
+	padding-right:5px;
+	padding-bottom:3px;
+}
+#erTitle {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_head_mdl.gif) repeat-x top;
+	height:22px;
+	margin:0;
+	padding:0 5px;
+	font-weight:bold;
+	font-size:11px;
+}
+#gradLeft {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_gradbgr_left.gif) repeat-y right;
+}
+#gradRight {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_gradbgr_right.gif) repeat-y left;
+}
+#erContainer {
+	background:#FFF;
+	padding:25px 15px 0 15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.erMsgTitle {
+	font-weight:bold;
+	text-align:left;
+	padding-bottom:10px;
+	font-size:11px;
+}
+.erMsgTxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #fff;
+	padding-bottom:10px;
+	text-align:justify;
+}
+#erBot {
+	font-size:2px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_bot_mdl.gif) repeat-x top;
+	height:16px;
+}
+.erMsgBtn {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_ok_btn.gif);
+	background-position:right top;
+	background-repeat:no-repeat;
+	height:20px;
+	line-height:19px;
+	padding-right:5px;
+	text-align:right;
+}
+.erMsgBtn a {
+	text-decoration:none;
+	color:#fff;
+	height:16px;
+	padding:0 10px;
+	font-weight:bold;
+}
+.erMsgBtn2 {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_submit_btn.gif);
+	background-position:right top;
+	background-repeat:no-repeat;
+	height:20px;
+	line-height:19px;
+	padding-right:5px;
+	text-align:right;
+}
+.erMsgBtn2 a {
+	text-decoration:none;
+	color:#fff;
+	height:16px;
+	font-weight:bold;
+	padding-right:3px;
+}
+.errorStyle {
+	color:#FF9900;
+}
+.erMsgBtnTxt {
+	font-weight:bold;
+background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/err_btn_mdl.gif) repeat-x;
+}
+.erLine {
+	background-color:#ff9900;
+	height:1px;
+}
+.erTable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#fff;
+}
+/* New exit msg */
+
+#findMore {
+	width: 92px;
+	height: 40px;
+	background-color: #ff9900;
+	padding:0;
+	margin:0 0 0 4px;
+}
+#findMore h1 {
+}
+.logoBox {
+	width:362px;
+	height:600px;
+	float:left;
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone//images/err_right_border.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	padding-top:40px;
+}
+.logoBox1 {
+	width:362px;
+	height:600px;
+	float:left;
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone//images/err_right_border1.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	padding-top:40px;
+}
+.errorPane3 {
+	width:100%;
+	padding-top:80px;
+}
+.errorPane3 h1 {
+	font-size: 24px;
+	color:#ff9900;
+	text-align:left;
+	width:480px;
+	height:64px;
+	display:block;
+}
+.exitImg {
+	float:left;
+}
+
+.goodTip {
+	float:left;
+}
+#goodTip {
+	width: 550px;
+	text-align:left;
+	float:left;
+}
+#goodTipBottom {
+	width:380px;
+	float:left;
+}
+.good_tip_head {
+	padding:0 0 10px 4px;
+	margin:0;
+	width:330px;
+	background-color:#79787b;
+	color: #FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.good_tip_body {
+	padding:0 0 10px 4px;
+	margin:0;
+	color: #FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width:330px;
+	background-color:#79787b;
+}
+.tell_friend_img {
+	float:left;
+	text-align:left;
+	width:380px;
+}
+.tell_friend_img a{
+	color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+/* NAV_MENU */
+#navigation a {
+	color: #fff;
+	font-weight:bold;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/left-tab.gif) left top no-repeat;
+	text-decoration: none;
+	padding-left:10px;
+	height:25px;
+	cursor:pointer;
+	cursor:hand;
+}
+#navigation a span {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/right-tab.gif) right top no-repeat;
+	padding:0 10px 0 0;
+	height:25px;
+	cursor:pointer;
+	cursor:hand;
+}
+#navigation a, #navigation a span {
+	float: left;
+	display:inherit;
+}
+#navigation .activeTab a {
+	color: #fff;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/left-tab-active.gif) left top no-repeat;
+	height:25px;
+	cursor:pointer;
+	cursor:hand;
+}
+#navigation .activeTab span {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/right-tab-active.gif) right top no-repeat;
+	padding:0 10px 0 0;
+	cursor:pointer;
+	cursor:hand;
+}
+#navigation {
+	list-style: none;
+	padding:0;
+	margin: 0 0 0 15px;
+	height:30px;
+}
+#navigation ul {
+	height:230px;
+}
+#navigation li {
+	float: left;
+	margin: 5px 7px 0 0;
+	_margin-top:7px;
+	height:23px;
+	line-height:25px;
+}
+.div_tabs_menu {
+	height:30px;
+	background:#333333 url(https://secure.footprint.net/gamebookers/b/stand_alone/images/nav_background.gif) repeat-x;
+	_float:left;
+	position:absolute;
+	width:650px;
+	
+}
+.activeTab {
+	font-style: bold;
+	font-weight: bold;
+}
+.inactiveTab {
+}
+.subMenuActiveTab {
+	font-style: bold;
+	font-weight: bold;
+	color:#FFF !important;
+}
+.subMenuInactiveTab {
+}
+/* HELPDESK */
+
+#helpdesk {
+    list-style-type: square;
+ 	color:#ff9900;
+	font-size:13px;
+	font-weight:bold;
+}
+#helpdesk form {
+	margin:0px;
+	padding:0px;
+}
+#helpdesk a, #helpdesk a:active, #helpdesk a:hover, #helpdesk a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFF;
+}
+#helpdesk li {
+	margin:0 0 10px 0;
+	padding:3px 0 0 0;
+}
+
+#helpdesk span {
+	color:#FFF;	
+}
+
+#helpsearch {
+	font-size:11px;
+	font-weight:normal;
+	margin-top:10px;
+	width:300px;
+}
+
+#helpsearch .question {
+	margin:7px 0 7px 0;
+}
+.longTxt {
+	width:200px;
+	background-color:#f7f7f7;
+	border:1px solid #e0e0e0;
+	font-size:11px;
+	color:#5a5454;
+	padding:2px;
+}
+form .clear_input {
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+form .comment {
+	font-size:9px;
+	font-weight:normal;
+	margin-top:4px;
+	color:#FFF;
+}
+/* FAQ styles */
+.faqSubNav {
+	list-style:none;
+	margin:0 0 6px 0px;
+	padding:0px;
+}
+.faqSubNav li {
+	display:inline;
+	margin:0 0 10px 0;
+	padding:0px;
+}
+.noPaddingBody {
+	margin:0px;
+	padding:0px;
+}
+.noPaddingBody #headerTbl td {
+	margin:0px 15px;
+}
+.noPaddingBody #headerContainer {
+	border-bottom:none;
+	padding:0px;
+}
+.noPaddingBody .withClearSubNav {
+	margin:15px 0 0 0;
+}
+.faqNav {
+	margin:3px 0 15px 0px;
+	border-bottom:1px dashed #FF9900;
+	border-top:1px solid #FF9900;
+	padding:3px 0 3px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFF;
+}
+.faqNav a {
+	text-decoration:none;
+	font-weight:normal;
+}
+.faqNav a:hover {
+	text-decoration:underline;
+	font-weight:normal;
+}
+.lStyle {
+	color:#FFF;
+}
+.navbar_table {
+	width:858px;
+}
+.questionsContainer {
+	margin:15px 0 0 13px;
+}
+.questionsContainer #selectedQuestion {
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+	font-size:11px;
+}
+.questionsContainer {
+	line-height:20px;
+	font-size:11px;
+}
+.question {
+	line-height:20px;
+	font-size:11px;
+	font-weight:bold;
+	color: #FFF;
+}
+.question a, .question a:active, .question a:hover, .question a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.answerContainer {
+	font-size:11px;
+	border-top:1px dashed #FF9900;
+	margin:15px 0 0 0;
+	padding:15px 0 0 0;
+	width:540px;
+}
+.answerContainer .title {
+	background:#FF9900;
+	color:#FFF;
+	font-weight:bold;
+	padding:5px 13px;
+}
+.answerContainer .answer {
+	background:#464448;
+	text-align:justify;
+	padding:8px 13px;
+	line-height:18px;
+	color:#FFF;
+}
+.answerContainer .answer a {
+	font-weight:normal;
+}
+/* T&C styles */
+#tcIndex {
+}
+#tcIndex ol {
+	padding-left:18px;
+	margin:0 0 15px 18px;
+}
+#tcIndex li {
+	padding:3px 0;
+}
+.tcHeader {
+	margin-bottom:25px;
+}
+.tcHeader a {
+	font-weight:bold;
+	text-decoration:none;
+}
+.tcHeader a:hover {
+	text-decoration:underline;
+}
+.tcSection {
+	width:540px;
+}
+.tcSection h2 {
+	font-size:15px;
+	font-weight:bolder;
+	margin:25px 0 10px 0;
+	padding:0;
+	background:none;
+}
+.tcSection p {
+	margin-top:5px;
+	padding-left:21px;
+}
+.padDiv {
+	padding-left:20px;
+}
+/* Payments styles */
+#pmIndex {
+	border-bottom:1px dashed #bf0000;
+	margin:0 0 30px 0px;
+	padding:0 0 15px 0;
+	width:540px;
+}
+#pmIndex li {
+	height:20px;
+}
+/* Search result */
+#searchResult {
+list-style-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/double_arrow.gif);
+	font-size:11px;
+}
+#searchResult li {
+	margin-bottom:20px;
+}
+#searchResult li .standart {
+	margin-bottom:5px;
+}
+.srStyle {
+	font-size:11px;
+	color:#FFF;
+}
+.srStyle .tblTitle {
+	background-color:#FF9900;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:uppercase;
+	padding:6px;
+}
+.srStyle .tblResult {
+	padding:4px;
+}
+.srStyle .tblEven {
+	padding:5px 5px;
+}
+.srStyle .tblOdd {
+	background-color:#464448;
+	padding:5px 5px;
+	color:#FFF;
+}
+.subTitle a {
+	text-decoration:none;
+}
+.subTitle a:hover {
+	text-decoration:underline;
+}
+.srStyle .subTxt {
+	padding-bottom:5px;
+	text-align:justify;
+	color:#FFF;
+}
+.srStyle .subPaging {
+	padding:5px;
+	font-weight:bold;
+	color:#FFF;
+}
+/* INFOWORLD */
+
+.statsMenu {
+	font-size: 7.5pt;
+	line-height:15px;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal
+}
+.input {
+	height: 8pt;
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	clip: rect( );
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px
+}
+.newsSearchInput {
+	background-color:#F7F7F7;
+	border:1px solid #E0E0E0;
+	color:#5A5454;
+	font-size:11px;
+	padding:2px;
+	height:13px;
+	margin:0 5px 0 0;
+}
+.iwLink a, .iwLink a:visited {
+	text-decoration:none;
+}
+.iwLink a:active, .iwLink a:hover {
+	text-decoration:underline;
+}
+.section_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #CCCCCC;
+	font-size: 10px;
+	margin-bottom: 4px
+}
+.navbar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	text-align: center;
+}
+.navbar_selected {
+	color: #FFA000;
+}
+.newsp {
+	text-align : justify;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-bottom : 5px;
+	color:#FFF;
+}
+.newspc {
+	text-align : justify;
+	font-family: monospace;
+	font-size: 8pt;
+	padding-bottom : 5px;
+}
+.firstp {
+	text-align : justify;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding-bottom : 5px;
+	color:#FFF;
+}
+.datestr {
+	font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-weight: bold;
+}
+
+.newsmenulinks{
+	color:#FFF;
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsheadline {
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-weight: bold;
+	color:#FFF;
+}
+
+.hcolorinfoworld{
+	color:#FFF;
+}
+	
+.newsheadline_big {
+	font-size: 13.5pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-weight: bold;
+	color:#FFF;
+}
+.newsdateline {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+}
+.newsbody {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: justify;
+	color:#FFF;
+}
+.headlineslist {
+	list-style-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/triangle.gif);
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	list-style-position: outside;
+	clip: rect( );
+	border: none;
+	position: relative;
+	left: 0px;
+	clear: left;
+	padding-top: 10px;
+	padding-bottom: 15px
+}
+.subsectiontitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7px
+}
+.finderbar {
+	background-color : #cccccc;
+	font-family : sans-serif;
+	font-size : xx-small;
+	border-color : black;
+	border-style : solid;
+	border-width: 1px;
+	padding : 4px;
+	width: 100%;
+	margin-top: 7px;
+}
+.imgborder {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 10px;
+	border-bottom-width: 0px;
+	border-left-width: 0px
+}
+.iwNav {
+	margin:0 0 25px 0;
+	border-bottom:1px dashed #ff9900;
+	padding:5px 0px;
+}
+.iwNav a {
+	text-decoration:none;
+	font-weight:normal;
+}
+.iwNav a:hover {
+	text-decoration:underline;
+}
+.iwLnk a {
+	text-decoration:none;
+	font-weight:normal;
+}
+.iwLnk a:hover {
+	text-decoration:underline;
+}
+.iwLnk {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	color:#FFF;
+}
+.iwmtbl {
+	border: 1px solid #330033;
+}
+.iwtblhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #ff9900;
+	padding:2px;
+}
+.iwtdn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	padding: 2px 2px 2px 5px;
+}
+.iwtdc {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	padding: 2px 5px 2px 5px;
+	background-color: #ebebeb;
+}
+.iwsearchtd {
+	padding: 2px 5px 2px 5px;
+	background-color: #464448;
+	font-size:10px;
+	color:#FFF;
+	text-align:left;
+}
+.table_stats {
+	font-size:11px;
+}
+/* special td, for example used at Soccer stats->league */
+.iwtds {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 2px 5px 2px 5px;
+	background-color: #999999;
+}
+/* link for the above category */
+.iwtds a {
+	color: #FFF;
+}
+.iwBaloon {
+	background-color:#FFF;
+}
+.iwinput {
+	background-color:#FFF;
+	font-size:11px;
+	color:#000;
+	padding:1px;
+}
+.iwselect {
+	background-color:#FFF;
+	font-size:12px;
+	color:#000;
+	padding:1px;
+}
+.iwchead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #FF9900;
+	padding:5px;
+}
+.iwchead a {
+	color: #FFF;
+}
+#artNotReady {
+	font-weight:bold;
+	color:#FF9900;
+	margin-bottom:8px;
+}
+/* HOW IT WORKS */
+
+a {
+	color:#01669c;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+p {
+	margin:0 0 17px 0;
+	padding:0;
+}
+ul {
+	margin:7px 10px;
+	padding:0 10px;
+	line-height:15px;
+	list-style-type:square;
+	_list-style-image:none;
+}
+ol {
+	margin:7px 10px;
+	padding:0 10px;
+}
+h1 {
+	font-size:20px;
+	color:#ff9900;
+	margin:0px;
+	padding:0px;
+}
+.h1cpy {
+	font-size:20px;
+	color:#ff9900;
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+}
+
+.sellbetevent {
+	font-size:11px;
+	color:#ff612d;
+	margin:0px;
+	padding:0px
+}
+
+.sellbetheader {
+	font-size:20px;
+	color:#28e622;
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+}
+
+.sellbetheaderred {
+	font-size:20px;
+	color:#ff612d;
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+}
+
+.sellbetmessage {
+	font-size:12px;
+	color:#28e622;
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+}
+
+.sellbetmessagered {
+	font-size:12px;
+	color:#ff612d;
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+}
+
+.pagesephistory{
+	color:#FFF;
+}
+
+.aquo {
+	font-weight:bold;
+	color:#ff9900;
+	padding:0;
+	margin:0;
+	font-size:10px;
+}
+.subtitle {
+	font-weight:bold;
+	font-size:11px;
+	padding:0 0 4px 0;
+	margin:0;
+	color:#FFF;
+}
+.bgcolor_history {
+	background-color:#FF9900;
+}
+.bg_history_dark {
+	background-color:#464448;
+	color:#FFF;
+}
+.bg_history_light {
+	background-color:#747276;
+	color:#FFF;
+}
+.bg_history_txt {
+	color:#b0b0b0;
+}
+
+a .bg_history_txt, a:active .bg_history_txt, a:visited .bg_history_txt {
+	color:#b0b0b0 !important;
+	text-decoration:underline;
+	}
+	
+a:hover .bg_history_txt{
+	text-decoration:none;
+	}
+
+.bg_history_txtred {
+	color:#ff612d;
+}
+
+a .bg_history_txtred, a:active .bg_history_txtred, a:visited .bg_history_txtred {
+	color:#ff612d !important;
+	text-decoration:underline;
+	}
+	
+a:hover .bg_history_txtred{
+	text-decoration:none;
+	}
+
+.bg_history_txtgreen {
+	color:#28e622;
+}
+
+a .bg_history_txtgreen, a:active .bg_history_txtgreen, a:visited .bg_history_txtgreen {
+	color:#28e622 !important;
+	text-decoration:underline;
+	}
+	
+a:hover .bg_history_txtgreen{
+	text-decoration:none;
+	}
+
+.bg_history_txtdetails {
+	color:#FF9900;
+}
+#bg_history_sellbet {
+	background-color:#747276;
+}
+.openSubTitle {
+	font-weight:bold;
+	font-size:14px;
+	padding:0 17px 4px 17px;
+	margin:0;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/double_arrow_flip.gif) left center no-repeat;
+}
+.openContainer {
+	width:540px;
+	margin:10px 0;
+}
+/* h2 with arrow: */
+h2 {
+	font-size:15px;
+	font-weight:bolder;
+	margin:15px 0 12px 15px;
+	padding:0 6px;
+	color:#FFF;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/red_arrow.gif) no-repeat left center;
+}
+/* h2 no arrow: */
+h2nodisplay {
+	font-size:15px;
+	font-weight:bolder;
+	margin:0 0 12px 0;
+	padding:0;
+}
+form {
+	font-size:11px;
+}
+label {
+	font-size:11px;
+}
+.formSelect {
+	font-size:11px;
+}
+.tableForm {
+}
+.tableForm td {
+	padding:4px 0;
+}
+.submitBtn a, submitBtn a:active, submitBtn a:hover, submitBtn a:visited {
+	color:#FFF;
+	height:48px;
+	font-size:11px;
+	padding:13px 29px 0 23px;
+	margin:0px;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	border:1px solid #000;
+}
+.cancelBtn {
+	color:#FFF;
+	font-size:10px;
+	padding:2px 0;
+	padding-left:9px;
+	padding-right:29px;
+background:#7C7C7C url(https://secure.footprint.net/gamebookers/b/stand_alone/images/cancel_btn_bgr.gif) no-repeat scroll right center;
+	margin:0px;
+	text-decoration:none;
+	font-weight:bold;
+	border:1px solid #000;
+}
+.cancelBtn a, cancelBtn a:active, cancelBtn a:hover, cancelBtn a:visited {
+	color:#FFF;
+	height:48px;
+	font-size:11px;
+	padding:13px 29px 0 23px;
+	margin:0px;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	border:1px solid #000;
+}
+.oddsform {
+	font-size:9px;
+}
+/* Page Containers */
+#headerContainer {
+	border-bottom:1px solid #ff9900;
+	padding:0 0 6px 0;
+}
+#headerContainer table {
+	margin:5px 0 0 0;
+	padding:0px;
+	border:none;
+}
+.withNoSubNav {
+	margin:0 0 20px 0px;
+}
+.withSubNav {
+	margin:0 0 10px 0px;
+}
+.withClearSubNav {
+	margin:0 0 0px 0px;
+}
+.fixedWidth {
+	font-size:11px;
+	width:540px;
+	color:#FFF;
+}
+.fixedWidth p {
+	margin:10px 0;
+}
+#backHeader {
+	color:#FFF;
+	font-size:10px;
+	font-weight:normal;
+	text-align:right;
+}
+#backHeader a {
+	text-decoration:none;
+	text-transform:lowercase;
+}
+#backHeader a:hover {
+	text-decoration:underline;
+}
+/* Other Styles */
+.noListStyle {
+	list-style-image:none;
+	list-style:none;
+	margin-left:0px;
+	padding-left:0px;
+}
+.vipList {
+	list-style-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/star_ul_red.gif);
+	font-weight:bold;
+	margin:15px 0 15px 10px;
+	padding:0 0 0 10px;
+}
+.vipList .comment {
+	font-size:9px;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+.subNavList {
+	list-style:none;
+	margin:0 0 25px 0px;
+	padding:0 0 10px 0;
+	border-bottom:1px dashed #ff9900;
+}
+.subNavList li {
+	display:inline;
+	padding:0px 12px 0 10px;
+	border-right:1px solid #e1e1e1;
+	font-weight:bold;
+}
+.subNavList .first {
+	padding-left:0px;
+}
+.subNavList .last {
+	border-right:none;
+	padding-right:0px;
+}
+.subNavList a {
+	text-decoration:none;
+	font-weight:normal;
+}
+.subNavList a:hover {
+	text-decoration:underline;
+}
+.error {
+	margin:20px 0 0 0;
+}
+.open {
+	color:#FF9900;
+}
+#listPage {
+list-style-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/double_arrow.gif) no-repeat scroll left center;
+	font-size:11px;
+	font-weight:bold;
+}
+#listPage li {
+	margin-bottom:15px;
+	
+}
+#listPage form {
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+}
+.resultHeader {
+	margin-bottom:10px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFF;
+}
+.noResults {
+	font-weight:normal;
+}
+.gbStyle {
+}
+.gbStyleNB {
+}
+.gbStyle a {
+	text-decoration:none;
+}
+.gbStyleNB a {
+	text-decoration:none;
+}
+.gbStyle a:hover {
+	text-decoration:underline;
+}
+.gbStyleNB a:hover {
+	text-decoration:underline;
+}
+.darkRow {
+	background-color:#464448;
+	font-size:10px;
+	color:#FFF;
+}
+.darkRow td {
+	padding:3px;
+}
+.lightRow {
+	font-size:10px;
+	color:#FFF;
+	background-color:#747276;
+}
+.lightRow td {
+	padding:3px;
+}
+.titleTD {
+	font-weight:bold;
+	padding:3px 3px;
+	margin-bottom:1px;
+	color:#FFF;
+	font-size:10px;
+	background:#ff9900;
+}
+.headerTD {
+	background:#333;
+	color:#FFF;
+	font-size:10px;
+	padding:2px 0px;
+	font-weight:bold;
+}
+.headerClrTD {
+	padding:3px 0px;
+	font-size:10px;
+	text-align:center;
+}
+.firstTD {
+	padding:3px 3px;
+}
+.lineTD {
+	border-bottom:1px solid #CACACA;
+	margin-bottom:1px;
+}
+.newLineTD {
+	border-left:1px solid #FFF;
+}
+.iconTD {
+	padding:3px 0px;
+}
+.clrTD {
+	text-align:center;
+}
+.separatorTD {
+	border-top:3px solid #34052E;
+	height:30px;
+}
+.titledesc {
+	font-weight:normal;
+	font-size:11px;
+	width:540px;
+	padding:8px 0 3px 0
+}
+/*Table Styles */
+#mtbl {
+	border: 1px solid #FFF;
+}
+#tblhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #FF9900;
+	padding:5px;
+}
+#tdn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	padding:5px;
+}
+#tdc {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	padding: 2px 5px 2px 5px;
+	background-color: #ebebeb;
+}
+.playFlashBtnContainer {
+	text-align:center;
+	margin-top:25px;
+	margin-bottom:10px;
+}
+.playFlashBtn {
+background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/playflashbtn.gif) top center no-repeat;
+	width:189px;
+	padding:14px 0 17px 0;
+	padding-left:8px;
+	font-size:11px;
+	font-weight:bold;
+	text-align:center;
+	margin:0 auto;
+}
+.playFlashBtn a {
+	text-decoration:none;
+	color:#FFF;
+}
+.playFlashBtn a:hover {
+	text-decoration:none;
+}
+.exampleContainer {
+	font-size:10px;
+	margin-top:25px;
+}
+.exampleContainerHeader {
+	background:#f3f3f3;
+	color:#000;
+	font-weight:bold;
+	padding:4px 8px;
+}
+.exampleContainerTxt {
+	background:#FFF;
+	border:2px solid #f3f3f3;
+	border-top:none;
+	padding:6px 8px;
+}
+.redbull {
+background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/redbull.gif) center top no-repeat;
+	width:50px;
+	font-weight:bold;
+	color:#FFF;
+	font-size:11px;
+	height:35px;
+}
+.redbullTxt {
+	padding-top:9px;
+	font-size:11px;
+}
+.stepsContainer {
+	margin:20px 0;
+}
+.stepsTxt {
+	padding:6px 0;
+}
+.faqsize {
+	width:825px;
+}
+.table_rules_size {
+	width:819px;
+}
+/* script.js */
+.overText {
+	color:#FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+}
+.overTextOutline {
+	background:#747276;
+}
+.overTextContainer {
+	background:#fff;
+}
+.countdownHeader {
+	color:#FFF;
+	font-weight:bold
+}
+.countdownHeaderOutline {
+	background:#747276;
+}
+/* Performance */
+	.perfHome {
+	color:#525B62;
+}
+.perfAway {
+	color:#FF9900;
+}
+.perfHomeTitle {
+	font-weight:bold;
+	padding:3px 3px;
+	margin-bottom:1px;
+	color:#FFF;
+	font-size:10px;
+	background:#525B62;
+}
+.perfAwayTitle {
+	font-weight:bold;
+	padding:3px 3px;
+	margin-bottom:1px;
+	color:#FFF;
+	font-size:10px;
+	background:#FF9900;
+}
+/* LIVEBETTING */
+
+#LiveMainTable {
+	width:510px;
+}
+#mainContainer {
+	width:510px;
+}
+#btnPAheight {
+21px;
+	width:21px;
+	z-index:1;
+	cursor:pointer;
+	cursor:hand;
+}
+#btnCasino {
+	margin:10px 0 0px 5px;
+}
+.liveIcon {
+	float:right;
+	margin: 10px 6px 0 0;
+}
+#lvbnCalendar {
+	padding:0px 5px 7px 5px;
+	text-align:left;
+}
+#lvbnCalendar a:link, #lvbnCalendar a:hover, #lvbnCalendar a:active, #lvbnCalendar a:visited {
+	color:#fda500;
+}
+.lvbnCalendarOdd {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	cursor:pointer;
+	cursor:hand;
+	color:#000;
+}
+
+.lvbnCalendarOdd img {
+	float: left;
+	margin: 1px 0 0 1px;
+} 
+
+.matchesScoreboard {
+	visibility: hidden;
+}
+.scoreboardContainer {
+	width:510px;
+	text-align:left;
+	padding:0;
+	color:#fff;
+}
+.scoreboardContainer span { float:left;}
+.scoreboardTitle { 
+	font-size:10px; 
+	height:17px;
+	line-height:14px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/livebetting_transparent_bg.png) top left repeat-x;
+}
+.scoreboardTitle span {
+	height:17px;
+}
+
+.scoreboardTitleBlack { 
+	font-size:10px; 
+	height:17px;
+	line-height:14px;
+	background:#000;
+}
+.scoreboardTitleBlack span {
+	height:17px;
+}
+.scoreboardCollapseArrowImage {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/collapsable/collapse_video_arrows.png) no-repeat 0px -23px;
+	float:left;
+	height:17px;
+	width:16px;
+	cursor:pointer;
+}
+.scoreboardCollapseArrowImageCollapsed {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/collapsable/collapse_video_arrows.png) no-repeat 0px -2px;
+	cursor:pointer;
+}
+#scoreboardCollapsableContent {
+	visibility: hidden;
+}
+.scoreboardCol {
+	width:30px; 
+	text-align:center;
+}
+.scoreboardColCurrent {
+	width:30px; 
+	text-align:center;
+	color:#ffcc00;
+}
+.scoreboardMarkerCol {
+	width:15px; 
+	text-align:center;
+}
+.scoreboardMarkerCol img {
+	margin-top:3px;
+}
+.scoreboardRowTop {
+	margin:17px 0 0;
+	height:25px;
+	line-height:21px;
+	padding-left:5px;
+	font-size:12px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/livebetting_transparent_bg.png) top left repeat-x;
+	font-weight:bold;
+}
+.scoreboardRowTop span {height:25px;}
+.scoreboardRowBottom {
+	margin:2px 0 17px 0;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/livebetting_transparent_bg.png) top left repeat-x;
+	height:25px;
+	line-height:21px;
+	padding-left:5px;
+	font-size:12px;
+	font-weight:bold;
+}
+.scoreboardRowEmpty {
+	margin:2px 0 17px 0;
+	height:25px;
+}
+.scoreboardRowBottom span {height:25px;}
+.scoreboardTimer {
+	width:140px;  
+	font-size:14px; 
+	font-weight:bold;
+	color:#ffcc00;
+	text-align:center;
+}
+.scoreboardTimerTitle {
+	width:140px;  
+	font-size:14px; 
+	font-weight:bold;
+	text-align:center;
+}
+.footballEmptySpan {
+	width:96px;
+}
+.footballCol1 { 
+	width:394px;
+}
+.footballScore { 
+	width:25px;
+	font-size:18px;
+	color:#ffcc00;
+	font-weight:bold;
+	text-align:center;
+}
+
+.footballTeamName { 
+	width:178px; 
+	font-size:14px; 
+	font-weight:bold;
+	overflow:hidden;
+}
+.basketballTeamName { 
+	width:281px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.basketballTitleCol1 {
+	width:321px;
+}
+
+.basketballScoreTitle { 
+	width:40px;
+	text-align:center;
+}
+.basketballScore {
+	width:40px;
+	font-size:18px;
+	color:#ffcc00;
+	font-weight:bold;
+	text-align:center;
+}
+.tennisTitleCol3 {
+	width:354px;
+}
+.tennisTitleCol5 {
+	width:294px;
+}
+.tennisScoreTitle { 
+	width:40px;
+	text-align:center;
+}
+.tennisTeamName5 { 
+	width:295px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.tennisTeamName3 { 
+	width:355px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.tennisScore {
+	width:40px;
+	font-size:18px;
+	color:#ffcc00;
+	font-weight:bold;
+	text-align:center;
+}
+
+.volleyballTitleCol1 {
+	width:294px;
+}
+.volleyballScoreTitle { 
+	width:40px;
+	text-align:center;
+}
+.volleyballTeamName { 
+	width:235px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.volleyballScore {
+	width:40px;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+
+.defaultTitleCol1 {
+	width:434px;
+}
+.defaultScoreTitle { 
+	width:40px;
+	text-align:center;
+}
+.defaultLiveTeamName { 
+	width:450px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.defaultLiveScore {
+	width:40px;
+	font-size:18px;
+	color:#ffcc00;
+	font-weight:bold;
+	text-align:center;
+}
+.countdownTeamName { 
+	width:210px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.outrightTeamName { 
+	width:380px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.countdownScore {
+	width:110px;
+	font-size:14px;
+	color:#ffcc00;
+	font-weight:bold;
+	text-align:center;
+}
+.countdownScoreTitle {
+	width:110px;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+.scoreboadrTimeOut { 
+	font-weight: bold; 
+	text-align: center; 
+	width: 60px;
+}
+
+.badmintonTitleCol1 {
+	width:359px;
+}
+.badmintonScoreTitle { 
+	width:40px;
+	text-align:center;
+}
+.badmintonTeamName { 
+	width:360px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.badmintonScore {
+	width:40px;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+
+.tableTennisTitleCol15 {
+	width:299px;
+}
+.tableTennisTitleCol17 {
+	width:234px;
+}
+.tableTennisScoreTitle { 
+	width:40px;
+	text-align:center;
+}
+.tableTennisTeamName5 { 
+	width:240px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.tableTennisTeamName7 { 
+	width:175px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.tableTennisScore {
+	width:40px;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+
+.squashTitleCol15 {
+	width:299px;
+}
+.squashTitleCol17 {
+	width:234px;
+}
+.squashScoreTitle { 
+	width:40px;
+	text-align:center;
+}
+.squashTeamName5 { 
+	width:240px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.squashTeamName7 { 
+	width:175px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.squashScore {
+	width:40px;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+.beachVolleyballTitleCol1 {
+	width:370px;
+}
+.beachVolleyballScoreTitle { 
+	width:40px;
+	text-align:center;
+}
+
+.beachVolleyballTeamName { 
+	width:300px; 
+	font-size:14px; 
+	font-weight:bold; 
+	line-height:21px;
+	overflow:hidden;
+}
+.beachVolleyballScore {
+	width:40px;
+	font-size:18px;
+	color:#ffcc00;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+
+.scoreboard3893 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/3893.jpg) top left no-repeat;}
+.scoreboard4259_1 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/4259_1.jpg) top left no-repeat;}
+.scoreboard4259_2 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/4259_2.jpg) top left no-repeat;}
+.scoreboard4259_3 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/4259_3.jpg) top left no-repeat;}
+.scoreboard5422 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/5422.jpg) top left no-repeat;}
+.scoreboard5423 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/5423.jpg) top left no-repeat;}
+.scoreboard5424 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/5424.jpg) top left no-repeat;}
+.scoreboard5425 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/5425.jpg) top left no-repeat;}
+.scoreboard5426 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/5426.jpg) top left no-repeat;}
+.scoreboard15400 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15400.jpg) top left no-repeat;}
+.scoreboard15438 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15438.jpg) top left no-repeat;}
+.scoreboard15439 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15439.jpg) top left no-repeat;}
+.scoreboard15440 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15440.jpg) top left no-repeat;}
+.scoreboard15441 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15441.jpg) top left no-repeat;}
+.scoreboard15442 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15442.jpg) top left no-repeat;}
+.scoreboard15444 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15444.jpg) top left no-repeat;}
+.scoreboard15446 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15446.jpg) top left no-repeat;}
+.scoreboard15447 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15447.jpg) top left no-repeat;}
+.scoreboard15448 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15448.jpg) top left no-repeat;}
+.scoreboard15449 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15449.jpg) top left no-repeat;}
+.scoreboard15450 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15450.jpg) top left no-repeat;}
+.scoreboard15451 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15451.jpg) top left no-repeat;}
+.scoreboard15826 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15826.jpg) top left no-repeat;}
+.scoreboard15841 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15841.jpg) top left no-repeat;}
+.scoreboard15859 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/15859.jpg) top left no-repeat;}
+.scoreboard18528 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/18528.jpg) top left no-repeat;}
+.scoreboard22341 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/22341.jpg) top left no-repeat;}
+.scoreboard22547 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/22547.jpg) top left no-repeat;}
+.scoreboard22703 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/22703.jpg) top left no-repeat;}
+.scoreboard24235 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/24235.jpg) top left no-repeat;}
+.scoreboard27342 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/27342.jpg) top left no-repeat;}
+.scoreboard30790 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/30790.jpg) top left no-repeat;}
+.scoreboard31518 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/31518.jpg) top left no-repeat;}
+.scoreboard45358 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/45358.jpg) top left no-repeat;}
+.scoreboard59240 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/59240.jpg) top left no-repeat;}
+.scoreboard66718 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/66718.jpg) top left no-repeat;}
+.scoreboard66719 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/66719.jpg) top left no-repeat;}
+.scoreboard102562 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/102562.jpg) top left no-repeat;}
+.scoreboard120374 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/120374.jpg) top left no-repeat;}
+.scoreboard129304 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/129304.jpg) top left no-repeat;}
+.scoreboard129901 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/129901.jpg) top left no-repeat;}
+.scoreboard129844 {background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/sports/129844.jpg) top left no-repeat;}
+
+#lvbnHeaderTable {
+	font-size:16px;
+	height:32px;
+	width:510px;
+	z-index:1;
+	margin:0 0 1px 0;
+}
+#oddStyleTD form {
+	font-size:10px;
+	margin:0px;
+	padding:0px;
+}
+#oddStyleTD span {
+	font-weight:bold;
+}
+#oddStyleTD, #oddStyleTD a:link, #oddStyleTD a:hover, #oddStyleTD a:active, #oddStyleTD a:visited {
+	color:#FFF;
+	padding-top:5px;
+}
+#eventHeadTD, #eventHeadFirstTD {
+	height:25px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/livebetting_transparent_bg.png) top left repeat;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 0 0 0;
+}
+#eventHeadFirstTD {
+	padding:4px 5px;
+	overflow:hidden;
+}
+#lvbnMainTable {
+	font-size:10px;
+	margin:45px 10px 10px 10px;
+}
+#betSlipHeader {
+	color:#000;
+	font-weight:bold;
+	padding:3px 5px;
+	font-size:14px;
+}
+#betSlipContainer {
+}
+#noLvbnBS {
+	text-align:center;
+	margin:0 auto;
+	padding:15px 25px;
+	text-align:center;
+}
+#noLvbnBSTxt {
+	margin-bottom:10px;
+}
+#succLvbnBS {
+	text-align:center;
+	margin:0 auto;
+	padding:15px 25px;
+	text-align:center;
+}
+#succLvbnBSTxt {
+	margin-bottom:10px;
+}
+#errLvbnBS {
+	text-align:center;
+	margin:0 auto;
+	padding:15px 25px;
+	text-align:center;
+	color:#be0000;
+}
+#errLvbnBSTxt {
+	margin-bottom:10px;
+}
+#lvbnBetting {
+	padding:10px;
+}
+#lvbnBetting table {
+	font-size:10px;
+}
+#lvbnBetting .lvbnSel {
+	font-weight:bold;
+}
+#lvbnBetting input {
+	border:1px solid #1c5180;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/betStake_bgr.gif) top repeat-x #FFF;
+	color:#000;
+	padding:2px;
+}
+#lvbnBetting .lvTD {
+	padding:4px 0px;
+}
+#lvbnBetting .payTR {
+	font-size:11px;
+}
+#lvbnBetting .payTD {
+	padding:8px 0px;
+}
+#lvbnBetting .confTD {
+	padding:8px 0px;
+}
+#lvbnLoaderContainer {
+	text-align:center;
+	padding:8px 0 6px 0;
+	display: none;
+}
+.maxCom {
+	color:#b9b8b8;
+	font-size:9px;
+}
+#formConf {
+	margin:0;
+	padding:0;
+}
+.lvPayout {
+	color:#FF9900;
+	font-weight:bold;
+}
+.lvbnBetsTbl {
+	margin-top:2px;
+	border:0;
+}
+.lvbnOutcomeTD {
+	padding:1px 0;
+	height:22px;
+	border-top:1px solid #000;
+}
+.lvbnOutcomeTD:hover{
+	background-color:#FF9900;
+}
+.lvbnOutcomeTDCalendar {
+	padding:1px 0 1px 4px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:11px;
+}
+.lvbnOutcomeTDCalendar a{
+	text-decoration:none;
+}
+
+.lvbnOutcomeTDCalendarTD {
+	border-top:1px solid #000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	width: 11px; padding:3px 0 0 0
+}
+.lvbnOutcomeName {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0 5px 0 0;
+	color:#FFF;
+	display:block;
+	padding:1px 0 0 4px;
+}
+.lvbnLeftOutcomeName {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+}
+.lvbnOdd {
+	border: 1px solid #FFF;
+	width:60px;
+	height: 15px;
+}
+.lvbnOdd a, .lvbnOdd a:hover, .lvbnOdd a:active, .lvbnOdd a:visited {
+	color:#FFF;
+}
+.lvbnLeftOdd {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/lvbnLeftOddbtn.jpg) repeat-x;
+	height:15px;
+	margin:0 0 0 10px;
+}
+.lvbnLeftOdd a, .lvbnLeftOdd a:hover, .lvbnLeftOdd a:active, .lvbnLeftOdd a:visited {
+	color:#FFF;
+	font-weight:normal;
+}
+.lvbnOutcomeTD a:hover, .lvbnOutcomeTD a:active, .lvbnOutcomeTD a:visited {
+	text-decoration:none;
+}
+#lvbnEventsTD {
+}
+.lvbnEvents {
+	padding-top:16px;
+}
+.lvbnBetHeader {
+	padding-top:0;
+	color:#000;
+}
+.lvbnBetHeaderTable {
+	margin-top:5px;
+}
+.disclaimer {
+	font-size: 9px;
+	padding-top:10px;
+	width:650px;
+	color:#b9b8b8;
+}
+
+.disclaimer a, .disclaimer a:link {
+	font-size:9px;	
+}
+	
+.livedisclaimer {
+	font-size: 9px;
+	padding:10px 0 0 0px;
+	width:470px;
+	color:#b9b8b8;
+}
+
+.livedisclaimercombos {
+	font-size: 9px;
+	padding:10px 0 5px 4px;
+	width:684px;
+	color:#b9b8b8;
+	float:left;
+}
+
+.disclaimer_worldcup {
+	font-size: 9px;
+	padding:10px 0 5px 4px;
+	width:684px;
+	color:#fff;
+	float:left;
+}
+
+#lvbnMoreEvents {
+	margin:0 10px 0 10px;
+	color:#FFF;
+}
+#moreEventsHeader {
+	height:32px;
+	color:#FFF;
+	font-weight:bold;
+	padding:3px 5px;
+	text-align:left;
+}
+#moreEventsContainer {
+top right no-repeat;
+	padding-top:5px;
+}
+#lvbnLoader {
+	height:6px;
+	width:102px;
+	font-size:1px;
+	border:1px solid #a6a6a6;
+	margin:0 auto;
+	display:block;
+	text-align:left;
+}
+#lvbnLoading {
+	height:6px;
+	font-size:1px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/loading_bgr.gif)
+}
+#lvbnProcessing {
+	font-size:9px;
+	text-align:center;
+	color:#FFF;
+}
+#liveProgressBarPanelAnchor {
+	padding-left:13px;
+}
+.liveOutcomesTable {
+	width:100%;
+}
+.live_arrow_collaps {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_collaps.gif);
+	background-position:0 10px;
+	background-repeat:no-repeat;
+}
+.live_arrow_expand {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_expand.gif);
+	background-position:0 10px;
+	background-repeat:no-repeat;
+}
+
+.live_arrow_collaps_left {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_collaps_left.gif);
+	background-position:0 10px;
+	background-repeat:no-repeat;
+}
+.live_arrow_expand_left {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_expand_left.gif);
+	background-position:0 10px;
+	background-repeat:no-repeat;
+}
+
+.live_arrow_collaps_left_event {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_collaps_left_event.png);
+	background-position:0 4px;
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	height:11px;
+	width:7px;
+	margin:3px 0 0 3px;
+	cursor:pointer;
+	cursor:hand;
+}
+.live_arrow_expand_left_event {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_expand_left_event.png);
+	background-position:0 4px;
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	height:11px;
+	width:7px;
+	margin:3px 0 0 3px;
+	cursor:pointer;
+	cursor:hand;
+}
+.live_arrow_collaps_now {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_collaps_now.gif);
+	background-position:0 10px;
+	background-repeat:no-repeat;
+}
+.live_arrow_expand_now {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_expand_now.gif);
+	background-position:0 10px;
+	background-repeat:no-repeat;
+}
+
+.liveTeamName {
+	height:14px;
+	overflow:hidden;
+	width:94px;
+	float:left;
+}
+.lvbnEventInactive .liveTeamName span {
+   color: #000000;
+   height: 14px;
+}
+.lvbnEventActive .liveTeamName span {
+   color: #000000;
+   height: 14px;
+}
+.liveEventName {
+	float:left;
+	height:14px;
+	overflow:hidden;
+	width:140px;
+	padding:0 0 0 2px;
+	height:19px;
+}
+.lvbnEventInactive .liveEventName span {
+	float:right;
+	z-index:3;
+	position:absolute;
+	height:14px;
+	margin-left:136px;
+	_margin-left:141px;
+	color:white;
+}
+.lvbnEventActive .liveEventName span {
+	float:right;
+	z-index:3;
+	position:absolute;
+	height:14px;
+	margin-left:136px;
+	_margin-left:141px;
+	color:#FFF;
+}
+
+.navigationTimeContainerCollapsed .liveEventName span {
+	visibility: hidden;
+}
+
+.navigationTimeContainerCollapsed .liveTeamName span {
+	visibility: hidden;
+}
+
+.liveImgSport {
+	float:right;
+	margin:1px 5px 0 0;
+}
+.lvbnEvent {
+	cursor:pointer;
+	cursor:hand;
+	font-size:10px;
+	color:#FFF;
+	padding:0 0 0 4px;
+	width:161px;
+	background-color:#232323;
+}
+.lvbnEventNOW {
+	cursor:pointer;
+	cursor:hand;
+	font-size:10px;
+	color:#FFF;
+	padding:0 0 0 4px;
+	width:161px;
+	background-color:#FF9900;
+}
+.lvbnEventNOW span {
+	color:#FFF;
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding:3px 0 4px 0;
+}
+
+.liveTablebg {
+	background-color:#58565a;
+}
+.lvbnEventInactive {
+	cursor:pointer;
+	cursor:hand;
+	font-size:10px;
+	color:#FFF;
+	padding:3px 0 0 4px;
+	width: 162px;
+}
+.lvbnEventInactiveBgDraw {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/lvbnEventInactive_bg.jpg) repeat-x;
+	width:165px;
+	border-bottom:1px solid #000;
+	min-height:21px;
+	max-height:125px;
+}
+
+.lvbnEventInactiveBgVersus {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/lvbnEventInactive_bg.jpg) repeat-x;
+	width:165px;
+	border-bottom:1px solid #000;
+	min-height:21px;
+	max-height:105px;
+}
+
+.lvbnEventInactiveBgOutright {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/lvbnEventInactive_bg.jpg) repeat-x;
+	width:165px;
+	border-bottom:1px solid #000;
+	min-height:21px;
+	max-height:39px;
+}
+
+.lvbnEventActive {
+	cursor:pointer;
+	cursor:hand;
+	font-size:10px;
+	color:#FFF;
+	padding:3px 0 0 4px;
+	width: 162px;
+}
+
+.lvbnEventActiveBgVersus {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/lvbnEventActive_bg.jpg) repeat-x;
+	width:165px;
+	border-bottom:1px solid #000;
+	min-height:21px;
+	max-height:105px;
+}
+
+.lvbnEventActiveBgDraw {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/lvbnEventActive_bg.jpg) repeat-x;
+	width:165px;
+	border-bottom:1px solid #000;
+	min-height:21px;
+	max-height:125px;
+}
+
+.lvbnEventActiveBgOutright {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/lvbnEventActive_bg.jpg) repeat-x;
+	width:165px;
+	border-bottom:1px solid #000;
+	min-height:21px;
+	max-height:78px;
+}
+
+.lvbnEvent span {
+	color:#FFF;
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding:3px 0 4px 0;
+}
+.lvbnSport {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	font-weight:bold;
+	margin:0 0 0 13px;
+}
+.lvbnTimeDiv {
+	float:left;
+	color:#FFF;
+	font-size:11px!important;
+	margin-right:3px;
+}
+.lvbnTimeNumber {
+	color:#FFF;
+	font-size:11px!important;
+}
+.lvbnSportDiv {
+	font-size:10px!important;
+	margin-right:3px;
+}
+.lvbnSportNumber {
+	font-size:10px!important;
+	float:right;
+	margin:0 5px 0 0;
+}
+.liveSportContainer {
+	padding:0 0 5px 0;
+}
+.lvbnBorderCell {
+	cursor:default;
+}
+.lvbnEvent div {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+}
+.lvbnOutcomes {
+	margin-bottom:1px;
+	font-size:10px;
+	color:#FFF;
+	padding:0 0 10px 2px;
+}
+.lvbnEventTime {
+	font-size:10px;
+	font-weight:normal;
+	color:#FF9900;
+}
+.lvbnFLBC {
+	text-align:center;
+}
+.lvbnFLBC a, .lvbnFLBC a:active, .lvbnFLBC a:hover, .lvbnFLBC a:visited {
+	color:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	padding:6px 6px 6px;
+	text-decoration:underline;
+	display:block;
+}
+.ltg {
+	font-size:11px;
+	color:#000;
+	padding:0px;
+	margin:0px;
+}
+.ltb {
+	padding:1px 0;
+	font-size:11px;
+	color:#FFF;
+	background-color:#000;
+	height:16px;
+}
+.ltb img { vertical-align:top;}
+.lvbnOutcomeOddDisabled {
+	color:#999999;
+	font-weight:normal;
+}
+.balance_box {
+	color:#FFF;
+}
+#lvbnResult {
+	font-weight:bold;
+}
+.lvbnResult {
+	color:#FF9900;
+}
+.lvbnEventStartTime {
+	color:#FF9900;
+	padding-left:4px;
+}
+.lvbnEventStartTimeMain {
+	clear:both;
+}
+.navLiveVideoLink {
+	margin:0 0 -3px 10px;
+	display: none;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/video_btn.png) top left no-repeat;
+	height:14px;
+	width:46px;
+	cursor:pointer;
+	border: 1px solid #FFF;-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
+ }
+.navLiveVideoLinkCalendar{
+	margin:2px 0 0 0;
+	display: none;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/video_icon_calendar.gif) top left no-repeat;
+	height:11px;
+	width:11px;
+	cursor:pointer;
+	border: 1px solid #FFF;-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;	
+}
+.navLiveVideoLinkLeft {
+	margin:10px 0 0 5px;
+	display: none;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/video_btn.png) top left no-repeat;
+	height:14px;
+	width:46px;
+	cursor:pointer;
+	border: 1px solid #FFF;-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
+}
+.matchesVideoLink {
+	margin:2px 0 0 10px;
+	display: none;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/video_btn.png) top left no-repeat;
+	height:14px;
+	width:46px;
+	cursor:pointer;
+	border: 1px solid #FFF;-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;
+	float:left;
+}
+
+.borderlink {
+	float:right;
+	margin:0 3px 1px 0;
+	width: 60px;
+}
+.borderlink a, .borderlink a:active, .borderlink a:hover, .borderlink a:visited {
+	text-decoration:none;
+	color:#000;
+}
+.borderlink img {
+	float: left;
+	margin: 1px 0 0 1px;
+}
+.evTableDivBackground {
+	padding-bottom:6px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/odds_background.png) bottom left no-repeat #3c3c3c ;
+}
+.lvbnCountdownTimer {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	font-weight:normal;
+}
+.liveStartedText {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FFF;
+	float:left;
+	font-size:11px;
+	padding-right:3px;
+}
+.flashLiveInfoBox {
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FDA500;
+	width:507px;
+	background-color:#000;
+	padding:2px 0px 3px 3px;
+	height:12px;
+	overflow:hidden;
+	background-image:url(https://secure.footprint.net/gamebookers/a/general/live_ddown.gif);
+	background-repeat:no-repeat;
+	background-position:492px 3px;
+	cursor:pointer;
+	position:absolute;
+}
+.flashLiveInfoBoxSelect {
+	background-image:url(https://secure.footprint.net/gamebookers/a/general/live_ddown.gif);
+	background-repeat:no-repeat;
+	background-position:472px 3px;
+	_background-position:top right;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FDA500;
+	width:507px;
+	background-color:#000;
+	padding:2px 0px 3px 3px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	height:64px;
+	cursor:pointer;
+	position:absolute;
+}
+.flashLiveInfoBox img {
+	float:right;
+	border:0;
+}
+.flashLiveInfoBoxSelect img {
+	float:right;
+	border:0;
+}
+#navHeader{border-bottom:2px solid #FF9900;}
+
+.selNavHeaderLeft{
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/left-tab-live.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	padding-left:4px;
+	text-align:left;
+}
+.selNavHeaderRight{
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/right-tab-live.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	padding-right:4px;
+	margin-right:5px;
+	
+}
+.navHeaderActive{
+	padding:0 8px 0 4px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.livePlusMinusMain{
+	padding:8px 0 0;
+}
+.livePlusMinus{
+    background: #303030;
+	height: 20px;
+}
+.livePlusMinus span{
+	display:block;
+	float:right;
+	margin:6px 6px 0 0;
+}
+.navPlusMinus{
+	padding:0 4px 0 4px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.favToAdd {
+	float:left;
+	margin:0 0 0 -22px;
+	width:22px;
+	height:21px;
+	float:left;
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/fav_to_add.png") top left no-repeat;
+	cursor:pointer;
+	position: relative;
+}
+
+.favToAdd:hover {
+		background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/fav_to_remove.png") top left no-repeat;
+}
+
+.favToRemove {
+	float:left;
+	margin:0 0 0 -22px;
+	width:22px;
+	height:21px;
+	float:left;
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/fav_to_remove.png") top left no-repeat;
+	cursor:pointer;
+	position: relative;
+}
+
+.favToRemove:hover {
+		background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/fav_to_del.png") top left no-repeat;
+}
+
+#liveCTAContainer {
+	background:#3e3e3e url("https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/cta_bg.gif") bottom center repeat-x;
+	border:1px solid #000;
+	margin:0px 0 8px 0;
+	padding:4px;
+	min-height:30px;
+}
+
+#liveCTAContainer a{
+	text-decoration:none;
+}
+
+#liveCTAbulb img, #liveCTAContainer {
+	display: none;
+}
+
+.ctaClose {
+	float:right;
+	width:9px;
+	height:9px;
+	margin:0 0 0 4px;
+}
+
+.ctaIcon {
+	margin:0 4px 0 0;
+	float:left;
+}
+
+.ctaSmIcon {
+	margin:2px 2px 2px 10px;
+	float:left;
+}
+
+/* BF */
+
+.bfContainer form {
+	margin:0;
+	padding:0;
+}
+.bfheadercolor {
+	color:#FFF;
+	width:290px;
+}
+.bfContainer table {
+	font-size:11px;
+}
+.slip_size, .slip_size_live {
+	width:300px;
+	background:#3e3e3e url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/slip_bg.jpg") bottom repeat-x;
+}
+.slip_center_td {
+	width:292px;
+	background:#FF9900;
+}
+.bfStandartTbl {
+	width:100%;
+}
+.bfHeaderTbl {
+	background-image:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/header_bg.gif");
+	height:30px;
+	margin-bottom:10px;
+}
+.bfSeparator {
+	font-weight:normal;
+}
+.bfRedTDinitial {
+	color:#FFF;
+	font-weight:bold;
+	padding:0 4px 0 4px;
+	font-size:13px;
+	height:38px;
+	text-align:left;
+	width:290px;
+}
+.bfRedTD {
+	color:#FFF;
+	font-weight:bold;
+	padding:0 4px;
+	font-size:13px;
+	height:38px;
+}
+.bfRedTD a {
+	color:#FFF !important;
+	font-size:10px;
+	font-weight:normal !important;
+	text-decoration:none !important;
+}
+.bfBlueNB {
+	background:#525B62;
+	color:#FFF;
+	padding:2px 4px;
+	font-size:10px;
+}
+.bgGrayComment {
+	background:#f3f3f3;
+	color:000000;
+	padding:2px 4px;
+	font-size:10px;
+}
+.bfClearHeadStyleLeft {
+	background:#FFF;
+	font-weight:bold;
+	color:#000;
+	padding:2px 4px;
+	border-bottom:1px solid #000;
+	border-right:1px solid #FFF;
+	width:145px;
+	font-size:10px;
+}
+.bfClearHeadStyle {
+	background:#FFF;
+	font-weight:bold;
+	color:#000;
+	padding:2px 4px;
+	border-bottom:1px solid #000;
+	font-size:10px;
+}
+.bfClearBotStyleLeft {
+	background:#FFF;
+	color:#000;
+	padding:2px 4px;
+	border-top:1px solid #000;
+	border-right:1px solid #FFF;
+	width:145px;
+	font-size:9px;
+}
+.bfClearBotStyle {
+	background:#FFF;
+	color:#000;
+	padding:2px 4px;
+	border-top:1px solid #000;
+	font-size:9px;
+}
+.bfMultTd {
+	font-size:9px;
+	padding-right:3px;
+}
+.bfMultTd a {
+	color:#005588 !important;
+	text-decoration:none;
+	font-size:9px!important;
+}
+.bfEmpty {
+	font-size:1px;
+	width:1px;
+	background:#FFF;
+}
+.bfComboHeadStyle {
+	color:#FF9900;
+	font-weight:bold;
+	padding-top:10px;
+}
+.bfDarkHeadStyleLeft {
+	background:#e1e1e1;
+	color:#FF9900;
+	padding:2px 4px;
+	border-bottom:1px solid #9b9b9b;
+	text-align:left;
+}
+.bfDarkHeadStyleLeft img {
+	margin-right:2px;
+}
+.bfDarkHeadStyleLeft a {
+}
+.teasers_width {
+	width:262px;
+}
+.bfDarkHeadStyleNoWidth {
+	background:#e1e1e1;
+	color:#000;
+	font-size:smaller;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.bfComboLeftConf {
+	border-bottom:1px solid #58565A;
+	background:#e1e1e1;
+	color:#000;
+	padding:2px 4px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	text-align:left;
+}
+.bfComboLeft {
+	color:#000;
+	padding:2px 4px;
+	border-bottom:1px solid #58565A;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	width:65.5%;
+	text-align:left;
+}
+.bfComboMdl {
+	color:#000;
+	padding:2px 2px 2px 0;
+	border-bottom: 1px solid #58565A;
+	font-size:10px;
+	white-space:nowrap;
+	font-weight:bold;
+	width:46px;
+}
+.bfComboMd2 {
+	color:#000;
+	padding:2px 2px 2px 0;
+	border-bottom: 1px solid #58565A;
+	font-size:10px;
+	white-space:nowrap;
+	font-weight:bold;
+	width:46px;
+}
+.bfComboMdlConf {
+	border-bottom:1px solid #58565A;
+	background:#e1e1e1;
+	color:#000;
+	padding:2px 2px 2px 0;
+	width:46px;
+	font-size:11px;
+	font-weight:bold;
+}
+.comboNum {
+	font-weight:bold;
+	color:#ff9900;
+}
+.comboNumStriked {
+	margin-right: 5px;
+	color:#ff9900;
+background-image:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/linetrough.gif");
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.hotComboNum {
+	font-size: 11px;
+	font-weight:bolder;
+	color:#BA0000;
+}
+.bfEventName {
+	padding:4px 3px;
+	font-size:smaller;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#666;
+	text-align:left;
+}
+.bfXcastExplanation a:link, .bfXcastExplanation a:active, .bfXcastExplanation a:hover, .bfXcastExplanation a:visited {
+	text-decoration: none;
+	font-size:10px;
+	color: #000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.bfCheckTd {
+	background-color:#E1E1E1;
+}
+.bfEventDarkGray {
+	background:#e1e1e1;
+	font-size:10px;
+	padding: 0px 0px 0px 4px;
+	text-align:left;
+}
+.bfEventLighGray {
+	background:#f3f3f3;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+.bfEventLighGray img {
+	padding:0 2px;
+}
+.bfEventBanks {
+	background:#E1E1E1;
+	font-size:10px;
+	border-bottom:1px solid #58565A;
+	text-align:center;
+}
+.bfEventChoice {
+	font-size:9px;
+	padding:0pt 3px 4px;
+}
+.bfEventChoice a:link, .bfEventChoice a:visited, .bfEventChoice a:hover, .bfEventChoice a:active {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+.bfEventOdd {
+	font-weight:bold;
+	font-size:10px;
+	color:#FF9900;
+}
+.checkStyle {
+	font-weight:normal;
+	border-width:1px;
+	border-style:solid;
+	border-bottom-color:#999;
+	border-right-color:#999;
+	border-left-color:#333;
+	border-top-color:#333;
+background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/betStake_bgr.gif) top repeat-x #FFF;
+	color:#000;
+	font-size:11px;
+	text-align:right;
+	padding:1px 3px;
+	height:12px;
+	margin:0;
+}
+.bfBotLineTd {
+	border-top:2px solid #FFF;
+	background:#000;
+}
+.bfMaxDiv {
+	background:#FFF;
+	border-bottom:1px solid #999;
+	padding-top:45px;
+}
+.bfBetEventTd {
+	border-bottom:1px solid #58565A;
+	font-size:10px;
+	padding:4px 3px 0 3px;
+	background-color:#E1E1E1;
+	width:46px;
+	text-align:right;
+}
+.bfBetEventTdd {
+	font-size:10px;
+	padding:4px 2px 4px 3px;
+	background-color:#E1E1E1;
+	text-align:left;
+}
+.bfBetEventTdLeft {
+	background:#e1e1e1;
+	border-bottom:1px solid #58565A;
+	font-size:10px;
+	text-align:left;
+}
+.bfBetEventMdlConf {
+	background:#e1e1e1;
+	color:#000;
+	padding:2px;
+	width:46px;
+	font-size:11px;
+	font-weight:bold;
+}
+.bfMaxNbr {
+	padding:3px 0 2px 0;
+	color:#000;
+}
+.bfLineTd {
+	border-top:2px solid #FFF;
+}
+.bfEventTd {
+	background:#E1E1E1;
+	border-bottom: 1px solid #58565A;
+}
+
+#bfCombosContainer {
+	font-size:10px;
+}
+#bfErr {
+	color:#FF9900;
+	padding:4px 7px 4px 1px;
+	font-size:10px;
+}
+.bfDarkHeadStylenew {
+	background:#E1E1E1;
+	border-bottom:1px solid #9B9B9B;
+	color:#FF9900;
+	padding:2px 1px;
+	font-size:11px;
+}
+.bfCombosHeader {
+	border-top:1px solid #FFF;
+	padding:2px 4px 2px 4px;
+	background:#f3f3f3;
+	font-size:10px;
+}
+.bfWhiteLineBot {
+	border-bottom:0px
+}
+.bfBlackLineTop {
+	border-top:1px solid #000;
+}
+.bfBlackBoldLineTop {
+	border-top:2px solid #000;
+}
+.bfNumSlip {
+	color:#FFF;
+	font-size:10px;
+}
+.bfNumSlip td {
+	padding:2px 4px;
+	font-size:10px;
+}
+.bfPayoutSlip {
+	color:#FFF;
+	font-weight:bold;
+	font-size:10px;
+}
+.bfPayoutSlip td {
+	padding:2px 0;
+	font-size:10px;
+}
+.bfCostSlip {
+	color:#FFF;
+	font-weight:bold;
+	font-size:10px;
+}
+.bfCostSlip td {
+	padding:2px 4px;
+	font-size:10px;
+}
+.bfConfBtn {
+	font-size:10px;
+}
+.bfBalloon {
+	background:#FFF;
+	color:#000;
+	border:1px solid #525B62;
+}
+.bfBalloonHead {
+	background:#747276;
+	color:#FFF;
+	font-weight:bold;
+	font-size:10px;
+	padding:2px 4px;
+}
+.bfBalloonTxt {
+	font-size:9px;
+	padding:2px 4px;
+}
+.bgBlueState {
+	background:#525B62;
+	color:#FFF;
+	font-weight:bold;
+	padding:2px 2px;
+	font-size:10px;
+}
+.bgBlueState img {
+	margin-right:2px;
+}
+.bfExpTd {
+	font-size:10px;
+	font-weight:bold;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.fbResetBtns {
+	color:#FFF;
+	width:100%;
+	margin-top:10px;
+	padding-top:5px;
+	font-size:10px;
+}
+.fbResetBtns a:link, .fbResetBtns a:visited {
+	text-decoration:underline;
+	color:#FFF;
+}
+.fbResetBtns a:hover, .fbResetBtns a:active {
+	text-decoration:underline;
+	color:#FFF;
+}
+.bfActiveEvType {
+	font-weight:bold;
+	color:#ff9900;
+}
+.bfActiveTime {
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#ff9900;
+}
+.bfInactiveTime a:link, .bfInactiveTime a:visited, .bfInactiveTime a:hover, .bfInactiveTime a:active {
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+#hro {
+	height: 1px;
+	border-bottom: 1px solid #000;
+}
+.m {
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	padding-left:4px;
+	color:#FFF;
+	background-color:#525B62
+}
+#tft {
+	border-bottom: 3px solid #58565A;
+	margin: 0 0 10px 0;
+}
+#ourDiv {
+	position:absolute;
+	visibility:hide;
+	z-index:2;
+}
+#th {
+	text-align:right;
+	margin: 0 0 6px 0;
+	color: #FFF;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#sph10 {
+	height:20px;
+}
+#spw11 {
+	width:11px;
+	height:11px;
+	font-size:11px;
+}
+#spw13 {
+	width:13px;
+	height:11px;
+	font-size:11px;
+}
+#spw15 {
+	width:15px;
+	height:11px;
+	font-size:11px;
+}
+.combotxt {
+	font-size:11px;
+	background-color:#E1E1E1;
+}
+.btntable {
+	cursor:pointer;
+	cursor:hand;
+}
+.slipflottxt {
+	padding:0 0 40px 7px;
+	color:white;
+	font-size:11px;
+	width:280px;
+}
+.slipflottxtLive {
+	padding:0 0 40px 7px;
+	color:white;
+	font-size:11px;
+}
+.sliptotalb {
+	color:#FFF;
+	padding:10px 0 0 103px;
+	font-size:11px;
+}
+.disktable {
+	margin:0 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#999999;
+	width:300px;
+}
+.bfSlipSubmitBtn {
+	padding:2px 25px 2px 25px;
+	float:right;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/btn_center_bg.gif) repeat-x #ff9900;
+	margin:0px;
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	height:44px;
+}
+.bfSlipSubmitBtn a:link, .bfSlipSubmitBtn a:active, .bfSlipSubmitBtn a:hover, .bfSlipSubmitBtn a:visited {
+	text-decoration:none;
+	color:#FFF;
+	font-size:11px;
+	display:block;
+	padding:10px 0 10px 0;
+}
+.bfXcastBtn, .bfXcastBtn a:link, .bfXcastBtn a:active, .bfXcastBtn a:hover, .bfXcastBtn a:visited {
+	white-space: nowrap;
+	text-decoration:none;
+	color:#FFF;
+	padding-top:1px;
+	padding-bottom:2px;
+}
+.bfCutOutcome a, .bfCutOutcome a:link, .bfCutOutcome a:active, .bfCutOutcome a:hover, .bfCutOutcome a:visited {
+	color:#666666;
+}
+.bfStatusMessage {
+	color:#FFF;
+}
+.bfImportantStatusMessage {
+	color:#FF9900;
+	font-size:10px;
+}
+.bfSlipIdMessage {
+	color:#FF9900;
+	font-size:10px;
+}
+.bfUsaMessage {
+	color:#be0000;
+	font-weight:bold;
+	padding:10px 0 5px 0;
+	width:200px;
+}
+.bfpoints a, .bfpoints a:link, .bfpoints a:active, .bfpoints a:hover, .bfpoints a:visited {
+	color:#FFF;
+	text-decoration:none;
+	font-size:10px;
+}
+.bfHolder {
+	width:550px;
+}
+.eventsBorder {
+	text-align:left;
+	margin:0px;
+	width:496px;
+}
+.eventsHolderLive {
+	background-color:#58565a;
+}
+.eventsHolder {
+	background-color:#58565a;
+}
+.bfPresEventsHolder {
+	padding:7px 7px 0 7px;
+	width:550px;
+}
+.bfPresEventsHolderLive {
+	padding:0;
+	width:512px;
+}
+.bfPresTypeHolder {
+	margin:2px;
+	background-color:#FFF;
+	border-width:2px 1px 1px 1px;
+	border-style:solid;
+	border-color:#525B62;
+}
+.bfFloatDiv {
+	float:left;
+}
+.leagueContainer {
+	min-height:60px;
+	margin:0 0 10px 10px;
+}
+.leagueSpan {
+	margin:0 0 0 10px;
+	width:503px;
+}
+#selectedLeagueSpan {
+	font-size:18pt;
+	font-weight:bold;
+	display:block;
+	padding:5px;
+	color:#FFF;
+}
+#selectedLeagueSpanSmall {
+	font-size:11px;
+	display:block;
+	padding:5px 5px 5px 16px;
+	color:#FFF;
+}
+#selectedLeagueSpanSmall a, #selectedLeagueSpanSmall a:active, #selectedLeagueSpanSmall a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+#selectedLeagueSpanSmall a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+#selectedLeagueSpanSmall select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	border:1px solid #000;
+}
+.leagueBoxContainer {
+	height:30px;
+	margin:0 0 0 10px;
+}
+.leagueBox {
+	background-color:#ff9900;
+	padding:0 20px;
+	cursor:pointer;
+	cursor:hand;
+}
+.leagueBoxText {
+	color:#FFF;
+	font-weight:bold;
+	font-size:12px;
+	border-bottom:1px dotted;
+	text-decoration:none;
+}
+.leagueBoxTextHover {
+	color:#FFF;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+	border:none;
+}
+.leagueWidth {
+	width:150px;
+}
+.presType {
+	margin:8px 2px 2px 7px;
+	background-color:#58565a;
+	font-weight:bold;
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	width:535px;
+}
+.presType a, .presType a:hover, .presType a:active, .presType a:visited {
+	color:#fff;
+}
+.presType select {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333 !important;
+	font-size:11px;
+	margin:0 10px 0 0;
+	
+}
+.presTypeDiv {
+	display:block;
+	width:400px;
+	height:10px;
+}
+.presTypefirst {
+	float:left;
+	margin-top:2px;
+}
+.presTypesecond {
+	float:left;
+}
+	
+.presTypethird {
+	float:left;
+	margin:2px 0 0 5px;
+	display:block;
+	clear:right;
+}
+.presTypelivec {
+	margin:8px 2px 2px 0px;
+	background-color:#58565a;
+	font-weight:bold;
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	width:510px;
+}
+.presTypelivec a, .presTypelivec a:hover, .presTypelivec a:active, .presTypelivec a:visited {
+	color:#fff;
+}
+.presTypelivec select {
+	color:#333333!Important;
+	font-size:11px;
+	font-weight:bold;
+	margin:0 10px 6px 0;
+}
+#leagueMenu {
+	border:2px solid #FF9900;
+	background-color:#FFF;
+}
+#leaguesDiv {
+	position:absolute;
+	z-index:21;
+	display:none;
+	padding-left:10px;
+}
+#leaguesDiv a, #leaguesDiv a:visited {
+	text-decoration:none;
+	color:#000;
+}
+#leaguesDiv a:hover, #leaguesDiv a:active {
+	text-decoration:none;
+	background:#FF9900;
+}
+.activeLeague {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background:#FF9900;
+	color:#000;
+}
+.hr_tabsize {
+	border-bottom: 2px solid #ff9900;
+}
+.tabsdiv {
+	width:536px;
+	padding:0 0 0 7px;
+}
+.tabstable {
+	border-bottom: 2px solid #ff9900;
+}
+.bfActTab {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/bog_bg.gif") top no-repeat;
+	width:267px;
+	height:25px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#FFF;
+}
+.bfActTab a, .bfActTab a:hover, .bfActTab a:active, .bfActTab a:visited {
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}
+.bfInactTab {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/bom_bg.gif") top no-repeat;
+	width:267px;
+	height:25px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#FFF;
+}
+.bfInactTab a, .bfInactTab a:hover, .bfInactTab a:active, .bfInactTab a:visited {
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}
+.wlistTable {
+	margin:0 0 0 7px!Important;
+	width:536px;
+	border-bottom:2px solid #FF9900;
+}
+.wlistActTab {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/bog_bg_watch.gif") top no-repeat;
+	width:132px;
+	height:25px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#FFF;
+}
+.wlistActTab a, .wlistActTab a:hover, .wlistActTab a:active, .wlistActTab a:visited {
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}
+.wlistInactTab {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/bom_bg_watch.gif") no-repeat scroll center top;
+	width:132px;
+	height:25px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#000;
+}
+.wlistInactTab a, .wlistInactTab a:hover, .wlistInactTab a:active, .wlistInactTab a:visited {
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}
+.bfhref {
+	text-decoration: none;
+	display:block;
+	white-space: nowrap;
+	background-color:#FFF;
+	width:55px;
+	margin: 2px 0 1px 0;
+	text-align:center;
+	color:#000 !important;
+}
+.bfahref {
+	text-decoration: none;
+	display:block;
+	background-color:#a8a8a8;
+	margin: 2px 0 1px 0;
+	width:55px;
+	text-align:center;
+}
+.bfBack, .bfBack a, .bfBack a:hover, .bfBack a:active, .bfBack a:visited {
+	background-color:#FFF;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0 5px 0 5px;
+}
+.gcLogo {
+	margin: 5px 0pt -2px;
+}
+.presMenu a:link, .presMenu a:active, .presMenu a:visited {
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	display:block;
+	padding:0 0 0 10px;
+}
+.presMenu a:hover {
+	text-decoration:none;
+	color:#FFF;
+	background-color:#FF9900;
+	font-weight:bold;
+	display:block;
+	padding:0 0 0 10px;
+}
+.presMenu {
+	position:absolute;
+	display:block;
+	background-color:#FFF;
+	border:1px solid #000;
+	margin:-5px 10px 0 7px;
+	width:250px;
+}
+.presBoxSelect {
+	border:1px solid #000;
+	margin:0 10px 0 5px!Important;
+}
+	
+.presBoxSelect div {
+	width:100%;
+	display:block;
+	cursor:pointer;
+	cursor:hand;
+}
+.presBoxSelect a, .presBoxSelect a:hover, .presBoxSelect a:active, .presBoxSelect a:visited {
+	margin:2px 0pt 2px 10px;
+	text-decoration:none;
+	color:#000;
+	display:block;
+}
+.presBoxContainer {
+	z-index:21;
+}
+/* Custom select Styles */
+
+.customSelectMenu a:link, .customSelectMenu a:active, .customSelectMenu a:visited {
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	display:block;
+	padding:0 0 0 10px;
+}
+.customSelectMenu a:hover {
+	text-decoration:none;
+	color:#FFF;
+	background-color:#FF9900;
+	font-weight:bold;
+	display:block;
+	padding:0 0 0 10px;
+}
+.customSelectMenu {
+	position:absolute;
+	display:block;
+	background-color:#FFF;
+	border:1px solid #000;
+	margin:-1px 6px 0 5px;
+	width:200px;
+}
+.customSelect {
+	background:url("https://secure.footprint.net/gamebookers/a/general/bf_ddown.gif") right no-repeat #FFF;
+	border:1px solid #000;
+	margin:0 10px 0 5px;
+	width:200px;
+}
+.customSelect div {
+	width:100%;
+	display:block;
+	cursor:pointer;
+	cursor:hand;
+}
+.customSelect a, .customSelect a:hover, .customSelect a:active, .customSelect a:visited {
+	margin:2px 0pt 2px 10px;
+	text-decoration:none;
+	color:#000;
+	display:block;
+}
+.customSelectContainer {
+	z-index:21;
+}
+.customSelectShort {
+	width:50px;
+}
+/* SLIP Styles BEGIN*/
+
+.slipHolder {
+	float:right;
+	text-align:left;
+	margin:0;
+	width:305px;
+}
+.slipHolderLive {
+	float:right;
+	text-align:left;
+	margin:0;
+	width:305px;
+}
+.foldSlip {
+	background: url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/fold_bg.gif") bottom left repeat-x;
+	height:96px;
+	vertical-align:bottom;
+}
+.bfShowMaxPlaceHolder {
+	width: 45px;
+}
+#slipInitialState {
+	border: 0;
+}
+#popupLoginAlert {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background: url("https://secure.footprint.net/gamebookers/b/stand_alone/images/arrow_popup_div.gif") 268px 3px no-repeat;
+	background-color: #747276;
+	width: 301px;
+	height:100px;
+	display: block;
+	text-align:center;
+	color:#FFF;
+	margin:0 0 10px 0;
+}
+#popupLoginAlert a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	text-align:center;
+	color:#FFF;
+}
+#popupLoginAlert a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	text-align:center;
+	color:#FFF;
+}
+#popupLoginAlert a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	text-align:center;
+	color:#FFF;
+}
+#popupFlashSupportAlert {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #747276;
+	width: 301px;
+	text-align:center;
+	height:111px;
+	display: block;
+	color:#FFF;
+	margin:0 0 10px 0;
+}
+#slipFlashMovieDiv {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	top: -45%;
+	left: 45%;
+	margin-left: -50px;
+	margin-top: -50px;
+	z-index: 0;
+}
+#popupNotEnoughBalance {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background: url("https://secure.footprint.net/gamebookers/b/stand_alone/images/arrow_popup_div_left.gif") 2px 3px no-repeat;
+	background-color: #747276;
+	width: 300px;
+	display: block;
+	text-align:center;
+	color:#FFF;
+	margin:0 0 10px 0;
+	padding:0 0 5px 0;
+}
+#popupNotEnoughBalance a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	text-align:center;
+	color:#FFF;
+}
+#popupNotEnoughBalance a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	text-align:center;
+	color:#FFF;
+}
+#popupNotEnoughBalance a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	text-align:center;
+	color:#FFF;
+}
+.bfShowMax {
+	display:table-cell;
+	font-size:10px;
+}
+.bfComboType {
+	font-weight:bold;
+}
+.bfSelectionTable {
+	width:100%;
+}
+.bfSlipHintLinkContainer {
+	background:#ff9900;
+	border: 2px #ff9900 solid;
+	text-align:center;
+	color:#FFF;
+	width:295px;
+}
+.bfSlipHint {
+	position: absolute;
+}
+.bfSlipHintLinkContainer a, .bfSlipHintLinkContainer a:active, .bfSlipHintLinkContainer a:hover, .bfSlipHintLinkContainer a:visited {
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+.bfSlipHintLinkContainer img {
+	border:0;
+}
+.bfSlipHintError {
+	background:#e1e1e1;
+	border: 2px #ff9900 solid;
+	color:#ff9900;
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	width:295px;
+}
+.bfLiveBox {
+	background:#00aa00;
+}
+.bfLiveBoxHeader {
+	background:#00ff00;
+	color:#FFF;
+	font-weight:bold;
+}
+.bfGoLive {
+	background:#00ff00;
+	color:#FFF;
+	font-weight:bold;
+	border: 1px solid #FFF;
+}
+.bfDarkHeadStyle {
+	background:#e1e1e1;
+	color:#000;
+	padding:2px 4px 2px 2px;
+	font-size:smaller;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	border-bottom:1px solid #9b9b9b;
+}
+.bfDarkHeadStyle a {
+	color:#005588!important;
+	text-decoration:none;
+	font-size:10px;
+}
+.bfCheckHighlight {
+	margin:0;
+	padding:0;
+	border: 1px solid #BA0000;
+	width:13px;
+	height:13px;
+}
+.bfCheckHighlight input {
+	margin:0;
+	padding:0;
+	width:13px;
+	height:13px;
+	float:left;
+}
+
+.slipGrad {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/slipGrad.gif") no-repeat top right;
+	height:20px;
+	margin: 0 0 10px 0;
+}
+.slipGradBtm {
+	background:#E1E1E1 url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/slipGrad.gif") no-repeat right;
+	height:20px;
+	margin: 0 0 10px 0;
+}
+.slipArrw {
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/arrw_up.gif") no-repeat bottom left;
+	padding: 0 0 1px 0;
+}
+.bnkrQmark {
+	padding: 0 3px;
+	margin: 0 3px 0 0;
+	font-size:9px !important;
+	font-weight:bold;
+	white-space: nowrap;
+	color:#666 !important;
+	background-color:#d1d1d1;
+	border-bottom:1px solid #b0b0b0;
+	border-right:1px solid #b0b0b0;
+	border-top:1px solid #e6e6e6;
+	border-left:1px solid #e6e6e6;
+}
+.slipComboCalc {
+	border-bottom:1px solid #FFF;
+	font-size:9px;
+}
+.bfComboSelect {
+	font-size:9px;
+	text-align:left;
+}
+.payoutSum {
+	font-size:13px;
+}
+
+.qd_btn{
+	text-decoration:none !important;
+}
+
+.qd_btn_shell{
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/qd_left.png") no-repeat left;
+	height:20px;
+	float:left;
+	padding:0 0 0 17px;
+	cursor:pointer;
+}
+.qd_btn_right{
+	font-size:10px;
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/qd_right.png") no-repeat right;
+	padding:4px 4px 0 0;
+	height:16px;
+}
+
+.qd_btn_h{
+	text-decoration:none !important;
+	clear:both;
+	margin:10px auto;
+	display:table;
+}
+
+.qd_btn_shell_h{
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/qd_left_h.png") no-repeat left;
+	height:20px;
+	padding:4px 0 4px 17px;
+}
+.qd_btn_right_h{
+	font-size:10px;
+	background:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/qd_right_h.png") no-repeat right;
+	padding:4px 4px 4px 0;
+	height:16px;
+	font-weight:bold;
+}
+
+/* Teasers */
+
+.teasersHolder {
+	margin:0 0 0 20px;
+}
+.teaserName {
+	padding:2px 1px;
+	font-size:smaller;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#666;
+}
+/* SLIP Styles END */
+/* Hot Combo*/
+
+.hotCombosHolderTable {
+	background-color:#58565A;
+	margin:7px 0 0;
+}
+.hotComboHolder {
+	background-image:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/hot_combos_bottom.gif");
+	background-position:bottom;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	display:inline;
+	float:left;
+	width:210px;
+	margin:0px 0px 20px 20px;
+	padding-bottom:7px;
+}
+.hotComboHolderSelected {
+	background-image:url("https://secure.footprint.net/gamebookers/b/stand_alone/images/hot_combos_bottom_white.gif");
+	background-position:bottom;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	float:left;
+	display:inline;
+	width:210px;
+	margin:0px 0px 20px 20px;
+	padding-bottom:7px;
+}
+.hotEventName {
+	font-size:10px;
+	color:#666;
+	padding-left:7px;
+}
+.hotOutHolder {
+	background-color:#FFF;
+	margin:0px;
+}
+.eventsHolder h2 {
+	color:#fff;
+	background:none;
+	width:390px;
+	clear:both;
+}
+.imghotComboBgOut {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/hot_combos_top.gif);
+	background-repeat:no-repeat;
+	width:210px;
+	height:9px;
+	display:block;
+}
+.hotComboHolderSelected #imgHotBg {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/hot_combos_top_white.gif);
+	background-repeat:no-repeat;
+	width:210px;
+	height:9px;
+	display:block;
+}
+.hotEventChoice, .hotMultTd {
+	font-size:9px;
+	padding-left:7px;
+	margin-bottom:7px;
+}
+.hotEventOdd {
+	font-size:9px;
+	padding-left:7px;
+	color:#ff9900;
+	font-weight:bold;
+}
+.hotComboNewBet {
+	color:#006600;
+	font-weight:bold;
+	font-size:11px;
+}
+.comboNumBet {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/linetrough_black.gif);
+	background-position:center center;
+	background-repeat:repeat-x;
+	color:#FF9900;
+	margin-right:5px;
+	font-weight:bold;
+}
+.topHotcomboBox {
+	background-color:#747276;
+	max-width:531px;
+	_width:531px;
+	padding:3px 3px 3px 2px;
+	margin:0 auto;
+	font-size:10px;
+	color:#FFF;
+}
+.hotComboBottom {
+	color:#fff;
+	font-size:10px;
+	padding:5px;
+}
+/* Hot Combo END*/
+.secondTableForButton {
+}
+/* NCENTER */
+.bluebg, .bluebg a, .bluebg a:active, .bluebg a:hover, .bluebg a:visited {
+	background-color :#FF9900;
+	color:#FFF;
+}
+input.odd {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 2px;
+	font-size: 11px;
+	width: 50px;
+	color: #333333;
+}
+. {
+ height: 19px;
+}
+.betbtn a:hover, .hover {
+	height: 19px;
+	background-color: #FF9900;
+	color: #FFF;
+	text-decoration : none;
+	cursor:pointer;
+	cursor: hand;
+}
+/* WATCHLIST */
+
+.wlMainContainer {
+	width:500px;
+}
+.wlLeaguesTbl {
+	width:480px;
+	margin-top:10px;
+}
+.wlAllHead {
+	background:#464448;
+	color:#FFF;
+	font-size:11px;
+	font-weight:bold;
+	width:202px;
+	padding:4px;
+}
+.wlMyHead {
+	background:#FF9900;
+	color:#FFF;
+	font-size:11px;
+	font-weight:bold;
+	width:202px;
+	padding:4px;
+}
+.wlAllSlct {
+	font-size:11px;
+	border:1px solid #ece8e8;
+}
+.wlAllSlct option {
+	padding:2px 0px;
+}
+.wlSport {
+	background:#FF9900;
+	color:#FFF;
+	font-weight:bold;
+}
+.wlMySlct {
+	background:#fafafa;
+	font-size:11px;
+	border:1px solid #ece8e8;
+}
+.wlMySlct option {
+	padding:2px 0px;
+}
+.wlLeaguesBtnsTbl {
+	width:220px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.wlLeaguesBtnsTbl a {
+	color:#FFF;
+}
+.cancelBtn {
+	border:1px solid #101010;
+	color:#FFF;
+	font-size:10px;
+	padding:2px 0;
+	padding-left:9px;
+	padding-right:29px;
+	text-align:center;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/cancel_btn_bgr.gif) repeat-y center right #7c7c7c;
+	margin:0px;
+	text-decoration:none !important;
+	font-weight:bold;
+	display:block;
+}
+.wlSubmitBtn {
+	border:1px solid #101010;
+	color:#FFF;
+	font-size:10px;
+	padding:2px 0;
+	padding-left:9px;
+	padding-right:29px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sub_btn_bgr.gif) repeat-y center right #7c7c7c;
+	margin:0px;
+	text-decoration:none !important;
+	font-weight:bold;
+	display:block;
+}
+.wlMainTypesContainer {
+	width:530px;
+	margin-left:10px;
+}
+.wlLeaguesTypesTbl {
+	width:530px;
+	border-bottom:2px solid #cacaca;
+}
+.wlTHead {
+	background:#FF9900;
+	color:#FFF;
+	font-weight:bold;
+	padding:4px;
+	border-top:2px solid #FFF;
+	font-size:11px;
+}
+.wlTSubHead {
+	padding:4px;
+	background:#464448;
+	color:#FFF;
+	font-weight:bold;
+	border-top:2px solid #FFF;
+	font-size:11px;
+}
+.wlTChecks {
+	font-size:10px;
+	padding:10px 4px;
+}
+.wlTChecks a {
+	text-decoration:underline;
+}
+.wlTChecks a:hover {
+	text-decoration:none;
+}
+.wlBaloon {
+	background:#34052e;
+	color:#FFF;
+	border:1px solid #FFF;
+}
+.wlTypesBtnsTbl {
+	width:220px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.slct {
+	height: 12;
+	width:12;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.submitBtn {
+	border:1px solid #101010;
+	color:#FFF;
+	font-size:10px;
+	padding:2px 0;
+	padding-left:9px;
+	padding-right:29px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sub_btn_bgr.gif) repeat-y center right #7c7c7c;
+	margin:0px;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+}
+.wlistmmgrBody {
+	background:#FF9900;
+	margin:0;
+	padding:0;
+}
+.wlistDontEmail {
+	color:#ff9900;
+}
+.bgForLiveCalendar {
+	height:17px;
+	line-height:16px;
+	overflow:hidden;
+	width:161px;
+	cursor:pointer;
+}
+.bgForLiveCalendar, .bgForLiveCalendar a, .bgForLiveCalendar a:active, .bgForLiveCalendar a:hover, .bgForLiveCalendar a:visited {
+	color:#FFF;
+}
+.bgForLiveCalendarDots {
+	float:right;
+	height:20px;
+	margin-left:160px;
+	position:absolute;
+}
+.bjBtnStyle {
+	margin:0 0 0 52px;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+}
+.bjBtnImg {
+}
+.bj_btn_back {
+	background:#58565A;
+	height:100%;
+	width:100%;
+	display:none; 	
+	margin-top:15px;
+}
+.bjMsg {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+}
+.iframesize{
+	background-color:#58565A;
+	width:300px;
+	height:318px;
+} 
+
+.liveMultiColumnHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	padding: 0 4px;
+}
+
+#miniBJManager {
+	
+}
+
+/*Live Betting Home Css BEGIN*/
+.liveHomeMainDiv{
+	width: 684px;
+	background-color: #58565a;
+	margin: 0 0 0 4px;
+}
+
+.lhTimeContainerHeader{
+	cursor:pointer;
+	cursor: hand;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_collaps_now.gif) no-repeat 5px 12px #FF9900;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:none;
+	height:10px;
+	margin:0 0 9px 0;
+ 	padding:8px 0 10px 19px;
+}
+
+.inRunningContainerContent {
+	width: 684px;
+}
+
+.lhTimeContainerHeaderCollapsed{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_expand_now.gif) no-repeat 5px 12px #FF9900;
+}
+
+
+.lhTimeContainerHeader{
+	font-weight:bold; color:#fff;
+}
+
+.lhTimeContainerName{
+	font-weight:bold;
+	color:#fff;
+}
+
+.lhTimeContainerFamiliesCount{
+	padding-left: 7px;
+	font-weight:bold;
+	color:#fff;
+}
+
+#lhLoadingDiv{
+	min-height: 400px;
+	_height:400px;	
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/ajax-loader.gif) no-repeat center center;
+	width:684px;
+}
+
+#lhbLoadingDiv{
+	min-height: 270px;
+	_height:270px;	
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/ajax-loader-hp.gif) no-repeat center center;
+	width:460px;
+}
+
+.liveStartedTextbold{
+	font-weight:bold;
+	font-size:12px !Important;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FF9900;
+}
+
+.liveCombosImgSport {
+	float:right;
+	margin:-6px 5px 0 0;
+}
+.lhSportContainerBody{
+width:680px;
+}
+.lhSportContainerHeader{
+	cursor:pointer;
+	cursor: hand;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_collaps.gif) no-repeat 5px 11px #68666A;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:none;
+	height:13px;
+	padding:7px 0 6px 19px;
+	}
+	
+.lhSportContainerContent{
+	padding-top: 4px;
+}
+
+.lhSportContainerHeaderCollapsed{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/icons/live_arrow_expand.gif) no-repeat 5px 11px #68666A;
+}
+
+.lhSportContainerName{
+	font-weight:bold;
+	color:#fff;
+}
+
+.lhSportContainerFamiliesCount{
+	padding-left: 7px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.lhLiveFamilyContainerHeader{
+	background-color: #343434;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:none;
+	margin:1px 0 2px 0;
+	padding:3px 6px 3px 5px;
+	width: 673px;
+	}
+
+.lhLiveFamilyContainerHeaderImg{
+	cursor:pointer;
+	cursor: hand;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/collaps_btn_livecombos.jpg) no-repeat 0px -2px;
+	float:left;
+	height:19px;
+	width:16px;
+	margin:0 10px 0 0;
+}
+
+.lhLiveFamilyContainerHeaderImgCollapsed{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/collaps_btn_livecombos.jpg) no-repeat 0px -21px;
+	float:left;
+	height:19px;
+	width:16px;
+	
+}
+
+.lhLiveFamilyContainerContent{
+	/* Fixing the jumpy animation effect on FF */
+	width: 684px;
+}
+
+.lhLiveFamilyContainerContentCollapsed{
+	height:0px !important;
+}
+
+.lhFamilyContainerName{
+	cursor: pointer;
+	cursor: hand;
+	font-weight:bold;
+	color:#fff;
+	padding:2px 0 0 0;
+}
+
+.lhFamilyContainerName span {
+	display: block;
+	float: left;
+}
+
+.lhFamilyContainerEventsCount{
+	font-weight:bold;
+	color:#fff;
+	padding:2px 0 0 7px;
+}
+
+.lhLiveInfo{
+	color: #ffffff;
+	padding:2px 0 0 5px;
+	float:left;
+	color:#FF9900;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.lhEventContainer{
+	width:125px;
+	float:left;
+	padding:1px;   
+    border: 1px #58565A solid;  
+    }
+
+.lhEventContainerOver {                
+	border: 1px #FF9900 solid;
+	width:125px;
+	float:left;
+	padding:1px;   
+}
+	  
+.lhEventContainerName{
+	overflow:hidden;
+	height:19px;
+	text-align:center;
+	font-size:10px;
+	color:#fff;
+	font-weight:bold;
+	background-color:#747276;
+}
+
+.lhEventContainerNameDots{
+	float:right;
+	z-index:3;
+	background:#747276;
+	height:14px;
+	margin-top:-12px;
+	position:relative;
+}
+
+.liveHeaderCombosOverflow{
+	overflow:hidden;
+	width:120px;
+}
+
+.lhEventContainerName span {
+	width:118px;
+	display:block;
+	overflow:hidden;
+	margin:4px 3px 0;
+}
+
+.lhOutcome {
+	text-align: left;
+	color:#000;
+	height:20px;
+	padding:0 1px 0 2px;
+}
+
+.lhOutcomeName{
+	float:left;
+	width:49px;
+	height:12px;
+	overflow:hidden;
+	color:#fff;
+}
+
+.lhOutcomeNameDots{
+	z-index:3;
+	position:absolute;
+	height:14px;
+	margin:0 0 0 49px;	
+}
+
+.lhOutcomeOdd{
+	float:right;
+	width:58px;
+}
+
+.lhOutcomeOdd img {
+	float: left;
+	margin: 1px 0 0 1px;
+} 
+
+.scrollable {
+	height:94px;
+	overflow:hidden;
+	position:relative;
+	width:645px;
+	display:block;
+	/*display:inline-block;*/
+	background-color: #58565a;
+}
+
+.scrollableTwoRows {
+	height:74px;
+	overflow:hidden;
+	position:relative;
+	width:645px;
+	display:block;
+	/*display:inline-block;*/
+	background-color: #58565a;
+}
+
+.items {
+	clear:both;
+	position:relative;
+	width: 20000em;
+}
+
+.itemsHomeBlock {
+	clear:both;
+	position:relative;
+}
+
+.navi {
+	float: right;
+	height:20px;
+	margin:3px 0 0 0;
+}
+.navi a.active {
+	cursor:auto;
+	background-position:1px;
+}
+
+.navi a {
+	cursor: pointer;
+	cursor: hand;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/dots_livecombos.jpg) no-repeat scroll -12px 0;
+	display:block;
+	float:left;
+	font-size:1px;
+	height:9px;
+	margin:3px;
+	width:10px;
+}
+
+.lhEventContainerContent{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/home_event_backgorund.png) repeat-x bottom left #3d3d3d ;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	padding:7px 0 2px 0;
+	height: 60px;
+}
+
+.lhEventContainerContentTwoRows{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/home_event_backgorund.png) repeat-x bottom left #3d3d3d ;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	padding:7px 0 2px 0;
+	height: 40px;
+}
+
+.lhCarouselArrowLeft{
+	float:left;
+	margin-top: 30px;
+}
+
+.lhCarouselArrowLeftTwoRows{
+	float:left;
+	margin-top: 20px;
+}
+
+.lhDisplayArrow{
+	diplay: none;
+}
+
+.lhCarouselArrowRight{
+	float:right;
+	margin-top: 30px;
+}
+
+.lhCarouselArrowRightTwoRows{
+	float:right;
+	margin-top: 20px;
+}
+
+.browse.disabled{
+	display: none;
+}
+
+.lhLeftArrow{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/arrows_livecombos.gif) no-repeat scroll -25px -40px;	
+	width: 19px;
+	_width: 17px;
+	height: 36px;
+	padding:0;
+	margin:0;
+}
+
+.lhLeftArrowDisabled{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/arrows_livecombos.gif) no-repeat scroll -49px -40px;	
+	width: 19px;
+	_width: 17px;
+	height: 36px;
+	padding:0;
+	margin:0;
+}
+
+.lhLeftArrowHighlighted{
+	background-position: 0px -40px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.lhRightArrow{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/arrows_livecombos.gif) no-repeat scroll -24px 0px;	
+	width: 19px;
+	_width: 16px;
+	height: 36px;
+	padding:0;
+	margin:0;
+}
+
+.lhRightArrowDisabled{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/arrows_livecombos.gif) no-repeat scroll 0px 0px;	
+	width: 19px;
+	_width: 16px;
+	height: 36px;
+	padding:0;
+	margin:0;
+}
+
+.lhRightArrowHighlighted{
+	background-position: -48px 0px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.lhStartingTime{
+	color: #ffffff;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	padding:2px 0 0 7px;
+}
+
+#lhMoreButton{
+	color: #FFFFFF;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	cursor: pointer;
+	cursor: hand;
+	width:684px;
+	margin:10px 0 0 0;
+	}
+
+.lhMoreButtonHidden{
+	display: none;
+}
+
+.liveHomeStartedTextbold{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FF9900;
+	font-weight:bold;
+	padding:2px 0 0 5px;
+}
+.lvbnHomeCountDownText{
+	color:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:2px 0 0 5px;
+}
+
+.lvbnHomeEventTime{
+	color:#FF9900;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:2px 0 0 5px;
+	
+}
+
+.lvbnHomeResult{
+	color:#FF9900;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:2px 0 0 5px;
+	font-weight:bold;
+}
+
+.livecombomoreLeft {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livemorelc.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:16px;
+	padding-left:5px;
+	text-align:left;
+	float:right;
+	_width:80px;
+}
+.livecombomoreRight {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livemorerc.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	height:16px;
+	text-decoration:none;
+	font-weight:bold;
+	padding-right:5px;
+	_text-align:center;
+}
+.livecombomoreRight a {
+	text-decoration:none;
+	color:#FFF;
+}
+.liveComboInfoHeadHolder {
+padding:2px 0 3px 0;
+display:block;
+}
+
+.liveBlockInfoHeadHolder{
+	overflow: hidden;
+	height: 12px;
+	position: relative;
+}
+
+.liveBlockInfoContainers{
+	display: inline-block;
+}
+
+.liveBlockInfoRightContainer{
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+
+.liveBlockInfoLeftContainer{
+	position: relative;
+	z-index: 1;
+}
+
+.overlay_screen {
+	background-color:#000000;
+	left:0;
+	position:fixed;
+	_position:absolute; /* under IE6 fixed position hangs the browser thus we fallback to absolute */
+	top:0;
+	width:100%;
+	z-index:1100;
+	opacity: 0.8;
+}
+
+.session_overlay_screen {
+	background-color:#000000;
+	left:0;
+	position:fixed;
+	_position:absolute; /* under IE6 fixed position hangs the browser thus we fallback to absolute */
+	top:0;
+	width:100%;
+	z-index:1201; /* as element from this class is made visible by time event it has to be above the other *overlay_screen elements */
+	opacity: 0.8;
+}
+
+.sessionexp_cont{
+	margin: 0 auto;
+	border: 1px solid #FFF;
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/background_exp.jpg);
+	background-repeat:no-repeat;
+	width:299px;
+	height:162px;
+	position: absolute;
+	overflow:hidden;
+	display:none;
+	z-index: 1202; /* as element from this class is made visible by time event it has to be above the other *_cont elements */
+	top:40%;
+	left:40%;
+}
+
+.sessionexp_txt, .balance_txt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	margin:40px 25px 10px 25px;
+	text-align:center;
+}
+.tablebtn{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color: #FFFFFF;
+}
+
+.tablebtn a:link, .tablebtn a:hover, .tablebtn a:visited {
+	color : #FFFFFF;
+}
+
+.tablebtnexp{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin: 0 auto;
+}
+
+.tablebtnexp a {
+	text-decoration:none;
+	line-height:32px;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.tdbtnexpleft{
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sessionexpBtnleft.gif);
+	background-repeat:no-repeat;
+	width:8px;
+}
+
+.tdbtnexpright{
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sessionexpBtnright.gif);
+	background-repeat:no-repeat;
+	width:9px;
+}
+.tdbtnexpcenter{
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sessionexpBtncenter.gif);
+	background-repeat: repeat-x;
+	height:33px;
+}
+
+.sessionexpBtnClose{
+	float:right;
+	height:22px;
+	width:30px;
+	margin:3px 7px 0 0;
+	cursor:hand;
+	cursor: pointer;
+}
+
+/*Live Betting Home Css END*/
+
+/*------ MINI GAMES -------*/
+#iframeContent {
+	position:absolute; 
+	top:24px;
+	left:26px;
+}
+
+.miniGamesname{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	margin:10px 0 0 0;
+}
+
+
+.miniGamesplaybg{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigames_play_bg.gif) no-repeat;
+	height:75px;
+	width:165px;
+	position:absolute;
+	top:77px;
+	margin:0 2px 0 2px;
+}
+
+#mainContent {
+	overflow: hidden;
+	width: 228px;
+	float: left;
+	display:inline-block;
+	position:relative;
+	height:232px;
+}
+
+
+#leftCarouselScroll {
+	float: left;
+	margin: 95px 0 0 0;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigames_left_btn.gif) no-repeat;
+	height:35px;
+	width:35px;
+	cursor:pointer;
+	cursor:hand;
+	}
+
+#rightCarouselScroll {
+	float: left;
+	margin: 95px 0 0 0;
+	_margin-left:-8px;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigames_right_btn.gif) no-repeat;
+	height:35px;
+	width:35px;
+	cursor:pointer;
+	cursor:hand;
+	right:8px;
+	position:relative;
+	_position:none;
+}
+
+#carouselContent {
+	clear: both;
+	overflow: hidden;
+	width: 300px;
+	display:block;
+	position:relative;
+	left:-9px;
+}
+
+#carouselContent ul {
+	list-style: none;
+	position: relative;
+	left:-16px;
+}
+
+#carouselContent ul li {
+	float: left;
+	border: 1px solid #000;
+	margin: 0 6px 0 6px;
+}
+
+#carouselContent ul li img {
+	width: 59px;
+	height: 59px;
+	display: block;
+	border: 0px;
+}
+
+#carouselContent ul li.active {
+	border: 1px solid #FFF;
+}
+
+#mainContent ul {
+	list-style: none;
+	width: 1600px;
+	position: relative;
+	margin:0;
+	_padding:0 40px 0 0;
+}
+
+#mainContent ul li {
+	float: left;
+	padding: 24px 16px 12px 16px;
+	_padding: 24px 24px 12px 24px;
+}
+
+#mainContent ul li img {
+	width: 170px;
+	height: 180px;
+	display: block;
+	border: 0px;
+}
+
+#miniGamesHeader {
+	background-color: #343434;
+	padding:5px 6px 3px;
+	color: #FFFFFF;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigames_header.jpg) no-repeat;
+	width:290px;
+	height:21px;
+	margin-right:5px;
+	_margin-right:-2px;
+}
+
+.miniGamesBackground{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigames_bg.jpg) no-repeat;
+	height:308px;
+	width:308px;
+	_width:290px;
+	padding:0 5px 0 5px;
+	_padding:0 0 0 0;
+	position:relative;
+}
+
+
+.slipHolderHeaderImage {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/collapsable/collaps_btn_slipbox.gif) no-repeat 0px -21px;
+	float:left;
+	height:19px;
+	width:16px;
+}
+
+.slipHolderHeaderImageCollapsed {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/collapsable/collaps_btn_slipbox.gif) no-repeat 0px -2px;
+}
+
+.miniGamesPlayButton{
+	position: relative;
+	width:168px;
+}
+
+.miniGamesPlayButton a{
+	padding: 10px 10px;
+	line-height:22px;
+	text-decoration:none;
+	color:#343434;
+}
+
+.miniGamesBtnLeft {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigamesbtnleft.gif) center left no-repeat;
+	height:26px;
+	padding-left:2px;
+	text-align:left;
+	margin:6px 0 0;
+	_margin:6px 0 0 13px;
+	width:140px;
+}
+
+.miniGamesBtnRight {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigamesbtnright.gif) center right no-repeat;
+	text-align:center;
+	font-weight:bold;
+	height:26px;
+	_margin:0 15px 0 0;
+}
+
+.miniGamesRight a {
+	text-decoration:none;
+	_margin:0 0 0 10px;
+	text-align:center;
+	line-height:25px;
+	color:#FFF;
+	display:block;
+	}
+	
+.miniGamesRightlink {
+	margin:10px 0 0 0;
+}
+
+
+
+
+
+.ffo-footer {
+	padding:0 0 0 10px;
+}
+
+/* CSS for tennis combo slot */ 
+
+#comboFlashContent {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/combo_slot_background.gif) no-repeat ;
+	position: absolute; 
+	top: 185px; 
+	z-index: 10; 
+	display: none; 
+	padding:8px 0 56px 65px; 
+	margin-left:-692px;
+}
+.comboFlashContenerOpen {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/combslot_button.jpg) no-repeat ;
+	padding-top:5px;
+	width:300px;
+	height:87px;
+}
+.comboFlashContenerOpen div{
+	margin: 20px 10px 0 81px;
+	text-align:center;
+	padding-top:14px;
+	_padding-top:19px;
+	height:36px;
+	cursor:pointer;
+}
+.comboFlashContenerOpen  a{
+	display:block; 
+	text-decoration: none; 
+	color:#000!important;
+	font-weight:bold;
+}
+.comboFlashContenerClose {
+	width:910px;;
+	text-align:right;
+	height:100px;
+	padding-right:20px;
+}
+.comboFlashContenerClose  a { color:#333;}
+.comboFlashContenerClose a:hover { color:#333;}
+.comboFlashContenerClose a:active { color:#333;}
+.comboFlashContenerClose a:visited { color:#333;}
+.comboFlashContenerClose img {
+	border:0;
+}
+/* End CSS for tennis combo slot */ 
+
+/* --- bet suggestions Carousel ---- */
+.suggestSlipHolderHeaderImage {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/collapsable/collaps_btn_slipbox.gif) no-repeat 0px -21px;
+	float:left;
+	height:19px;
+	width:16px;
+	margin:3px 5px 0 0;
+}
+
+.suggestSlipHolderHeaderImageCollapsed {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/collapsable/collaps_btn_slipbox.gif) no-repeat 0px -2px;
+	margin:3px 5px 0 0;
+}
+
+#carouselche-left {
+	float: left;
+	margin: 35px 0 0 0;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigames_left_btn.gif) no-repeat;
+	height:35px;
+	width:35px;
+	cursor:pointer;
+	cursor:hand;
+	}
+
+#carouselche-right {
+	float: left;
+	margin: 35px 0 0 0;
+	_margin-left:-8px;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigames_right_btn.gif) no-repeat;
+	height:35px;
+	width:35px;
+	cursor:pointer;
+	cursor:hand;
+	right:8px;
+	position:relative;
+	_position:none;
+}
+
+#betSuggestionsHeader {
+	background-color: #343434;
+	padding:2px 6px 3px;
+	color: #FFFFFF;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/minigames_header.jpg) no-repeat;
+	width:290px;
+	height:24px;
+	margin-right:5px;
+	_margin-right:-2px;
+	font-size:11px;
+}
+
+.suggestionsHeadertxt{
+	float:right;
+	width:140px;
+	text-align:left;
+	margin:3px 28px 0 0;
+	_margin:3px 13px 0 0;
+	color:#000;
+	font-size:9px;
+	height:25px;
+	overflow:hidden;
+	line-height:12px;
+}
+
+
+#suggestionsContainer {
+	overflow: hidden;
+	width: 201px;
+	height: 100px;
+	margin:0 27px 0 0;
+	float: left;
+	display:inline-block;
+	position:relative;
+	display:inline-block;
+}
+
+#suggestionsContainer ul {
+
+}
+
+.suggestionsBackground{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/suggestions_bg.jpg) no-repeat;
+	height:120px;
+	width:308px;
+	_width:290px;
+	padding:0 5px 0 5px;
+	position:relative;
+}
+
+.bfEventNameSuggestion{
+	width:172px;
+	color:#666666;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:smaller;
+	padding:0px 3px 4px 3px;
+	height:22px;
+	overflow:hidden;
+	line-height:12px;
+	cursor:pointer;
+	cursor:hand;
+	}
+/* --- end bet suggestions Carousel ---- */
+  
+/* CSS for Combo Jackpot */
+.leaderBoardBox{
+	border: 1px solid #818082;
+	color: #ffffff;
+	font-size:11px;
+}
+
+#leaderBoardPersonalInfo {
+	width: 450px;
+	height: 141px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+#leaderBoardCurrentRank {
+	width: 100px;
+	float: left;
+	padding: 5px 3px 0 3px;
+	text-align:center;
+	font-weight:bold;
+	font-size:11px;
+}
+#leaderBoardCurrentRank div img { float:left; margin:0 0 0 7px;}
+#leaderBoardCurrentRank a { color:#ffcc00; font-size:11px; line-height:53px; text-decoration:none;}
+.leaderBoardCurrentRankTitle { height:27px;}
+
+#leaderBoardBestCombo {
+	float: left;
+	padding:5px 0 0;
+	width:340px;
+	height:109px;
+	border-left:1px solid #818082;
+}
+#leaderBoardBestCombo img { float:left;}
+
+#bestComboTitle {
+	margin-bottom: 6px;
+	font-size: 12px;
+	float:left;
+	width:287px;
+}
+#bestComboValues { float:left;}
+#bestComboValues div{
+	width: 180px;
+	font-size: 12px;
+	float: left;
+	clear: left;
+}
+#bestComboValues span{
+	float: left;
+	font-size: 12px;
+}
+
+.leaderBoardBoxTitle{
+	background-color: #464449;
+	color: #ffffff;
+	border-bottom:1px solid #aaa;
+	font-size: 12px;
+	padding:4px 3px;
+	height:18px;
+	text-align:center;
+	font-weight:bold;
+}
+
+#leaderBoardCalendar {
+	width: 119px;
+	_width: 111px;
+	height: 141px;
+	float: left;
+	margin-right: 10px;
+}
+
+
+#lbCalendarRight {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/combo_jackpot_calendar_arrow_r.gif) 0 0 no-repeat;
+	width:19px;
+	height:16px;
+	float:right;
+	outline:none;
+}
+
+
+#lbCalendarLeft {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/combo_jackpot_calendar_arrow_l.gif) 0 0 no-repeat;
+	width:19px;
+	height:16px;
+	float:left;
+	outline:none;
+}
+
+.lbCalendarInactive {
+	background-position:0 -16px!important;
+	cursor: default !important;
+}
+
+.lbMonthInactive, .lbMonthInactive a {
+	background-position: 0 0 !important;
+	cursor: default !important;
+}
+
+.lbMonthSelected {
+	background-position:0 -44px !important;
+}
+
+#leaderBoardCalendar #lbCalendarMonths span {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/combo_jackpot_calendar_bg.gif) 0px -22px no-repeat;
+	margin:6px 0 0 5px;
+	_margin:6px 0 0 2px;
+	display: block;
+	float: left;
+}
+
+#leaderBoardCalendar #lbCalendarMonths a {
+	text-decoration:none;
+	font-size:9px;
+	display: block;
+	width: 33px;
+	height: 21px;
+	text-align:center;
+}
+
+
+#leaderBoardCalendar .lbCalendarRow {
+	clear: left;
+}
+
+#leaderBoardJackpotInfo {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/combo_jackpot_button_bg.gif) 0px 35px no-repeat;
+	height: 80px;
+	float: left;
+	font-weight:bold;
+	padding:5px 7px 0 0;
+	text-align:center;
+	width:212px;
+	color:#FFCC00;
+}
+#leaderBoardJackpotInfo div{
+	font-size:11px;
+	font-weight:normal;
+	height:34px;
+	text-align:left;
+}
+
+#leaderBoardJackpotInfo .lbGoodLuck{
+	margin: 30px 0 0 15px;
+}
+
+#leaderBoardSearch {
+	clear: both;
+	margin-bottom: 20px;
+}
+.lbSearchNotFound { color:#fff;}
+#leaderBoardSearch label { 
+	color:#fff; 
+	font-weight:bold; 
+	display:block; 
+	height:5px;
+}
+
+#leaderBoardList {
+	margin-bottom: 20px;
+	width: 811px;
+	border: 1px solid #aaa;
+	border-left:none;
+}
+.leaderBoardListTitle {
+	border-left: 1px solid #aaa;
+}
+.leaderBoardBox2row {
+	background-color:#747276;
+	font-size:12px;
+	height:25px;
+}
+.leaderBoardBox2row th{
+	border-bottom:1px solid #aaa;
+	border-left:1px solid #aaa;
+}
+#leaderBoardList table {
+	color: #ffffff;
+	font-size:11px;
+}
+
+#leaderBoardList table td {
+	border-bottom: 1px solid #aaa;
+	border-left:1px solid #aaa;
+	height:21px;
+	padding-left:5px;
+}
+
+.leaderBoardTermsLink{
+	text-align:left;
+}
+.lbListStripe {background-color: #464449;}
+.lbListHighlight {
+	background-color: #CECF83;
+	color: #000;
+}
+.lbListPrevNex { width:155px; margin:0 auto;}
+.listPrevButton {float:left; margin:7px 20px 7px 7px;}
+.listPrevButton a{outline:none; padding:0!important;}
+.listNextButton{float:left; margin:7px 7px 7px 20px;}
+.listNextButton a{outline:none; padding:0!important;}
+#lbListCurrentPage{float:left; margin-top:3px;}
+.lbListCurrentPageInput { height:12px; margin-top:3px; float:left; }
+.lbListCurrentPageButton {float:right; margin:4px 0 0 3px; float:left;}
+
+#lbListPaginator {
+	text-align: center;
+	border-left:1px solid #aaa;
+	height:30px;
+}
+
+#lbListPaginator a, #lbListPaginator strong {
+	padding-right: 10px;
+}
+
+.jackpotTickerCounterWrap {
+	height: 18px;
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+
+.jackpotTickerCounterNumber {
+	width: 12px;
+	height: 234px;
+	position: relative;
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/counter_ticker_bg.gif);
+	float: left;
+	display: block;
+	top: 18px;
+}
+
+.jackpotTickerClass {
+	float:left; 
+	width:350px;
+	padding:1px 0 0;
+	font-weight:bold;
+}
+
+.jackpotTickerClassInfo {
+	float: left;
+	margin-right: 10px;
+	display: block;
+}
+
+.jackpotTickerClass .jackpotTickerCounterWrap {
+	float: left;
+	margin-top: 5px;
+}
+
+#jackpotTicker a, #jackpotTickerSlip a {
+	text-decoration:none;
+	color:#ffcc00;
+	cursor: pointer;
+}
+#jackpotTicker a:hover, #jackpotTickerSlip a:hover {
+	text-decoration:underline;
+}
+
+#jackpotTickerSlip {
+	margin-left: 35px;
+}
+
+#jackpotTickerSlip a {
+	display: block;
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/combo_jackpot_button_bg.gif) top left no-repeat;
+	width: 220px;
+	height: 53px;
+	text-align: center;
+	padding-top: 4px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#jackpotTickerSlip a:hover {
+	text-decoration: none;
+}
+
+#jackpotTickerSlip .jackpotTickerCounterWrap,
+#leaderBoardJackpotInfo .jackpotTickerCounterWrap {
+	margin: 4px auto 0 auto;
+}
+
+#leaderBoardTerms {
+	display: none;
+	color:#fff;
+	font-size:11px;
+	margin-top:10px;
+}
+
+
+/* End CSS for Combo Jackpot */
+
+.liveSlipOddsOptionsHeadercont{
+	background:#828184;
+	height:22px;
+	cursor:pointer;
+	cursor:hand;	
+}
+
+.oddsOptionsHeaderImage {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/collapse_odds_options.gif) no-repeat 0px -17px;
+	float:left;
+	height:19px;
+	width:16px;
+	margin:0 5px 0 5px;
+}
+
+.oddsOptionsHeaderImageExpanded {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/collapse_odds_options.gif) no-repeat 0px 2px;
+	height:19px;
+	width:16px;
+	margin:0 5px 0 5px;
+}
+
+.oddsOptionsHeadertxt{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	float:left;
+	color:#FFF;
+	margin:3px 0 0 0;
+}
+
+.oddsOptionsContenttxt{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	color:#FFF;
+	background-color:#747276;
+	padding:5px 0 0 0;
+}
+
+.oddsOptionsContentInside{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-align:left;
+	background-color:#747276;
+	width:282px;
+}
+
+.oddsOptionsContentInsideRadio{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-align:left;
+	background-color:#747276;
+	width:282px;
+	}
+.oddsOptionsContentInsideRadioBtn{
+	background-color:#747276;
+	}
+	
+.oddsOptionsContentInsideRadio span{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-align:left;
+	background-color:#747276;
+	margin:0 0 0 20px;
+}
+
+
+/* --- EDS ---- */
+
+#edsMessage{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-align:left;
+	color:#FFF;
+	padding:5px;
+	background-color:#747276;
+}
+
+#edsMessageHeader{
+	padding:0 0 0 10px;
+}
+
+.edsHeadercont{
+	background:#828184;
+	height:22px;
+}
+
+
+#edsButtons{
+	background-color:#747276;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	height:30px;
+	width:290px;
+}
+
+.edsButtonsmain{
+	margin:0 auto;
+	width:130px;
+}
+
+.edsButtonscontent {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/edsbuttons.gif);
+	background-repeat:no-repeat;
+	height:16px;
+	text-decoration:none;
+	font-weight:bold;
+	float:left;
+	margin:0 10px 0 0;
+	text-align:center;
+	width:60px;
+	line-height:15px;
+	cursor: pointer;
+}
+
+.edsButtonscontent a {
+	text-decoration:none;
+}
+
+.edsButtonscontentright {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/edsbuttons.gif);
+	background-repeat:no-repeat;
+	height:16px;
+	text-decoration:none;
+	font-weight:bold;
+	float:left;
+	text-align:center;
+	width:60px;	
+	line-height:15px;
+	cursor: pointer;
+}
+
+.edsButtonscontentright a {
+	text-decoration:none;
+}
+
+
+.quickComboHolder {
+	width:536px;
+	margin:7px 0 7px 7px;
+	height:33px;
+	background-color:#464448;
+}	
+.quickComboHolder img { border:0;}
+
+.quickComboHolderRightnow{
+	width:532px;
+	margin:7px 0 7px 9px;
+	height:33px;
+	background-color:#464448;
+}
+
+.quickComboHolderLivecalendar{
+	width:508px;
+	margin:7px 0 7px 2px;
+	height:33px;
+	background-color:#464448;
+}
+
+.quickComboArrow { 
+	width:23px; 
+	height:23px; 
+	float:left; 
+	margin: 5px 38px 0 0;
+	_margin:0;
+	_padding:5px 36px 0 0;
+}
+
+.quickComboArrowRightnow { 
+	width:23px; 
+	height:23px; 
+	float:left; 
+	margin: 5px 38px 0 0;
+	_margin:0;
+	_padding:5px 36px 0 0;
+}
+
+.quickComboArrowRightnowR { 
+	width:23px; 
+	height:23px; 
+	float:left; 
+	margin: 5px 3px 0 0;
+	_margin:0;
+	_padding:5px 0 0 0;
+}
+
+.quickComboLivecalendar{ 
+	width:23px; 
+	height:23px; 
+	float:left; 
+	margin: 5px 42px 0 0;
+	_margin:0;
+	_padding:5px 40px 0 0;
+}
+
+
+.quickComboArrownowdrawleft{
+	width:23px; 
+	height:23px; 
+	float:left; 
+	margin: 0px 54px 0 16px;
+	_margin: 0px 20px 0 10px;
+}
+
+.quickComboArrownowdrawright{
+	width:23px; 
+	height:23px; 
+	float:right; 
+	margin: 0px 56px 0 0;
+	_margin: 0px 30px 0 0;
+	
+}
+
+.quickComboButtonLeftnowdraw { 
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/quickBtnLeft.gif) top left no-repeat; 
+	padding-left:5px; 
+	float:left; 
+	margin:0px 5px 0px 5px;
+}
+
+.quickComboButtonLeft { 
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/quickBtnLeft.gif) top left no-repeat; 
+	padding-left:5px; 
+	float:left; 
+	margin:4px 5px 5px 5px;
+}
+
+.quickComboButtonRight { 
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/quickBtnRight.gif) top right no-repeat; 
+	padding-right:5px; 
+	height:25px; 
+	float:left; 
+	text-align:center;
+	line-height:10px;
+}
+.quickComboButtonRight a { 
+	color:#fff; 
+	text-decoration:none; 
+	font-size:11px; 
+	font-weight:bold;
+}
+
+.quickComboArrowCont{
+	float:right;
+	width:197px;
+	_width:192px;
+}
+
+.quickComboArrowContRightnow{
+	float:right;
+	width:159px;
+}
+
+.quickComboArrowLivecalendar{
+	float:right;
+	width:172px;
+}
+
+.leaderBoardPromoText{
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	width: 800px;
+	font-size: 11px;
+}
+
+
+.history_jackpot{
+	padding:15px 5px 0 10px;
+	font-weight:bold;
+	color:#000;
+	text-align:left;
+}
+
+
+.history_jackpot_slipid{
+	padding:0px 5px 0 10px;
+	font-weight:bold;
+	color:#000;
+	text-align:left;
+}
+
+/* Mobile tab */
+.mobileHolder {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/mobile_gamebookers.jpg) top center no-repeat #4c4a4e;
+	width:779px;
+	margin:10px auto 0 auto;
+	color:#fff;
+}
+.mobileHolder h2 {
+	margin:0 0 10px; 
+	padding:0;
+	background:none;
+	height:40px;
+}
+.mobileHolder hr {
+	width:700px;
+	margin:0 auto;
+	color:#555357;
+}
+.mobileHead {
+	height:445px;
+}
+.mobileHeadTop {
+	margin:0 0 0 15px;
+	padding:50px 0 0;
+	width:205px;
+	height:262px;
+}
+.mobileHeadTop p {
+	color:#c7c7c7;
+	height:68px;
+}
+.mobileHeadTop a { 
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/mobile_gamebookers_button.jpg) top left no-repeat;
+	width:200px;
+	height:70px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	line-height:70px;
+	letter-spacing:-1px;
+}
+.mobileHeadBottom { 
+	padding:10px 20px;
+}
+.mobileHeadBottom h1 { 
+	color:#fff;
+}
+.mobileHeadBottom p{
+	color:#d0d0d1;
+}
+.mobileBodyRow {
+	width:700px;
+	margin:0 auto;
+}
+.mobileBox {
+	width:350px;
+	float:left;
+}
+
+.livecalendarhead {
+	background-color:#000000;
+	color:#FFFFFF;
+	font-size:11px;
+	height:16px;
+	padding:1px 0;
+	border-color: #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+}
+.livecalendarcombos {
+	color:#FFFFFF;
+	padding:0 0 3px;
+	border-top:1px solid #000;
+}
+
+.livecalendarcombos:hover {
+	background-color:#FF9900;
+}
+
+/* FREEBET */
+ 
+ 
+.freeBetLabel{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBet_header.jpg) top left repeat-x;
+	height:38px;
+	width:536px;
+	margin:0 0 5px 7px;	
+}
+.freeBetLabeltxt{
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold;
+	padding:11px 12px 0 14px;
+}
+.freeBetLabelLiveHome{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBet_header.jpg) top left repeat-x;
+	height:38px;
+	width:684px;
+	margin:0 0 5px 4px;	
+}
+.freeBetLabelLiveMatches{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBet_header.jpg) top left repeat-x;
+	height:38px;
+	width:510px;
+	margin:0 0 5px 0;	
+}
+.freeBetLabelLiveCalendar{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBet_header.jpg) top left repeat-x;
+	height:38px;
+	width:510px;
+	margin:0 0 5px 2px;	
+}
+.exitFreeBet{
+	float:right;
+	color:#FFF;
+	vertical-align:middle;
+	padding:6px 6px 0 0;
+	width:120px;
+	text-align:right;
+}
+
+.exitFreeBet a{
+	text-decoration:none;
+	font-weight:normal;
+	font-size:11px;
+}
+.exitFreeBet img{
+	vertical-align:bottom;
+}
+
+.bfFreeBetHeader {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/freebet_header_bg.gif) left top repeat-x;
+	width:290px;
+}
+
+.foldFreeBetSlip {
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/freebet_fold_bg.gif) left bottom repeat-x;
+	height:96px;
+	vertical-align:bottom;
+}
+
+.bfSlipFreeSubmitBtn {
+	background: green url();
+}
+
+.freeBetPageHeader{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBet_header.jpg) top left repeat-x;
+	height:38px;
+	width:809px;
+	margin:0 0 15px 1px;
+}
+.freeBetCongratulationsBody{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBet_cong_header.jpg) top left repeat-x;
+	height:91px;
+	width:809px;
+	margin:0 0 0 1px;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+}
+.freeBetCongratulations{
+	width:225px;
+	text-align:center;
+	padding:28px 0 0 0;	
+}
+.freeBetCongratulationsText{
+	color:#4c4c4c;
+	font-size:12px;
+	float:right;
+	font-weight:normal;
+	width:520px;
+	margin:24px 20px 0 0;
+}
+.freeBetGraybgMain{
+	margin:0 0 0 17px;
+}
+.freeBetGraybg{
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBetGraybg.jpg) top left repeat-x #2c2c2c;
+	min-height:177px;
+	width:787px;
+	margin:0 0 1px 0;	
+}
+.freeBetGrayHeader{
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+	padding:20px 0 0 18px;
+	width:400px;
+}
+.freeBetGrayBtn{
+	padding:8px 185px 0 0;
+	cursor:pointer;
+	line-height:43px;
+	text-align:center;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+}
+.freeBetGrayBtnLeft {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBetGrayBtnLeft.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:48px;
+	padding-left:22px;
+	text-align:left;
+	float:right;
+	margin:6px 0 0;
+}
+.freeBetGrayBtnRight {
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBetGrayBtnRight.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	height:48px;
+	text-decoration:none;
+	font-weight:bold;
+	padding-right:22px;
+}
+.freeBetGrayTxt{
+	font-size:11px;
+	color:#FFF;
+	width:560px;
+	padding:23px 0 0 18px;
+}
+.freeBetGrayTxt a{
+	color:#FFF;
+	font-weight:bold;
+}
+.freeBetTermsHeader{
+	background-color:#798f02;
+	width:773px;
+	height:29px;
+	color:#FFF;
+	font-weight:bold;
+	font-size:14px;
+	padding:11px 0 0 14px;
+	margin:0 0 0 17px;	
+}
+.freeBetTermsContent{
+	background-color:#d7d7d7;
+	color:#000;
+	font-size:11px;
+	width:773px;
+	margin:0 0 0 17px;
+	padding:20px 0 20px 14px;	
+}
+.lockEvent{
+	width: 10px;
+	height: 16px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/locked_event.gif);
+	float: right;
+	margin-right: 6px;
+}
+.freeBetFlag {
+	float:right;
+	width:22px;
+	height:21px;
+	position: relative;
+	_position:absolute;
+	_margin: 2px 0 0 978px;
+	margin:0 0 0 -22px;
+}
+.freeBetFlagContent{
+	margin: 191px 0 0 22px;
+	width:22px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBetFlagTop.gif) no-repeat;
+	padding:30px 0 0 15px;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	font-variant:small-caps;
+	color:#FFF;
+	cursor:pointer;
+}
+.freeBetFlagBottom{
+	margin: 0 0 0 22px;
+	width:36px;
+	height:38px;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freeBetFlagBottom.png) top left;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.freebet_h{
+    background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/freebet_h.jpg) top left;
+	float:right;
+	margin: -2px 0 -14px 760px;
+	position: absolute;
+	width: 20px;
+    height: 18px;    
+	cursor:pointer;
+}
+#freebetButtonId {
+	visibility: hidden;
+}
+.bfSlipFreeSubmitBtn{
+	padding:2px 25px 2px 25px;
+	float:right;
+	background:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/slip/frebetbtn_center_bg.gif) repeat-x #b8cf48;
+	margin:0px;
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	height:44px;
+}
+
+.bfSlipFreeSubmitBtn a:link, .bfSlipFreeSubmitBtn a:active, .bfSlipFreeSubmitBtn a:hover, .bfSlipFreeSubmitBtn a:visited {
+	text-decoration:none;
+	color:#FFF;
+	font-size:11px;
+	display:block;
+	padding:10px 0 10px 0;
+}
+.bfSlipHintLinkFreebetContainer {
+	background:#798F02;
+	border: 2px #798F02 solid;
+	text-align:center;
+	color:#FFF;
+	width:295px;
+}
+.bfSlipHintLinkFreebetContainer a, .bfSlipHintLinkFreebetContainer a:active, .bfSlipHintLinkFreebetContainer a:hover, .bfSlipHintLinkFreebetContainer a:visited {
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+.bfSlipHintLinkFreebetContainer img {
+	border:0;
+}
+.bfFreeBetEventTd{
+	width:40%;
+	padding:10px 3px 0 0;
+}
+.bfFreeBetEventTd input{
+	vertical-align:middle;
+	margin:0;	
+}
+.qd_cont{
+	margin: 0 auto;
+	border: 1px solid #FFF;
+	background-image:url(https://secure.footprint.net/gamebookers/b/stand_alone/images/background_qd.jpg);
+	background-repeat:no-repeat;
+	width:600px;
+	z-index: 1104;
+	position: fixed;
+	overflow:hidden;
+	top:30%;
+	left:30%;
+}
+
+.qd_overlay_screen {
+	background-color:#000000;
+	left:0;
+	position:fixed;
+	_position:absolute; /* under IE6 fixed position hangs the browser thus we fallback to absolute */
+	top:0;
+	width:100%;
+	z-index:1103; /* as element from this class is made visible by time event it has to be above the other *overlay_screen elements */
+	opacity: 0.8;
+}
+.qdBtnClose{
+	float:right;
+	height:22px;
+	width:30px;
+	margin:3px 7px 0 0;
+	cursor:hand;
+	cursor: pointer;
+}
+
+
+/** New History datepicker
+ * Temporary added by Veselina Kumanova
+ * Should be redefined by a designer
+ */
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix { height:1%; }
+.ui-helper-clearfix { display:block; }
+
+/* end clearfix */
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+/* states and images */
+
+.ui-icon  { width: 16px; height: 16px; background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/ui-icons_ef8c08_256x240.png) ;}
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat;}
+
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+
+/* Component containers
+----------------------------------*/
+
+.ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1.1em; }
+.ui-widget-content { border: 1px solid #dddddd; background: #eeeeee url(https://secure.footprint.net/gamebookers/b/stand_alone/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
+.ui-widget-content a { color: #333333; }
+.ui-widget-header { border: 1px solid #e78f08; background: #f6a828 url(https://secure.footprint.net/gamebookers/b/stand_alone/images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
+
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #cccccc; background: #f6f6f6 url(https://secure.footprint.net/gamebookers/b/stand_alone/images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #1c94c4; _color:#1c94c4!important; }
+.ui-state-hover, .ui-widget-content .ui-state-hover { border: 1px solid #fbcb09; background: #fdf5ce url(https://secure.footprint.net/gamebookers/b/stand_alone/images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #c77405; }
+.ui-state-active, .ui-widget-content .ui-state-active  { border: 1px solid #fbd850; background: #ffffff url(https://secure.footprint.net/gamebookers/b/stand_alone/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #eb8f00; }
+.ui-widget :active { outline: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {border: 1px solid #fed22f; background: #ffe45c url(https://secure.footprint.net/gamebookers/b/stand_alone/images/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x; color: #363636; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+/* Corner radius */
+.ui-corner-all { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+
+/*
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */
+.ui-datepicker { width: 16em; padding: .2em .2em 0; display: none; }
+.ui-datepicker .ui-datepicker-header { position:relative; height:27px; padding:.2em 0; line-height:5px;}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 6px; width: 1.6em; height: 1.6em; }
+.ui-datepicker .ui-datepicker-prev { left:1px; }
+.ui-datepicker .ui-datepicker-next { right:1px; }
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+.ui-datepicker .ui-datepicker-title { text-align: center; font-size: .9em; vertical-align:middle; padding:6px 0 5px 0 ;}
+.ui-datepicker table {width: 100%; font-size: .7em; border-collapse: collapse; margin:0 0 .4em; }
+.ui-datepicker th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0;  }
+.ui-datepicker td { border: 0; padding: 1px; }
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+.ui-datepicker-cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}
+.bhistorybg{
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/bhistorybg.jpg);
+	width:681px;
+	height:324px;
+	padding-left:10px;
+}
+
+.HistoryCalendarMain{
+	position:absolute;
+	z-index:1;
+	width:667px;
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/history_select_cont.jpg);
+	background-repeat:no-repeat;
+	height:93px;
+	padding:5px 0 0 0;
+}
+.HistoryCalendarOrangebg{
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/history_cont_orangebg.jpg);
+	background-repeat:no-repeat;
+	width:628px;
+	height:30px;
+	margin:10px 0 0 14px;
+	padding:12px 12px 0 0;
+}
+.HistoryGoBtn{
+	padding-top:148px;
+	width:648px;
+}
+.HistoryRadioBtn input{
+	margin-left:10px;
+	color:#FFF;
+}
+.HistoryEndDateContRight{
+	float:right;
+	width:300px;
+}
+.HistoryDateCont{
+  	color: #FFFFFF;
+    float: left;
+    margin: 0 10px 0 0;
+    text-align: right;
+    width: 120px;
+}
+.HistoryStartDateCont{
+}
+.Historydatepicker{
+	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/history_select_bg.jpg);
+ 	float: left;
+    height: 15px;
+    padding: 1px 0 0 7px;
+    width: 160px;
+	cursor:pointer;	
+}
+.hasDatepicker{
+	left:129px;
+	top:16px;
+	position:relative;
+	width:200px;
+}
+.HistoryRadioBtn {
+	height:18px;
+	clear:both;
+}
+.greyedDiv{
+	position:absolute; 
+ 	width:600px; 
+ 	height:39px;
+ 	left:14px;
+	top:33px;
+	_top:35px;
+	background:#000;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	width: 638px;
+	z-index: 1;	
+}
+/* Live block on homepage */
+.nextLivediv {
+    width:450px;
+    height:302px;
+ 	background-image: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/sb.png);
+	background-repeat:no-repeat;
+    background-position:0 0;
+    padding:4px 5px;
+	overflow:hidden;
+}
+
+.liveHomeTitle {
+	background:#FF9900;	
+	height:19px;
+	padding: 2px 0 2px 8px;
+	margin:0 0 4px 0;
+}
+
+.liveHomeTitle a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.hbLiveFamilyContainerContent {
+	float:left;
+	background: #58565A;
+	width: 446px;
+	padding: 2px;
+	margin: 0 0 4px 0;
+}
+
+.hbLiveFamilyContainerHeader{
+	background-color: #343434;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:none;
+	margin:1px 0 0 0;
+	padding:3px 6px 5px 5px;
+	clear:both;
+}
+
+.hpliveCombosImgSport {
+	float:right;
+	margin:-3px 5px 0 0;
+}
+
+.hbEventContainer {
+	width: 144px;
+	float: left;
+	padding: 1px;
+	border: 1px #58565A solid;
+}
+
+.hbEventContainerOver {
+	border: 1px #F90 solid;
+	width: 144px;
+	float: left;
+	padding: 1px;
+}
+
+.hbitemsHomeBlock{
+	padding:0 0 0 1px;
+}
+
+#hbMoreButton{
+	color: #FFFFFF;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	cursor: pointer;
+	cursor: hand;
+	width:450px;
+	margin:10px 0 0 0;
+}
+
+.hbEventContainerName{
+	overflow:hidden;
+	height:19px;
+	text-align:center;
+	font-size:10px;
+	color:#fff;
+	font-weight:bold;
+	background-color:#747276;
+	_width:144px;
+}
+
+.hbEventContainerName span {
+	display:block;
+	overflow:hidden;
+	margin:4px;
+}
+
+.hbOutcomeNameDots{
+	height:14px;
+	color:#FFF;
+}
+
+.hbOutcomeName{
+	float:left;
+	width:68px;
+	_width:64px;
+	height:12px;
+	overflow:hidden;
+	color:#fff;
+}
+
+.hbEventContainerNameDots{
+	float:right;
+	z-index:3;
+	background:#747276;
+	height:14px;
+	margin:5px 4px 0 0;	
+}
+
+/* --- live video block ---- */
+.slipLiveVideo{
+	width:300px;
+}
+.slipLiveVideo object, .slipLiveVideo embed {
+	width: 300px;
+	height: 225px;
+}
+.slipLiveVideoWithoutHeight {
+	height: 0px;
+}
+.largeLiveVideo object, .largeLiveVideo embed {
+	width: 510px;
+	height: 382px;
+	background-color:#333;
+}
+
+.slipVideoHolder object, .slipVideoHolder embed {
+	background-color: #333333!important;
+}
+
+.slipVideoHolder #demoVideoPreviewImage, .slipVideoHolder #demoVideoPreviewBigImage {
+	display: none;
+}
+
+.demoVideoHolder #demoVideoPreviewImage, .demoVideoHolder #demoVideoPreviewBigImage {
+	display: inline;
+}
+
+.demoVideoHolder #liveVideoPreviewImage, .demoVideoHolder #liveVideoPreviewBigImage {
+	display: none;
+}
+
+.slipLiveVideo .liveVideoPreviewBigImage, .slipLiveVideo #demoVideoPreviewBigImage {
+	display: none;
+}
+
+.largeLiveVideo .liveVideoPreviewImage, .largeLiveVideo #demoVideoPreviewImage {
+	display: none;
+}
+
+.slipVideoHeader{
+	height:20px;
+	background-color:#000;
+}
+.slipVideoHeaderImage {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/collapsable/collapse_video_arrows.png) no-repeat 0px -21px;
+	float:left;
+	height:19px;
+	width:16px;
+	cursor:pointer;
+	/*margin:3px 5px 0 0;*/
+}
+
+.slipVideoHeaderImageCollapsed {
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/collapsable/collapse_video_arrows.png) no-repeat 0px -2px;
+	cursor:pointer;
+	/*margin:3px 5px 0 0;*/
+}
+
+#liveVideoToggleSize{
+	float:right;
+	height:15px;
+	width:15px;
+	cursor:pointer;
+	vertical-align:top;
+}
+.liveVideoToggleSmallSize{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/toggle_video.png) no-repeat 0px -2px;
+}
+.liveVideoToggleEnlargedSize{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/toggle_video.png) no-repeat -15px -2px;
+}
+.liveVideoAudio{
+	color:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	float:left;
+	padding:2px 0 0 0;
+	cursor:pointer;
+}
+#liveVideoPin{
+	margin: 0 0 0 2px;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	cursor:pointer;	
+	float:left;
+}
+.liveVideoUnpinned{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/pin_video.png) no-repeat -4px -2px;
+	}
+.liveVideoPinned{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/pin_video.png) no-repeat -24px -2px;
+}
+#slipVideoTopRow{
+	background-color:#000;
+	min-height:20px;
+}
+.slipVideoBottom{
+	height:9px;
+}
+.liveVideoEventName{
+	color:#FFF;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	vertical-align:top;
+	margin:0 0 0 4px;
+	float:left;
+	width:270px;
+	height:15px;
+	overflow:hidden;
+}
+#slipVideoLogin, #slipVideoHeader, #slipVideoCollapsableContent, #slipVideoTopRow, #slipVideoProgress {
+	display: none;
+}
+.slipVideoLoginContainer{
+	background-color:#333;
+	height:180px;
+	padding: 45px 10px 0 10px;
+}
+.slipVideoLoginMsg {
+	text-align: center;	
+	color: #ffffff;
+	font-size:13px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+	margin: 0 0 15px 0;
+}
+.slipVideoLoginBtn{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/video_ok_btn.jpg) no-repeat center;
+	height:26px;
+	width:84px;
+	margin:0 auto;
+	line-height:24px;
+	text-align:center;
+	cursor:pointer;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	font-size:12px;
+}
+.slipVideoProgressContainer{
+	background-color:#333;
+}
+.slipVideoProgressLoading{
+	background: url(https://secure.footprint.net/gamebookers/b/stand_alone/images/livebetting/video_loader.gif) no-repeat center center;
+	margin:0 auto;
+	width:220px;
+	min-height:245px;
+}
+.largeLiveVideo .slipVideoProgressLoading {
+	min-height: 402px;
+}
+
+.largeLiveVideo .slipVideoLoginContainer{
+	min-height:227px;
+	padding:155px 10px 0 10px;
+}
+.largeLiveVideo .liveVideoEventName{
+	width:475px;
+}
