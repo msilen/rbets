@@ -1,15 +1,15 @@
 class Gamebookers < Celerity::Browser
 	SITE_URL='https://www.gamebookers.com/'
-	VALID_SPORTS=%w(https://www.gamebookers.com/bets.ap?sportName=american-football&sport=5426
-https://www.gamebookers.com/bets.ap?sportName=aussie-rules&sport=15439
-https://www.gamebookers.com/bets.ap?sportName=baseball&sport=5425
-https://www.gamebookers.com/bets.ap?sportName=basketball&sport=5422
-https://www.gamebookers.com/bets.ap?sportName=boxing-%26-mma&sport=15400
-https://www.gamebookers.com/bets.ap?sportName=cricket&sport=15440
-https://www.gamebookers.com/bets.ap?sportName=football&sport=3893
-https://www.gamebookers.com/bets.ap?sportName=golf&sport=15444
-https://www.gamebookers.com/bets.ap?sportName=tennis&sport=4259
-https://www.gamebookers.com/bets.ap?sportName=volleyball&sport=15450])
+	VALID_SPORTS=
+    %w(https://www.gamebookers.com/bets.ap?sportName=american-football&sport=5426
+		https://www.gamebookers.com/bets.ap?sportName=baseball&sport=5425
+		https://www.gamebookers.com/bets.ap?sportName=basketball&sport=5422
+		https://www.gamebookers.com/bets.ap?sportName=boxing-%26-mma&sport=15400
+		https://www.gamebookers.com/bets.ap?sportName=cricket&sport=15440
+		https://www.gamebookers.com/bets.ap?sportName=football&sport=3893
+		https://www.gamebookers.com/bets.ap?sportName=golf&sport=15444
+		https://www.gamebookers.com/bets.ap?sportName=tennis&sport=4259
+		https://www.gamebookers.com/bets.ap?sportName=volleyball&sport=15450])
 
 
 	def run
@@ -60,7 +60,8 @@ https://www.gamebookers.com/bets.ap?sportName=volleyball&sport=15450])
 		puts "\e[35mBet Types:\e[0m"
 		puts bet_types=select_list(:id,'presBoxSelect').options
 		bet_types
-	end
+  end
+
 
 
 end
