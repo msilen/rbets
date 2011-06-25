@@ -1,9 +1,10 @@
 require 'rubygems'
 require 'celerity'
+require 'helper'
 require 'gamebookers'
 require 'active_record'
 require 'bets'
-require 'helper'
+require 'config/environment'
 
 require 'ruby-debug'
 Debugger.start

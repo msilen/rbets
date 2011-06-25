@@ -1,0 +1,477 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0xb6cbfb5a, pid=18684, tid=2416561008
+#
+# JRE version: 6.0_24-b07
+# Java VM: Java HotSpot(TM) Server VM (19.1-b02 mixed mode linux-x86 )
+# Problematic frame:
+# V  [libjvm.so+0x241b5a]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x08c15400):  GCTaskThread [stack: 0x9001c000,0x9009d000] [id=18687]
+
+siginfo:si_signo=SIGSEGV: si_errno=0, si_code=1 (SEGV_MAPERR), si_addr=0x00000012
+
+Registers:
+EAX=0x92068be8, EBX=0x903722a8, ECX=0x00000006, EDX=0x0000000e
+ESP=0x9009bfc0, EBP=0x9009bff8, ESI=0x901f3b47, EDI=0x903722a8
+EIP=0xb6cbfb5a, CR2=0x00000012, EFLAGS=0x00210287
+
+Register to memory mapping:
+
+EAX=0x92068be8
+
+[error occurred during error reporting (printing registers, top of stack, instructions near pc), id 0xb]
+
+Stack: [0x9001c000,0x9009d000],  sp=0x9009bfc0,  free space=511k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x241b5a]
+V  [libjvm.so+0x613636]
+V  [libjvm.so+0x36ac6b]
+V  [libjvm.so+0x5c6a6e]
+C  [libpthread.so.0+0x5e99]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x8df3e800 JavaThread "Cext reference reaper" daemon [_thread_blocked, id=18704, stack(0x8c93e000,0x8cb3f000)]
+  0x8df3c000 JavaThread "ReferenceReaper" daemon [_thread_blocked, id=18703, stack(0x8cb3f000,0x8cd40000)]
+  0x8e246c00 JavaThread "JS executor for com.gargoylesoftware.htmlunit.WebClient@ec2ea8" daemon [_thread_blocked, id=18698, stack(0x8dcff000,0x8df00000)]
+  0x8f304400 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=18694, stack(0x8f07e000,0x8f27f000)]
+  0x8f302800 JavaThread "CompilerThread1" daemon [_thread_in_native, id=18693, stack(0x8f27f000,0x8f300000)]
+  0x8f300800 JavaThread "CompilerThread0" daemon [_thread_in_native, id=18692, stack(0x8f42b000,0x8f4ac000)]
+  0x08c9f400 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=18691, stack(0x8f4ac000,0x8f6ad000)]
+  0x08c8d800 JavaThread "Finalizer" daemon [_thread_blocked, id=18690, stack(0x8f9cd000,0x8fbce000)]
+  0x08c8c000 JavaThread "Reference Handler" daemon [_thread_blocked, id=18689, stack(0x8fbce000,0x8fdcf000)]
+  0x08c0c800 JavaThread "main" [_thread_blocked, id=18685, stack(0xb6857000,0xb6a58000)]
+
+Other Threads:
+  0x08c88400 VMThread [stack: 0x8fdcf000,0x8fe50000] [id=18688]
+  0x8f306000 WatcherThread [stack: 0x8effd000,0x8f07e000] [id=18695]
+
+=>0x08c15400 (exited) GCTaskThread [stack: 0x9001c000,0x9009d000] [id=18687]
+
+VM state:at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x08c0a798] Threads_lock - owner thread: 0x08c88400
+[0x08c0aba8] Heap_lock - owner thread: 0x08c0c800
+
+Heap
+ PSYoungGen      total 143744K, used 131840K [0xa9060000, 0xb3700000, 0xb3700000)
+  eden space 131840K, 100% used [0xa9060000,0xb1120000,0xb1120000)
+  from space 11904K, 0% used [0xb1120000,0xb1120000,0xb1cc0000)
+  to   space 19776K, 29% used [0xb23b0000,0xb2961aa8,0xb3700000)
+ PSOldGen        total 74112K, used 47583K [0x94300000, 0x98b60000, 0xa9060000)
+  object space 74112K, 64% used [0x94300000,0x97177fe8,0x98b60000)
+ PSPermGen       total 64128K, used 30114K [0x90300000, 0x941a0000, 0x94300000)
+  object space 64128K, 46% used [0x90300000,0x92068be8,0x941a0000)
+
+Dynamic libraries:
+08048000-08052000 r-xp 00000000 08:01 4985951    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/bin/java
+08052000-08053000 rwxp 00009000 08:01 4985951    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/bin/java
+08c06000-0a1f4000 rwxp 00000000 00:00 0          [heap]
+8b000000-8b0e9000 rwxp 00000000 00:00 0 
+8b0e9000-8b100000 ---p 00000000 00:00 0 
+8b100000-8b1df000 rwxp 00000000 00:00 0 
+8b1df000-8b200000 ---p 00000000 00:00 0 
+8b200000-8b2ef000 rwxp 00000000 00:00 0 
+8b2ef000-8b300000 ---p 00000000 00:00 0 
+8b300000-8b3e6000 rwxp 00000000 00:00 0 
+8b3e6000-8b400000 ---p 00000000 00:00 0 
+8b400000-8b4e9000 rwxp 00000000 00:00 0 
+8b4e9000-8b500000 ---p 00000000 00:00 0 
+8b500000-8b5ff000 rwxp 00000000 00:00 0 
+8b5ff000-8b600000 ---p 00000000 00:00 0 
+8b600000-8b6fe000 rwxp 00000000 00:00 0 
+8b6fe000-8b700000 ---p 00000000 00:00 0 
+8b700000-8b7fa000 rwxp 00000000 00:00 0 
+8b7fa000-8b800000 ---p 00000000 00:00 0 
+8b800000-8b8fd000 rwxp 00000000 00:00 0 
+8b8fd000-8b900000 ---p 00000000 00:00 0 
+8b900000-8b9e5000 rwxp 00000000 00:00 0 
+8b9e5000-8ba00000 ---p 00000000 00:00 0 
+8ba00000-8baeb000 rwxp 00000000 00:00 0 
+8baeb000-8bb00000 ---p 00000000 00:00 0 
+8bb00000-8bbea000 rwxp 00000000 00:00 0 
+8bbea000-8bc00000 ---p 00000000 00:00 0 
+8bc00000-8bd00000 rwxp 00000000 00:00 0 
+8be00000-8bee5000 rwxp 00000000 00:00 0 
+8bee5000-8bf00000 ---p 00000000 00:00 0 
+8bf00000-8bfff000 rwxp 00000000 00:00 0 
+8bfff000-8c000000 ---p 00000000 00:00 0 
+8c000000-8c0f4000 rwxp 00000000 00:00 0 
+8c0f4000-8c100000 ---p 00000000 00:00 0 
+8c100000-8c1fd000 rwxp 00000000 00:00 0 
+8c1fd000-8c200000 ---p 00000000 00:00 0 
+8c200000-8c2f3000 rwxp 00000000 00:00 0 
+8c2f3000-8c300000 ---p 00000000 00:00 0 
+8c300000-8c3f8000 rwxp 00000000 00:00 0 
+8c3f8000-8c400000 ---p 00000000 00:00 0 
+8c400000-8c600000 rwxp 00000000 00:00 0 
+8c600000-8c6f9000 rwxp 00000000 00:00 0 
+8c6f9000-8c700000 ---p 00000000 00:00 0 
+8c700000-8c7f9000 rwxp 00000000 00:00 0 
+8c7f9000-8c800000 ---p 00000000 00:00 0 
+8c800000-8c8f9000 rwxp 00000000 00:00 0 
+8c8f9000-8c900000 ---p 00000000 00:00 0 
+8c93e000-8c941000 ---p 00000000 00:00 0 
+8c941000-8cb3f000 rwxp 00000000 00:00 0 
+8cb3f000-8cb42000 ---p 00000000 00:00 0 
+8cb42000-8cd40000 rwxp 00000000 00:00 0 
+8cd40000-8cdb1000 r-xp 00000000 08:01 8793368    /lib/i386-linux-gnu/libgcrypt.so.11.6.0
+8cdb1000-8cdb2000 r-xp 00070000 08:01 8793368    /lib/i386-linux-gnu/libgcrypt.so.11.6.0
+8cdb2000-8cdb4000 rwxp 00071000 08:01 8793368    /lib/i386-linux-gnu/libgcrypt.so.11.6.0
+8cdb4000-8cee6000 r-xp 00000000 08:01 8126488    /lib/libcrypto.so.0.9.8
+8cee6000-8ceee000 r-xp 00131000 08:01 8126488    /lib/libcrypto.so.0.9.8
+8ceee000-8cefd000 rwxp 00139000 08:01 8126488    /lib/libcrypto.so.0.9.8
+8cefd000-8cf00000 rwxp 00000000 00:00 0 
+8cf00000-8cffc000 rwxp 00000000 00:00 0 
+8cffc000-8d000000 ---p 00000000 00:00 0 
+8d000000-8d0fb000 rwxp 00000000 00:00 0 
+8d0fb000-8d100000 ---p 00000000 00:00 0 
+8d100000-8d1b1000 rwxp 00000000 00:00 0 
+8d1b1000-8d200000 ---p 00000000 00:00 0 
+8d200000-8d2ba000 rwxp 00000000 00:00 0 
+8d2ba000-8d300000 ---p 00000000 00:00 0 
+8d300000-8d3eb000 rwxp 00000000 00:00 0 
+8d3eb000-8d400000 ---p 00000000 00:00 0 
+8d42f000-8d4c0000 r-xp 00000000 08:01 3935680    /usr/lib/i386-linux-gnu/libgnutls.so.26.14.12
+8d4c0000-8d4c4000 r-xp 00090000 08:01 3935680    /usr/lib/i386-linux-gnu/libgnutls.so.26.14.12
+8d4c4000-8d4c5000 rwxp 00094000 08:01 3935680    /usr/lib/i386-linux-gnu/libgnutls.so.26.14.12
+8d4c5000-8d4da000 r-xp 00000000 08:01 3940023    /usr/lib/libsasl2.so.2.0.23
+8d4da000-8d4db000 r-xp 00015000 08:01 3940023    /usr/lib/libsasl2.so.2.0.23
+8d4db000-8d4dc000 rwxp 00016000 08:01 3940023    /usr/lib/libsasl2.so.2.0.23
+8d4dc000-8d4fd000 r-xp 00000000 08:01 3935356    /usr/lib/i386-linux-gnu/libk5crypto.so.3.1
+8d4fd000-8d4fe000 ---p 00021000 08:01 3935356    /usr/lib/i386-linux-gnu/libk5crypto.so.3.1
+8d4fe000-8d4ff000 r-xp 00021000 08:01 3935356    /usr/lib/i386-linux-gnu/libk5crypto.so.3.1
+8d4ff000-8d500000 rwxp 00022000 08:01 3935356    /usr/lib/i386-linux-gnu/libk5crypto.so.3.1
+8d500000-8d5ea000 rwxp 00000000 00:00 0 
+8d5ea000-8d600000 ---p 00000000 00:00 0 
+8d600000-8d6fe000 rwxp 00000000 00:00 0 
+8d6fe000-8d700000 ---p 00000000 00:00 0 
+8d700000-8d7f8000 rwxp 00000000 00:00 0 
+8d7f8000-8d800000 ---p 00000000 00:00 0 
+8d800000-8d8fb000 rwxp 00000000 00:00 0 
+8d8fb000-8d900000 ---p 00000000 00:00 0 
+8d900000-8d9fe000 rwxp 00000000 00:00 0 
+8d9fe000-8da00000 ---p 00000000 00:00 0 
+8da00000-8daff000 rwxp 00000000 00:00 0 
+8daff000-8db00000 ---p 00000000 00:00 0 
+8db00000-8dbfd000 rwxp 00000000 00:00 0 
+8dbfd000-8dc00000 ---p 00000000 00:00 0 
+8dc0c000-8dc4e000 r-xp 00000000 08:01 3940028    /usr/lib/libldap_r-2.4.so.2.5.6
+8dc4e000-8dc4f000 r-xp 00041000 08:01 3940028    /usr/lib/libldap_r-2.4.so.2.5.6
+8dc4f000-8dc50000 rwxp 00042000 08:01 3940028    /usr/lib/libldap_r-2.4.so.2.5.6
+8dc50000-8dc51000 rwxp 00000000 00:00 0 
+8dc51000-8dcf9000 r-xp 00000000 08:01 3935852    /usr/lib/i386-linux-gnu/libkrb5.so.3.3
+8dcf9000-8dcfe000 r-xp 000a8000 08:01 3935852    /usr/lib/i386-linux-gnu/libkrb5.so.3.3
+8dcfe000-8dcff000 rwxp 000ad000 08:01 3935852    /usr/lib/i386-linux-gnu/libkrb5.so.3.3
+8dcff000-8dd02000 ---p 00000000 00:00 0 
+8dd02000-8df00000 rwxp 00000000 00:00 0 
+8df00000-8dffa000 rwxp 00000000 00:00 0 
+8dffa000-8e000000 ---p 00000000 00:00 0 
+8e004000-8e013000 r-xp 00000000 08:01 3935056    /usr/lib/i386-linux-gnu/libtasn1.so.3.1.9
+8e013000-8e014000 r-xp 0000e000 08:01 3935056    /usr/lib/i386-linux-gnu/libtasn1.so.3.1.9
+8e014000-8e015000 rwxp 0000f000 08:01 3935056    /usr/lib/i386-linux-gnu/libtasn1.so.3.1.9
+8e015000-8e0f4000 r-xp 00000000 08:01 3934573    /usr/lib/i386-linux-gnu/libstdc++.so.6.0.14
+8e0f4000-8e0f8000 r-xp 000de000 08:01 3934573    /usr/lib/i386-linux-gnu/libstdc++.so.6.0.14
+8e0f8000-8e0f9000 rwxp 000e2000 08:01 3934573    /usr/lib/i386-linux-gnu/libstdc++.so.6.0.14
+8e0f9000-8e100000 rwxp 00000000 00:00 0 
+8e100000-8e1ff000 rwxp 00000000 00:00 0 
+8e1ff000-8e200000 ---p 00000000 00:00 0 
+8e200000-8e2fe000 rwxp 00000000 00:00 0 
+8e2fe000-8e300000 ---p 00000000 00:00 0 
+8e307000-8e312000 r-xp 00000000 08:01 3935782    /usr/lib/liblber-2.4.so.2.5.6
+8e312000-8e313000 r-xp 0000a000 08:01 3935782    /usr/lib/liblber-2.4.so.2.5.6
+8e313000-8e314000 rwxp 0000b000 08:01 3935782    /usr/lib/liblber-2.4.so.2.5.6
+8e314000-8e32c000 r-xs 00115000 08:01 10889726   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/xercesImpl-2.9.1.jar
+8e32c000-8e32f000 r-xs 00041000 08:01 10889724   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/serializer-2.7.1.jar
+8e32f000-8e331000 r-xs 0000d000 08:01 10889711   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/commons-codec-1.4.jar
+8e331000-8e339000 r-xs 00028000 08:01 10889727   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/xml-apis-1.3.04.jar
+8e339000-8e33e000 r-xs 00041000 08:01 10889714   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/commons-lang-2.6.jar
+8e33e000-8e341000 r-xs 0003b000 08:01 10889716   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/cssparser-0.9.5.jar
+8e341000-8e344000 r-xs 00024000 08:01 10889713   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/commons-io-2.0.1.jar
+8e34b000-8e353000 r-xp 00000000 08:01 8793260    /lib/i386-linux-gnu/libcrypt-2.13.so
+8e353000-8e354000 r-xp 00007000 08:01 8793260    /lib/i386-linux-gnu/libcrypt-2.13.so
+8e354000-8e355000 rwxp 00008000 08:01 8793260    /lib/i386-linux-gnu/libcrypt-2.13.so
+8e355000-8e37c000 rwxp 00000000 00:00 0 
+8e37c000-8e3aa000 r-xp 00000000 08:01 3933782    /usr/lib/i386-linux-gnu/libgssapi_krb5.so.2.2
+8e3aa000-8e3ab000 r-xp 0002d000 08:01 3933782    /usr/lib/i386-linux-gnu/libgssapi_krb5.so.2.2
+8e3ab000-8e3ac000 rwxp 0002e000 08:01 3933782    /usr/lib/i386-linux-gnu/libgssapi_krb5.so.2.2
+8e3ac000-8e3ae000 r-xs 00005000 08:01 10889721   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/httpmime-4.1.1.jar
+8e3ae000-8e3d3000 r-xs 002e3000 08:01 10889725   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/xalan-2.7.1.jar
+8e3d3000-8e3d5000 r-xs 0000d000 08:01 10889715   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/commons-logging-1.1.1.jar
+8e3d5000-8e3e7000 r-xs 000e1000 08:01 10889717   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/htmlunit-2.9-SNAPSHOT.jar
+8e3e7000-8e3f5000 r-xs 0007f000 08:01 10889712   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/commons-collections-3.2.1.jar
+8e3f5000-8e3f8000 r-xs 0001c000 08:01 10889722   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/nekohtml-1.9.15-20101026.093020-2.jar
+8e3f8000-8e400000 r-xs 0004e000 08:01 10889719   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/httpclient-4.1.1.jar
+8e400000-8e4ff000 rwxp 00000000 00:00 0 
+8e4ff000-8e500000 ---p 00000000 00:00 0 
+8e500000-8e503000 r-xp 00000000 08:01 8793366    /lib/i386-linux-gnu/libgpg-error.so.0.8.0
+8e503000-8e504000 r-xp 00002000 08:01 8793366    /lib/i386-linux-gnu/libgpg-error.so.0.8.0
+8e504000-8e505000 rwxp 00003000 08:01 8793366    /lib/i386-linux-gnu/libgpg-error.so.0.8.0
+8e505000-8e507000 r-xp 00000000 08:01 8793374    /lib/i386-linux-gnu/libkeyutils.so.1.3
+8e507000-8e508000 r-xp 00001000 08:01 8793374    /lib/i386-linux-gnu/libkeyutils.so.1.3
+8e508000-8e509000 rwxp 00002000 08:01 8793374    /lib/i386-linux-gnu/libkeyutils.so.1.3
+8e509000-8e51c000 r-xp 00000000 08:01 8793294    /lib/i386-linux-gnu/libz.so.1.2.3.4
+8e51c000-8e51d000 r-xp 00012000 08:01 8793294    /lib/i386-linux-gnu/libz.so.1.2.3.4
+8e51d000-8e51e000 rwxp 00013000 08:01 8793294    /lib/i386-linux-gnu/libz.so.1.2.3.4
+8e51e000-8e562000 r-xp 00000000 08:01 8126486    /lib/libssl.so.0.9.8
+8e562000-8e563000 r-xp 00044000 08:01 8126486    /lib/libssl.so.0.9.8
+8e563000-8e566000 rwxp 00045000 08:01 8126486    /lib/libssl.so.0.9.8
+8e566000-8e586000 r-xp 00000000 08:01 3934289    /usr/lib/libpq.so.5.2
+8e586000-8e587000 r-xp 0001f000 08:01 3934289    /usr/lib/libpq.so.5.2
+8e587000-8e588000 rwxp 00020000 08:01 3934289    /usr/lib/libpq.so.5.2
+8e588000-8e5a2000 r-xp 00000000 08:01 8793293    /lib/i386-linux-gnu/libgcc_s.so.1
+8e5a2000-8e5a3000 r-xp 00019000 08:01 8793293    /lib/i386-linux-gnu/libgcc_s.so.1
+8e5a3000-8e5a4000 rwxp 0001a000 08:01 8793293    /lib/i386-linux-gnu/libgcc_s.so.1
+8e5b9000-8e5fd000 r-xp 00000000 08:01 9054354    /home/dark/.rvm/rubies/jruby-1.6.2/lib/native/i386-Linux/libjruby-cext.so
+8e5fd000-8e5fe000 r-xp 00043000 08:01 9054354    /home/dark/.rvm/rubies/jruby-1.6.2/lib/native/i386-Linux/libjruby-cext.so
+8e5fe000-8e5ff000 rwxp 00044000 08:01 9054354    /home/dark/.rvm/rubies/jruby-1.6.2/lib/native/i386-Linux/libjruby-cext.so
+8e5ff000-8e600000 rwxp 00000000 00:00 0 
+8e600000-8e700000 rwxp 00000000 00:00 0 
+8e700000-8e7fb000 rwxp 00000000 00:00 0 
+8e7fb000-8e800000 ---p 00000000 00:00 0 
+8e800000-8e8a7000 rwxp 00000000 00:00 0 
+8e8a7000-8e900000 ---p 00000000 00:00 0 
+8e900000-8ea00000 rwxp 00000000 00:00 0 
+8ea00000-8eab3000 rwxp 00000000 00:00 0 
+8eab3000-8eb00000 ---p 00000000 00:00 0 
+8eb00000-8ebf8000 rwxp 00000000 00:00 0 
+8ebf8000-8ec00000 ---p 00000000 00:00 0 
+8ec00000-8ecfc000 rwxp 00000000 00:00 0 
+8ecfc000-8ed00000 ---p 00000000 00:00 0 
+8ed00000-8edf9000 rwxp 00000000 00:00 0 
+8edf9000-8ee00000 ---p 00000000 00:00 0 
+8ee00000-8eefc000 rwxp 00000000 00:00 0 
+8eefc000-8ef00000 ---p 00000000 00:00 0 
+8ef01000-8ef07000 r-xp 00000000 08:01 3933785    /usr/lib/i386-linux-gnu/libkrb5support.so.0.1
+8ef07000-8ef08000 r-xp 00005000 08:01 3933785    /usr/lib/i386-linux-gnu/libkrb5support.so.0.1
+8ef08000-8ef09000 rwxp 00006000 08:01 3933785    /usr/lib/i386-linux-gnu/libkrb5support.so.0.1
+8ef09000-8ef0b000 r-xp 00000000 08:01 8793372    /lib/i386-linux-gnu/libcom_err.so.2.1
+8ef0b000-8ef0c000 r-xp 00001000 08:01 8793372    /lib/i386-linux-gnu/libcom_err.so.2.1
+8ef0c000-8ef0d000 rwxp 00002000 08:01 8793372    /lib/i386-linux-gnu/libcom_err.so.2.1
+8ef0d000-8ef1e000 r-xp 00000000 08:01 8793248    /lib/i386-linux-gnu/libresolv-2.13.so
+8ef1e000-8ef1f000 r-xp 00010000 08:01 8793248    /lib/i386-linux-gnu/libresolv-2.13.so
+8ef1f000-8ef20000 rwxp 00011000 08:01 8793248    /lib/i386-linux-gnu/libresolv-2.13.so
+8ef20000-8ef22000 rwxp 00000000 00:00 0 
+8ef22000-8ef26000 r-xp 00000000 08:01 8793253    /lib/i386-linux-gnu/libnss_dns-2.13.so
+8ef26000-8ef27000 r-xp 00004000 08:01 8793253    /lib/i386-linux-gnu/libnss_dns-2.13.so
+8ef27000-8ef28000 rwxp 00005000 08:01 8793253    /lib/i386-linux-gnu/libnss_dns-2.13.so
+8ef2b000-8ef38000 r-xp 00000000 08:01 1704303    /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/pg-0.11.0/lib/pg_ext.so
+8ef38000-8ef39000 r-xp 0000c000 08:01 1704303    /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/pg-0.11.0/lib/pg_ext.so
+8ef39000-8ef3a000 rwxp 0000d000 08:01 1704303    /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/pg-0.11.0/lib/pg_ext.so
+8ef3a000-8ef3d000 r-xs 00013000 08:01 4985423    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/jce.jar
+8ef3d000-8ef44000 r-xs 00094000 08:01 4985422    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/jsse.jar
+8ef44000-8effd000 r-xs 0086d000 08:01 8793153    /home/dark/.rvm/rubies/jruby-1.6.2/lib/jruby.jar
+8effd000-8effe000 ---p 00000000 00:00 0 
+8effe000-8f07e000 rwxp 00000000 00:00 0 
+8f07e000-8f081000 ---p 00000000 00:00 0 
+8f081000-8f27f000 rwxp 00000000 00:00 0 
+8f27f000-8f282000 ---p 00000000 00:00 0 
+8f282000-8f300000 rwxp 00000000 00:00 0 
+8f300000-8f3fd000 rwxp 00000000 00:00 0 
+8f3fd000-8f400000 ---p 00000000 00:00 0 
+8f400000-8f403000 r-xs 00027000 08:01 4985933    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/ext/sunjce_provider.jar
+8f403000-8f404000 r-xs 00003000 08:01 10889723   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/sac-1.3.jar
+8f404000-8f409000 r-xs 00028000 08:01 10889720   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/httpcore-4.1.jar
+8f409000-8f416000 r-xs 000d3000 08:01 10889718   /home/dark/.rvm/gems/jruby-1.6.2@celerity/gems/celerity-0.8.9/lib/celerity/htmlunit/htmlunit-core-js-2.9-SNAPSHOT.jar
+8f416000-8f42a000 r-xp 00000000 08:01 4986046    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libnet.so
+8f42a000-8f42b000 rwxp 00013000 08:01 4986046    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libnet.so
+8f42b000-8f42e000 ---p 00000000 00:00 0 
+8f42e000-8f4ac000 rwxp 00000000 00:00 0 
+8f4ac000-8f4af000 ---p 00000000 00:00 0 
+8f4af000-8f6ad000 rwxp 00000000 00:00 0 
+8f6ad000-8f7cd000 r-xp 002a3000 08:01 3932302    /usr/lib/locale/locale-archive
+8f7cd000-8f9cd000 r-xp 00000000 08:01 3932302    /usr/lib/locale/locale-archive
+8f9cd000-8f9d0000 ---p 00000000 00:00 0 
+8f9d0000-8fbce000 rwxp 00000000 00:00 0 
+8fbce000-8fbd1000 ---p 00000000 00:00 0 
+8fbd1000-8fdcf000 rwxp 00000000 00:00 0 
+8fdcf000-8fdd0000 ---p 00000000 00:00 0 
+8fdd0000-8fe84000 rwxp 00000000 00:00 0 
+8fe84000-9001c000 r-xs 03027000 08:01 4986071    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar
+9001c000-9001d000 ---p 00000000 00:00 0 
+9001d000-9009d000 rwxp 00000000 00:00 0 
+9009d000-9009e000 ---p 00000000 00:00 0 
+9009e000-9013e000 rwxp 00000000 00:00 0 
+9013e000-90163000 rwxp 00000000 00:00 0 
+90163000-901e5000 rwxp 00000000 00:00 0 
+901e5000-90205000 rwxp 00000000 00:00 0 
+90205000-9022a000 rwxp 00000000 00:00 0 
+9022a000-902ab000 rwxp 00000000 00:00 0 
+902ab000-902ff000 rwxp 00000000 00:00 0 
+902ff000-941a0000 rwxp 00000000 00:00 0 
+941a0000-94300000 rwxp 00000000 00:00 0 
+94300000-98b60000 rwxp 00000000 00:00 0 
+98b60000-a9060000 rwxp 00000000 00:00 0 
+a9060000-b3700000 rwxp 00000000 00:00 0 
+b3701000-b370c000 r-xp 00000000 08:01 9054353    /home/dark/.rvm/rubies/jruby-1.6.2/lib/native/i386-Linux/libjffi-1.0.so
+b370c000-b370d000 rwxp 0000a000 08:01 9054353    /home/dark/.rvm/rubies/jruby-1.6.2/lib/native/i386-Linux/libjffi-1.0.so
+b370d000-b371f000 rwxp 00000000 00:00 0 
+b371f000-b37cd000 rwxp 00000000 00:00 0 
+b37cd000-b3c3d000 rwxp 00000000 00:00 0 
+b3c3d000-b67cd000 rwxp 00000000 00:00 0 
+b67cd000-b67dc000 r-xp 00000000 08:01 4986002    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libzip.so
+b67dc000-b67de000 rwxp 0000e000 08:01 4986002    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libzip.so
+b67de000-b67e8000 r-xp 00000000 08:01 8793270    /lib/i386-linux-gnu/libnss_files-2.13.so
+b67e8000-b67e9000 r-xp 00009000 08:01 8793270    /lib/i386-linux-gnu/libnss_files-2.13.so
+b67e9000-b67ea000 rwxp 0000a000 08:01 8793270    /lib/i386-linux-gnu/libnss_files-2.13.so
+b67ea000-b67f3000 r-xp 00000000 08:01 8793257    /lib/i386-linux-gnu/libnss_nis-2.13.so
+b67f3000-b67f4000 r-xp 00008000 08:01 8793257    /lib/i386-linux-gnu/libnss_nis-2.13.so
+b67f4000-b67f5000 rwxp 00009000 08:01 8793257    /lib/i386-linux-gnu/libnss_nis-2.13.so
+b67f5000-b67fb000 r-xp 00000000 08:01 8793258    /lib/i386-linux-gnu/libnss_compat-2.13.so
+b67fb000-b67fc000 r-xp 00005000 08:01 8793258    /lib/i386-linux-gnu/libnss_compat-2.13.so
+b67fc000-b67fd000 rwxp 00006000 08:01 8793258    /lib/i386-linux-gnu/libnss_compat-2.13.so
+b67fd000-b6810000 r-xp 00000000 08:01 8793254    /lib/i386-linux-gnu/libnsl-2.13.so
+b6810000-b6811000 r-xp 00012000 08:01 8793254    /lib/i386-linux-gnu/libnsl-2.13.so
+b6811000-b6812000 rwxp 00013000 08:01 8793254    /lib/i386-linux-gnu/libnsl-2.13.so
+b6812000-b6814000 rwxp 00000000 00:00 0 
+b6815000-b6817000 r-xp 00000000 08:01 8126621    /lib/libnss_mdns4_minimal.so.2
+b6817000-b6818000 r-xp 00001000 08:01 8126621    /lib/libnss_mdns4_minimal.so.2
+b6818000-b6819000 rwxp 00002000 08:01 8126621    /lib/libnss_mdns4_minimal.so.2
+b6819000-b6820000 r-xp 00000000 08:01 4986001    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libnio.so
+b6820000-b6821000 rwxp 00006000 08:01 4986001    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libnio.so
+b6821000-b6829000 rwxs 00000000 08:01 5637125    /tmp/hsperfdata_dark/18684
+b6829000-b684c000 r-xp 00000000 08:01 4985997    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libjava.so
+b684c000-b684e000 rwxp 00023000 08:01 4985997    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libjava.so
+b684e000-b6855000 r-xp 00000000 08:01 8793251    /lib/i386-linux-gnu/librt-2.13.so
+b6855000-b6856000 r-xp 00006000 08:01 8793251    /lib/i386-linux-gnu/librt-2.13.so
+b6856000-b6857000 rwxp 00007000 08:01 8793251    /lib/i386-linux-gnu/librt-2.13.so
+b6857000-b685a000 ---p 00000000 00:00 0 
+b685a000-b6a58000 rwxp 00000000 00:00 0 
+b6a58000-b6a7c000 r-xp 00000000 08:01 8793267    /lib/i386-linux-gnu/libm-2.13.so
+b6a7c000-b6a7d000 r-xp 00023000 08:01 8793267    /lib/i386-linux-gnu/libm-2.13.so
+b6a7d000-b6a7e000 rwxp 00024000 08:01 8793267    /lib/i386-linux-gnu/libm-2.13.so
+b6a7e000-b720b000 r-xp 00000000 08:01 4986017    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/server/libjvm.so
+b720b000-b725e000 rwxp 0078d000 08:01 4986017    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/server/libjvm.so
+b725e000-b767d000 rwxp 00000000 00:00 0 
+b767d000-b77d7000 r-xp 00000000 08:01 8793249    /lib/i386-linux-gnu/libc-2.13.so
+b77d7000-b77d8000 ---p 0015a000 08:01 8793249    /lib/i386-linux-gnu/libc-2.13.so
+b77d8000-b77da000 r-xp 0015a000 08:01 8793249    /lib/i386-linux-gnu/libc-2.13.so
+b77da000-b77db000 rwxp 0015c000 08:01 8793249    /lib/i386-linux-gnu/libc-2.13.so
+b77db000-b77de000 rwxp 00000000 00:00 0 
+b77de000-b77e0000 r-xp 00000000 08:01 8793265    /lib/i386-linux-gnu/libdl-2.13.so
+b77e0000-b77e1000 r-xp 00001000 08:01 8793265    /lib/i386-linux-gnu/libdl-2.13.so
+b77e1000-b77e2000 rwxp 00002000 08:01 8793265    /lib/i386-linux-gnu/libdl-2.13.so
+b77e2000-b77e9000 r-xp 00000000 08:01 4986006    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/jli/libjli.so
+b77e9000-b77eb000 rwxp 00006000 08:01 4986006    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/jli/libjli.so
+b77eb000-b77ec000 rwxp 00000000 00:00 0 
+b77ec000-b7801000 r-xp 00000000 08:01 8793263    /lib/i386-linux-gnu/libpthread-2.13.so
+b7801000-b7802000 r-xp 00015000 08:01 8793263    /lib/i386-linux-gnu/libpthread-2.13.so
+b7802000-b7803000 rwxp 00016000 08:01 8793263    /lib/i386-linux-gnu/libpthread-2.13.so
+b7803000-b7805000 rwxp 00000000 00:00 0 
+b7805000-b780b000 r-xp 00000000 08:01 4986020    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/native_threads/libhpi.so
+b780b000-b780c000 rwxp 00006000 08:01 4986020    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/native_threads/libhpi.so
+b780c000-b780d000 rwxp 00000000 00:00 0 
+b780d000-b780e000 ---p 00000000 00:00 0 
+b780e000-b7819000 r-xp 00000000 08:01 4986031    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libverify.so
+b7819000-b781a000 rwxp 0000b000 08:01 4986031    /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/libverify.so
+b781a000-b781c000 rwxp 00000000 00:00 0 
+b781c000-b781d000 r-xp 00000000 00:00 0          [vdso]
+b781d000-b7839000 r-xp 00000000 08:01 8793268    /lib/i386-linux-gnu/ld-2.13.so
+b7839000-b783a000 r-xp 0001b000 08:01 8793268    /lib/i386-linux-gnu/ld-2.13.so
+b783a000-b783b000 rwxp 0001c000 08:01 8793268    /lib/i386-linux-gnu/ld-2.13.so
+bfcf7000-bfd19000 rwxp 00000000 00:00 0          [stack]
+
+VM Arguments:
+jvm_args: -Djdk.home= -Djruby.home=/home/dark/.rvm/rubies/jruby-1.6.2 -Djruby.script=jruby -Djruby.shell=/bin/bash -Djffi.boot.library.path=/home/dark/.rvm/rubies/jruby-1.6.2/lib/native/x86_64-Linux:/home/dark/.rvm/rubies/jruby-1.6.2/lib/native/i386-Linux:/home/dark/.rvm/rubies/jruby-1.6.2/lib/native/ppc-Linux -Xmx500m -Xss2048k -Djruby.memory.max=500m -Djruby.stack.max=2048k -Xbootclasspath/a:/home/dark/.rvm/rubies/jruby-1.6.2/lib/jruby.jar 
+java_command: org/jruby/Main bin/rbets
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/home/dark/.rvm/gems/jruby-1.6.2@celerity/bin:/home/dark/.rvm/gems/jruby-1.6.2@global/bin:/home/dark/.rvm/rubies/jruby-1.6.2/bin:/home/dark/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/var/lib/gems/1.8/gems/radiant-0.9.1/bin:/var/lib/gems/1.8/bin
+USERNAME=dark
+LD_LIBRARY_PATH=/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386/server:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/../lib/i386
+SHELL=/bin/bash
+DISPLAY=:0.0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0x708f80], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0x708f80], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0x5c4100], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: [libjvm.so+0x5c4100], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGXFSZ: [libjvm.so+0x5c4100], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0x5c4100], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0x5c70e0], sa_mask[0]=0x00000000, sa_flags=0x10000004
+SIGHUP: [libjvm.so+0x5c6cc0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGINT: [libjvm.so+0x5c6cc0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGTERM: [libjvm.so+0x5c6cc0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGQUIT: [libjvm.so+0x5c6cc0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+
+
+---------------  S Y S T E M  ---------------
+
+OS:squeeze/sid
+
+uname:Linux 2.6.38-8-generic #42-Ubuntu SMP Mon Apr 11 03:31:50 UTC 2011 i686
+libc:glibc 2.13 NPTL 2.13 
+rlimit: STACK 8192k, CORE 0k, NPROC infinity, NOFILE 4096, AS infinity
+load average:0.88 0.48 0.57
+
+/proc/meminfo:
+MemTotal:        1986584 kB
+MemFree:           72732 kB
+Buffers:           12064 kB
+Cached:           183672 kB
+SwapCached:        42696 kB
+Active:          1077344 kB
+Inactive:         474628 kB
+Active(anon):    1018888 kB
+Inactive(anon):   346760 kB
+Active(file):      58456 kB
+Inactive(file):   127868 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:       1113352 kB
+HighFree:           1616 kB
+LowTotal:         873232 kB
+LowFree:           71116 kB
+SwapTotal:       6142972 kB
+SwapFree:        5760964 kB
+Dirty:               196 kB
+Writeback:             0 kB
+AnonPages:       1334240 kB
+Mapped:           169304 kB
+Shmem:              9412 kB
+Slab:              36680 kB
+SReclaimable:      15776 kB
+SUnreclaim:        20904 kB
+KernelStack:        4056 kB
+PageTables:        11612 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     7136264 kB
+Committed_AS:    4244968 kB
+VmallocTotal:     122880 kB
+VmallocUsed:       42992 kB
+VmallocChunk:      72212 kB
+HardwareCorrupted:     0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       4096 kB
+DirectMap4k:      192504 kB
+DirectMap4M:      716800 kB
+
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, popcnt
+
+Memory: 4k page, physical 1986584k(72732k free), swap 6142972k(5760964k free)
+
+vm_info: Java HotSpot(TM) Server VM (19.1-b02) for linux-x86 JRE (1.6.0_24-b07), built on Feb  2 2011 16:51:52 by "java_re" with gcc 3.2.1-7a (J2SE release)
+
+time: Sat Jun 25 21:48:24 2011
+elapsed time: 48 seconds
+
