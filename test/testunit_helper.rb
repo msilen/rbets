@@ -1,4 +1,6 @@
-require 'rbets'
-require 'test/unit'
+require 'rubygems'
+gem 'test-unit'
 require 'redgreen'
+require 'test/unit'
 require 'mocha'
+

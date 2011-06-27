@@ -2,9 +2,8 @@ require 'rubygems'
 require 'celerity'
 require 'helper'
 require 'gamebookers'
-require 'active_record'
-require 'bets'
-require 'config/environment'
+require 'db_ar_setup'
+
 
 require 'ruby-debug'
 Debugger.start
