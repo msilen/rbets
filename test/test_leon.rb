@@ -1,5 +1,6 @@
 require 'testunit_helper'
 require 'leon'
+$LOAD_PATH.unshift File.expand_path("../../lib",__FILE__)
 #require 'fakeweb'
 
 class TestLeon < Test::Unit::TestCase

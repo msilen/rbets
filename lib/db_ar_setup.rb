@@ -1,4 +1,3 @@
 require 'active_record'
-require 'bet'
-require 'bookmaker'
-require 'config/environment'
+require 'models/bet'
+require 'models/bookmaker'

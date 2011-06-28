@@ -1,27 +1,35 @@
 require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
+DATABASEYML='database_ruby.yml'
 require 'db_ar_setup'
-class Leon
-  SITE_URL="http://www.leonbets.com"
+require 'config/environment'
+#require 'ruby-debug'
+#Debugger.start
 
+class Leon
+@@bookmaker=Bookmaker.where(:name => "Leonbets").first
+  #запуск скрипта
   def run
     connect
     sport_links=get_list_of_sport_links
     iterate_through_bet_offers sport_links
+    print "\e[0m"
   end
 
-  def connect(url=SITE_URL)
+  #Возвращает объект нокогири по принятому аргументу-урл
+  def connect(url=@@bookmaker.website)
     doc=Nokogiri::HTML(open(url))
-    @mainpage=doc if url==SITE_URL #запомним главную страницу при первом вызове
+    @mainpage=doc if url==@@bookmaker.website #запомним главную страницу при первом вызове
     doc
   end
 
+  #возвращает ссылки - адреса на спорт.события
   def get_list_of_sport_links
     @mainpage.css('.leagueitem a')
   end
 
-  #вспомогательный метод для нахождения ближайшего элемента
+  #вспомогательный метод для нахождения ближайшего элемента внутри документа
   Nokogiri::XML::Node.class_eval do
     def find_next_sibling(tag)
       #tag=строка, название тега
@@ -30,14 +38,16 @@ class Leon
     end
   end
 
+  #заходим в каждую ссылку и обрабатываем ставки
   def iterate_through_bet_offers(links)
     links.each do |link|
-      puts link.text.chomp.strip
+      puts "\e[34m#{link.text.chomp.strip}\e[0m"
       @current_doc=connect(link['href'])
       parse_page(@current_doc)
     end
   end
 
+  #обрабатывает переданную страницу (объект нокогири)
   def parse_page(page)
     #найдем заголовок на странице(тип состязания, лиги|события)
     @title_obj=page.at_css('.headtlt')
@@ -48,6 +58,7 @@ class Leon
     process_rows(odds_rows)
   end
 
+  #обрабатывает одну строку и записывает в базу
   def process_rows(odds_rows)
     odds_rows.each do |row|
       date=Time.at(row.child.text.scan(/printShortDate\((\d+)\)/).join.to_i/1000).gmtime #получим UTC время
@@ -56,8 +67,8 @@ class Leon
       sides=event.split " - " #массив играющих сторон
       raise "Parse Error!!" unless sides.size ==2 #приостановим скрипт если ошибка в кол-ве соперников
       string=odds.join ' '
-      puts "#{date.strftime("%d.%m.%Y %H:%M")} #{sides} #{string}"
       save_data_to_db(sides, odds, date)
+      puts "#{date.strftime("%d.%m.%Y %H:%M")} #{sides} #{string}"
     end
   end
 
@@ -68,7 +79,9 @@ class Leon
     else
       home, away=*odds
     end
-    bookmaker=Bookmaker.where(:name =>"Leonbets").first #поиск нужного букмекера
-    bookmaker.bets.create(:competition => @title_obj.text, :competitor_one=>sides[0], :competitor_one_coef => home, :competitor_two => sides[1], :competitor_two_coef => away, :event_date =>date, :draw =>draw)
+    record=@@bookmaker.bets.new(:competition => @title_obj.text, :competitor_one=>sides[0], :competitor_one_coef => home, :competitor_two => sides[1], :competitor_two_coef => away, :event_date =>date, :draw =>draw)
+    print "\e[32m"
+    print "\e[31m" unless record.valid?
+    record.save
   end
 end
