@@ -1,0 +1,18 @@
+Порядок запуска:
+    создать базу Postgresql под именем rbets
+    применить миграции,запустить Rake db:migrate
+    забить в базу букмекеров Rake db:fillbook
+
+требования:
+ gem activerecord
+  Gamebookers:
+    gem celerity
+    activerecord-jdbcpostgresql-adapter
+  Leonbets
+    gem nokogiri
+    gem pg
+
+скрипты запуска:
+  Gamebookers: bin/gmbook (запускается в среде с JRuby интерпретатором)
+  Leonbets:  bin/leon (запускается в среде с Ruby 1.9.2)
+
