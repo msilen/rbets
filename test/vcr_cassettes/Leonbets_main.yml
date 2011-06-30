@@ -1,0 +1,820 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://www.leonbets.com:80/
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx
+      date:
+      - Wed, 29 Jun 2011 05:41:45 GMT
+      content-type:
+      - text/html;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      set-cookie:
+      - JSESSIONID=0E6F233B5F48EED72F347480186C2F08; Path=/
+      - ipfrom=91.185.55.26; Domain=.leonbets.com; Expires=Thu, 28-Jun-2012 05:41:45
+        GMT
+    body: ! "\r\n\r\n\r\n            \n\n\n\n\n<HTML>\n<HEAD>\n<TITLE>LEON Bets: football,
+      tennis, ice hockey, basketball, boxing and other sports</TITLE>\n<META http-equiv=\"Content-type\"
+      content=\"text/html; charset=utf-8\" />\n<META NAME=\"Author\" CONTENT=\"LeonBets\">\n<META
+      NAME=\"DESCRIPTION\" CONTENT=\"LEON Bets offers online sports betting with competitive
+      odds and high stake limits. Football, tennis, basketball, ice hockey, boxing
+      and other sports. Place your bets!\">\n<META NAME=\"keywords\" CONTENT=\"bookmaker,
+      bookies, betting, bets, odds, football, basketball, tennis, sports betting,
+      betting company\">\n<META NAME=\"robots\" CONTENT=\"index,follow\">\n<meta name=\"page-topic\"
+      content=\"Sports\">\n\n<LINK href=\"http://www.leonbets.com/css/style102.css?t=115\"
+      rel=\"stylesheet\" type=\"text/css\" />\n<LINK href=\"http://www.leonbets.com/css/bets102.css?t=115\"
+      rel=\"stylesheet\" type=\"text/css\" />\n<LINK href=\"http://www.leonbets.com/css/bets102_en.css?t=115\"
+      rel=\"stylesheet\" type=\"text/css\" />\n\n    <link rel=\"icon\" href=\"http://www.leonbets.com/favicon.ico\"
+      type=\"image/x-icon\">\n    <link rel=\"shortcut icon\" href=\"http://www.leonbets.com/favicon.ico\"
+      type=\"image/x-icon\">\n    <script language=\"JavaScript\" src=\"http://www.leonbets.com/scripts/jquery.js\"
+      type=\"text/javascript\"></script>\n    <script language=\"JavaScript\" src=\"http://www.leonbets.com/scripts/slipV2.js?t=114\"
+      type=\"text/javascript\"></script>\n    <script language=\"JavaScript\" src=\"http://www.leonbets.com/scripts/banner.js\"
+      type=\"text/javascript\"></script>\n    <script language=\"javascript\">\n        var
+      actionUrl         = \"https://www.leonbets.com/login\";\n        var SCRIPTS_BET_HINT1
+      = \"The stake must be a positive integer.\";\n    </script>\n    <script language=\"JavaScript\"
+      src=\"http://www.leonbets.com/scripts/betting.js\" type=\"text/javascript\"></script>\n
+      \   <script language=\"JavaScript\">\n        function playRealNone(nm){\n            alert(\"You
+      need to be logged in to play Casino Games.\");\n        }\n    </script>\n\n
+      \   <script language=\"javascript\">\n    function f2(s){\n      s = new String(s);\n
+      \     if (s.length == 1){ s = \"0\" + s; }\n      return s;\n    }\n\n    function
+      printShortTime(timems){\n      // dd/MM HH:mm\n      var d = new Date(timems);\n
+      \     document.write(f2(d.getHours()) + \":\" + f2(d.getMinutes()));\n    }\n\n
+      \   function printShortDate(timems){\n      // dd/MM HH:mm\n      var d = new
+      Date(timems);\n      document.write(f2(d.getDate()) + \"/\" + f2(d.getMonth()
+      + 1) + \" \" + f2(d.getHours()) + \":\" + f2(d.getMinutes()));\n    }\n\n    function
+      getFullDate(timems){\n      // dd/MM HH:mm\n      var d = new Date(timems);\n
+      \     var tzOffset = d.getTimezoneOffset();\n      var tzH = (tzOffset < 0 ?
+      \"+\" : \"-\") + Math.floor(Math.abs(tzOffset) / 60);\n      var tzM = Math.abs(tzOffset)
+      - Math.floor(Math.abs(tzOffset) / 60) * 60;\n      var tz = tzH + \":\" + tzM;\n
+      \     return f2(d.getDate()) + \"/\" + f2(d.getMonth() + 1) + \"/\" + f2(d.getFullYear()
+      % 100) + \" \" + f2(d.getHours()) + \":\" + f2(d.getMinutes()) + \"(GMT\" +
+      tz + \")\";\n    }\n\n    function printFullDate(timems){\n      document.write(getFullDate(timems));\n
+      \   }\n\n</script>\n<script type=\"application/x-javascript\" src=\"/scripts/mobile/leon-app-all.js\"></script>\n\n</HEAD>\n\n\n<body
+      class=\"\">\n<div class=\"body\" align=\"center\">\n\t<div class=\"plain\">\n\n\n\t\t<div
+      class=\"head_menu\">\n\t\t\t<div class=\"left\">\n\t\t\t\t<span class=\"gray\">\n
+      \                   <!--div>LEON Gaming:&nbsp;</span>\n                    </div-->\n
+      \                   <div class=\"item on\">\n                    <div class=\"ttl\">\n
+      \                       <a href=\"http://www.leonbets.com/\">\n                            Bets\n
+      \                       </a>\n                    </div>\n                    </div>\n\n
+      \                   <div class=\"item\">\n                    <div class=\"ttl\">\n
+      \                       <a href=\"http://www.leonpoker.com?lang=en\" class=\"odd2\">\n
+      \                           Poker\n                        </a>\n                    </div>\n
+      \                   </div>\n\n                <div class=\"item\">\n\t\t\t\t\t<div
+      class=\"ttl\">\n\t\t\t\t\t\t <a href=\"http://www.leonbets.com/livecasino\"
+      class=\"odd2\">\n\t\t\t\t\t\t\t Live Casino\n\t\t\t\t\t\t </a>\n\t\t\t\t\t </div>\n
+      \                </div>\n\n                <div class=\"item\">\n                <div
+      class=\"ttl\">\n                     <a href=\"http://www.leonbets.com/casino\"
+      class=\"odd2\">\n                         Casino Games\n                     </a>\n
+      \                </div>\n                 </div>\n\n\n\n\n\n\t\t\t</div>\n\t\t\t<div
+      class=\"lang\" align=\"center\">\n                \n\n\n\n<a href=\"http://www.leonbets.com\"
+      title=\"English\"><div class=\"active_en\">&nbsp;</div></a>\n<a href=\"http://www.leonbets.de\"
+      title=\"Deutsch\"><div class=\"gr\">&nbsp;</div></a>\n<a href=\"http://www.leonbets.pl\"
+      title=\"Polski\"><div class=\"pl\">&nbsp;</div></a>\n<a href=\"http://www.leonbets.ru\"
+      title=\"Русский\"><div class=\"ru\">&nbsp;</div></a>\n\n\n\n\n\n\n\n\t\t\t</div>\n
+      \     <div class=\"right\"><span id=\"lCurDateTime\" class=\"gray\" serverTime=\"1309326105794\"><script>printFullDate(1309326105794);</script>
+      </span></div>\n\t\t</div>\n\n\n\n\n        <div class=\"head \">\n            <div
+      class=\"block_1\">\n                <div class=\"logo\">\n                    <a
+      href=\"http://www.leonbets.com/\" title=\"LEON Bets\">\n                        <div
+      class=\"logo\">\n\t\t\t\t\t\t</div>\n                    </a>\n                </div>\n
+      \               \n\n<!-- login form -->\n\n\n\n<div class=\"register\" align=\"center\">\n</div>\n\n<div
+      class=\"auth\" align=\"center\">\n    <form action=\"https://www.leonbets.com/login\"
+      method=\"POST\">\n        <input type=\"hidden\" name=\"do\" value=\"login\"
+      />\n        <input type=\"hidden\" name=\"doaction\" value=\"1\" />\n        <input
+      type=\"hidden\" name=\"trg\" value=\"\"/>\n        <input type=\"hidden\" name=\"cs\"
+      value=\"sportsbook\" />\n        <input type=\"hidden\" name=\"qs\" value=\"\"
+      />\n        <input type=\"hidden\" name=\"sport\" value=\"\"/>\n        <input
+      type=\"hidden\" name=\"league\" value=\"\"/>\n\t\t<input type=\"hidden\" name=\"toto_id\"
+      value=\"\"/>\n\t\t<input type=\"hidden\" name=\"oddval\" value=\"\"/>\n\t\t<input
+      type=\"hidden\" name=\"sbm\" value=\"\"/>\n\n\n            <div class=\"ttl1\">\n
+      \           </div>\n            <input type=\"text\" name=\"login\" class=\"field\"/>\n
+      \           <div class=\"ttl2\">\n            </div>\n            <input type=\"password\"
+      name=\"password\" class=\"field\"/>\n            <input type=\"submit\" class=\"but\"
+      value=\"\"/>\n            <a title=\"Forgot your password?\" href=\"https://www.leonbets.com/forgotpassword\">\n
+      \               <div class=\"forgot\"></div>\n            </a>\n\n\n    </form>\n</div>\n\n\n\n<div
+      class=\"link\">\n  <a href=\"https://www.leonbets.com/registration\"\n  title=\"Register\"\n
+      \ class=\"registration\">\n      <div class=\"reg\">\n      </div>\n  </a>\n</div>\n\n\n
+      \           </div>\n\t\t\t<div class=\"block_2\">\n            <ul>\n                <li
+      class=\"bord\"><a class=\"topmenu\" href=\"http://www.leonbets.com/\"\n                    title=\"Home\">\n
+      \                   Home</a></li>\n                <li class=\"bord\"><a class=\"topmenu\"
+      href=\"https://www.leonbets.com/registration\"\n                    title=\"Register\">\n
+      \                   Register</a></li>\n               \n\n                <li
+      class=\"bord\"><a class=\"topmenu\" href=\"/betting-rules\"\n                    title=\"Sports
+      Betting Rules\">\n                    Rules</a></li>\n\n                <li
+      class=\"bord\"><a class=\"topmenu\" href=\"/about-company\"\n                    title=\"About
+      the Company\">\n                    About us</a></li>\n                <li class=\"bord\"><a
+      class=\"topmenu\" href=\"http://www.leonbets.com/sportsbook?do=showcontacts\"\n
+      \                   title=\"Contact us\">\n                    Contact</a></li>\n\n\t\t\t\t\t<li
+      class=\"bord\"><a href=\"/bonuses-and-promotions\"\n  title=\"Promotions\"\n
+      \ class=\"topmenu\">\n  Promotions</a></li>\n\n\t\t\t\t\t<li class=\"bord\"><a
+      href=\"javascript: pp('http://www.score24.com/ls5/livescore.jsp?partner=leonbets&day=2011/06/29&lang=eng&ttab=full&sport=Soccer&tz=1&css=../styles/leonbets_v5.css',700,700,10,10,'lres')\"\n
+      \ title=\"Match scores\"\n  class=\"topmenu\">\n  Match scores</a></li>\n\t\t\t\t\t<li><a
+      href=\"http://www.leonbets.com/sportsbook?do=mobilehome\"\n  class=\"topmenu\"
+      style=\"color: #cfb001\">Mobile version</a></li>\n\n            </ul>\n\t\t\t</div>\n
+      \       </div>\n        <div class=\"content\" align=\"center\">\n\n<div class=\"fon\"
+      align=\"center\">\n<div class=\"body\" align=\"center\">\n<table border=\"0\"
+      class=\"main\" cellspacing=\"0\" cellpadding=\"0\">\n\n<tr>\n<td colspan=\"2\"
+      valign=\"top\">\n\n\n\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tr>\n<td
+      width=\"160\" valign=\"top\" align=\"left\" class=\"left\">\n\r\n            \r\n\r\n\r\n\r\n<script
+      language=\"javascript\">\r\nfunction hideS( newSport )\r\n{\r\n  trO = document.getElementById(
+      \"trs\" + newSport );\r\n  imO = document.getElementById( \"ims\" + newSport
+      );\r\n  lgO = document.getElementById( \"lg\" + newSport );\r\n  jQuery(\"#trs\"
+      + newSport).removeClass(\"viewSport\");\r\n  //if ( trO ) { trO.style.background='#F6F6F6';
+      }\r\n  if ( imO ) { imO.src='http://www.leonbets.com/img/bets102/sport_li.jpg';
+      }\r\n  if ( lgO ) { lgO.style.display='none'; }\r\n}\r\n\r\nfunction showS(
+      newSport )\r\n{\r\n  lgO = document.getElementById( \"lg\" + newSport );\r\n
+      \ if ( lgO && lgO.style.display == 'block' )\r\n  {\r\n    hideS( newSport );\r\n
+      \   return;\r\n  }\r\n  imO = document.getElementById( \"ims\" + newSport );\r\n
+      \ trO = document.getElementById( \"trs\" + newSport );\r\n  //if ( trO ) { trO.style.background='#ffffff';
+      }\r\n  jQuery(\"#trs\" + newSport).addClass(\"viewSport\");\r\n  if ( imO )
+      { imO.src='http://www.leonbets.com/img/bets102/on_sport_li.jpg'; }\r\n  if (
+      lgO ) { lgO.style.display='block'; }\r\n}\r\nfunction overS( newSport )\r\n{\r\n
+      \ lgO = document.getElementById( \"lg\" + newSport );\r\n  if ( lgO && lgO.style.display
+      == 'block' )\r\n  {\r\n    return;\r\n  }\r\n\r\n  document.getElementById('trs'
+      + newSport ).style.background='#ffffff';\r\n}\r\nfunction outS( newSport )\r\n{\r\n
+      \ lgO = document.getElementById( \"lg\" + newSport );\r\n  if ( lgO && lgO.style.display
+      == 'block' )\r\n  {\r\n    return;\r\n  }\r\n\r\n  document.getElementById('trs'
+      + newSport ).style.background='#F6F6F6';\r\n}\r\n</script>\r\n<script language=\"javascript\"
+      src=\"http://www.leonbets.com/scripts/pp.js\"></script>\r\n\r\n\r\n<table border=\"0\"
+      cellspacing=\"0\" cellpadding=\"0\" width=\"100%\"><tr><td align=\"left\">\r\n\r\n<table
+      border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" class=\"kostyl\">\r\n\r\n<tr>\r\n<td
+      class=\"kostyl01\"></td>\r\n\r\n<td class=\"kostyl02\"></td>\r\n\r\n</tr>\r\n<tr>\r\n<td
+      colspan=\"2\">\r\n    <div class=\"menutlt sorevn\">\r\n        \r\n    </div>\r\n
+      \   <div class=\"left ln\">\r\n    </div>\r\n</td>\r\n</tr>\r\n\r\n\r\n\r\n\r\n<tr
+      \ id=\"trs-1\">\r\n<td>\r\n<a class=\"lineb\"\r\n  href=\"javascript: pp('http://www.score24.com/ls5/livescore.jsp?partner=leonbets&day=2011/06/29&lang=eng&ttab=full&sport=Soccer&tz=1&css=../styles/leonbets_v5.css',700,700,10,10,'lres')\">\r\n
+      \ <div class=\"icon2\"></div>\r\n</a>\r\n</td>\r\n<td height=\"20\">\r\n<a class=\"lineresults\"\r\n
+      \ href=\"javascript: pp('http://www.score24.com/ls5/livescore.jsp?partner=leonbets&day=2011/06/29&lang=eng&ttab=full&sport=Soccer&tz=1&css=../styles/leonbets_v5.css',700,700,10,10,'lres')\">\r\n
+      \ Match scores</a>\r\n</td>\r\n</tr>\r\n<tr  id=\"trs-1\">\r\n<td>\r\n<a class=\"lineb\"\r\n
+      \ href=\"http://www.leonbets.com/bet24\">\r\n  <div class=\"icon4\"></div>\r\n</a>\r\n</td>\r\n<td
+      height=\"20\">\r\n<a class=\"s24\"\r\n  href=\"http://www.leonbets.com/bet24\">\r\n
+      \ Next 24 hours</a>\r\n</td>\r\n</tr>\r\n<tr  id=\"trs0\">\r\n<td>\r\n<a class=\"lineb\"\r\n
+      \ href=\"https://www.leonbets.com/bet-on-live-matches\">\r\n  <div class=\"icon3\"></div>\r\n</a>\r\n</td>\r\n<td
+      height=\"20\">\r\n<a class=\"lineblive\"\r\n  href=\"https://www.leonbets.com/bet-on-live-matches\">\r\n
+      \ Bet on LIVE matches</a>\r\n</td>\r\n</tr>\r\n\r\n\r\n<tr>\r\n    <td colspan=\"2\">\r\n
+      \       <div class=\"sport\"></div>\r\n    </td>\r\n</tr>\r\n\r\n\r\n\r\n\r\n
+      \   \r\n    <tr id=\"trs1\">\r\n        <td class=\"td1\" width=\"1%\">\r\n
+      \           <a class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(1);
+      return false;\">\r\n                <img id=\"ims1\" src=\"http://www.leonbets.com/img/bets102/sport_li.jpg\"
+      border=\"0\"\r\n                     alt=\"\"/><br/>\r\n            </a>\r\n
+      \       </td>\r\n        <td height=\"20\" class=\"td2\">\r\n            <a
+      class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(1);
+      return false;\">\r\n                Soccer\r\n            </a>\r\n        </td>\r\n
+      \   </tr>\r\n    \r\n\r\n    <tr>\r\n        <td colspan=\"2\">\r\n            <div
+      style=\"display: none\" id=\"lg1\">\r\n                <!--table border=\"0\"
+      cellspacing=\"0\" cellpadding=\"1\" bgcolor=\"#ffffff\" width=\"100%\"-->\r\n
+      \               <div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitem\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/1/3176\"\r\n
+      \                               class=\"line\">Argentinian Soccer - Argentinian
+      Play-off\r\n                            </a>\r\n                        </div>\r\n
+      \                   \r\n                        <div class=\"leagueitem leagueitem\">\r\n
+      \                           <a href=\"http://www.leonbets.com/betoffer/1/3383\"\r\n
+      \                               class=\"line\">Brazilian Soccer - Campeonato\r\n
+      \                           </a>\r\n                        </div>\r\n                    \r\n
+      \                       <div class=\"leagueitem leagueitem\">\r\n                            <a
+      href=\"http://www.leonbets.com/betoffer/1/5934\"\r\n                                class=\"line\">Copa
+      America\r\n                            </a>\r\n                        </div>\r\n
+      \                   \r\n                        <div class=\"leagueitem leagueitem\">\r\n
+      \                           <a href=\"http://www.leonbets.com/betoffer/1/4402\"\r\n
+      \                               class=\"line\">Finnish Soccer - Finnish Kakkonen
+      B\r\n                            </a>\r\n                        </div>\r\n
+      \                   \r\n                        <div class=\"leagueitem leagueitem\">\r\n
+      \                           <a href=\"http://www.leonbets.com/betoffer/1/3398\"\r\n
+      \                               class=\"line\">Finnish Soccer - Veikkausliiga\r\n
+      \                           </a>\r\n                        </div>\r\n                    \r\n
+      \                       <div class=\"leagueitem leagueitem\">\r\n                            <a
+      href=\"http://www.leonbets.com/betoffer/1/4386\"\r\n                                class=\"line\">Irish
+      Soccer - Airtricity Premier Division\r\n                            </a>\r\n
+      \                       </div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitem\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/1/5715\"\r\n
+      \                               class=\"line\">Japanese Soccer - J2 League\r\n
+      \                           </a>\r\n                        </div>\r\n                    \r\n
+      \                       <div class=\"leagueitem leagueitem\">\r\n                            <a
+      href=\"http://www.leonbets.com/betoffer/1/3281\"\r\n                                class=\"line\">Norwegian
+      Soccer - Tippeligaen\r\n                            </a>\r\n                        </div>\r\n
+      \                   \r\n                        <div class=\"leagueitem leagueitem\">\r\n
+      \                           <a href=\"http://www.leonbets.com/betoffer/1/5915\"\r\n
+      \                               class=\"line\">U17 World Cup Finals\r\n                            </a>\r\n
+      \                       </div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitem\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/1/3407\"\r\n
+      \                               class=\"line\">UEFA Europa League\r\n                            </a>\r\n
+      \                       </div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitem\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/1/5588\"\r\n
+      \                               class=\"line\">US Soccer - MLS\r\n                            </a>\r\n
+      \                       </div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitemlast\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/1/5920\"\r\n
+      \                               class=\"line\">Womens Soccer - Womens World
+      Cup\r\n                            </a>\r\n                        </div>\r\n
+      \                   \r\n                                <div class=\"leagueitemlast\">\r\n
+      \                                   <table width=\"100%\" cellpadding=\"0\"
+      cellspacing=\"0\">\r\n                                        <tr>\r\n                                            <td
+      class=\"l1\">\r\n                                            </td>\r\n                                            <td
+      class=\"l2\">\r\n                                            </td>\r\n                                        </tr>\r\n
+      \                                   </table>\r\n                                </div>\r\n
+      \                           \r\n                </div>\r\n                <!--/table-->\r\n
+      \           </div>\r\n        </td>\r\n    </tr>\r\n\r\n    \r\n\r\n\r\n    \r\n
+      \   <tr id=\"trs2\">\r\n        <td class=\"td1\" width=\"1%\">\r\n            <a
+      class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(2);
+      return false;\">\r\n                <img id=\"ims2\" src=\"http://www.leonbets.com/img/bets102/sport_li.jpg\"
+      border=\"0\"\r\n                     alt=\"\"/><br/>\r\n            </a>\r\n
+      \       </td>\r\n        <td height=\"20\" class=\"td2\">\r\n            <a
+      class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(2);
+      return false;\">\r\n                Tennis\r\n            </a>\r\n        </td>\r\n
+      \   </tr>\r\n    \r\n\r\n    <tr>\r\n        <td colspan=\"2\">\r\n            <div
+      style=\"display: none\" id=\"lg2\">\r\n                <!--table border=\"0\"
+      cellspacing=\"0\" cellpadding=\"1\" bgcolor=\"#ffffff\" width=\"100%\"-->\r\n
+      \               <div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitem\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/2/5929\"\r\n
+      \                               class=\"line\">Wimbledon 2011\r\n                            </a>\r\n
+      \                       </div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitem\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/2/5905\"\r\n
+      \                               class=\"line\">Wimbledon 2011 - Mens Tournament\r\n
+      \                           </a>\r\n                        </div>\r\n                    \r\n
+      \                       <div class=\"leagueitem leagueitem\">\r\n                            <a
+      href=\"http://www.leonbets.com/betoffer/2/5931\"\r\n                                class=\"line\">Wimbledon
+      2011 - Mixed Doubles\r\n                            </a>\r\n                        </div>\r\n
+      \                   \r\n                        <div class=\"leagueitem leagueitem\">\r\n
+      \                           <a href=\"http://www.leonbets.com/betoffer/2/5932\"\r\n
+      \                               class=\"line\">Wimbledon 2011 - Womens Doubles\r\n
+      \                           </a>\r\n                        </div>\r\n                    \r\n
+      \                       <div class=\"leagueitem leagueitemlast\">\r\n                            <a
+      href=\"http://www.leonbets.com/betoffer/2/5910\"\r\n                                class=\"line\">Wimbledon
+      2011 - Womens Tournament\r\n                            </a>\r\n                        </div>\r\n
+      \                   \r\n                                <div class=\"leagueitemlast\">\r\n
+      \                                   <table width=\"100%\" cellpadding=\"0\"
+      cellspacing=\"0\">\r\n                                        <tr>\r\n                                            <td
+      class=\"l1\">\r\n                                            </td>\r\n                                            <td
+      class=\"l2\">\r\n                                            </td>\r\n                                        </tr>\r\n
+      \                                   </table>\r\n                                </div>\r\n
+      \                           \r\n                </div>\r\n                <!--/table-->\r\n
+      \           </div>\r\n        </td>\r\n    </tr>\r\n\r\n    \r\n\r\n\r\n    \r\n
+      \   <tr id=\"trs7522\">\r\n        <td class=\"td1\" width=\"1%\">\r\n            <a
+      class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(7522);
+      return false;\">\r\n                <img id=\"ims7522\" src=\"http://www.leonbets.com/img/bets102/sport_li.jpg\"
+      border=\"0\"\r\n                     alt=\"\"/><br/>\r\n            </a>\r\n
+      \       </td>\r\n        <td height=\"20\" class=\"td2\">\r\n            <a
+      class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(7522);
+      return false;\">\r\n                Basketball\r\n            </a>\r\n        </td>\r\n
+      \   </tr>\r\n    \r\n\r\n    <tr>\r\n        <td colspan=\"2\">\r\n            <div
+      style=\"display: none\" id=\"lg7522\">\r\n                <!--table border=\"0\"
+      cellspacing=\"0\" cellpadding=\"1\" bgcolor=\"#ffffff\" width=\"100%\"-->\r\n
+      \               <div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitemlast\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/7522/5913\"\r\n
+      \                               class=\"line\">Euro Basketball Women 2011\r\n
+      \                           </a>\r\n                        </div>\r\n                    \r\n
+      \                               <div class=\"leagueitemlast\">\r\n                                    <table
+      width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">\r\n                                        <tr>\r\n
+      \                                           <td class=\"l1\">\r\n                                            </td>\r\n
+      \                                           <td class=\"l2\">\r\n                                            </td>\r\n
+      \                                       </tr>\r\n                                    </table>\r\n
+      \                               </div>\r\n                            \r\n                </div>\r\n
+      \               <!--/table-->\r\n            </div>\r\n        </td>\r\n    </tr>\r\n\r\n
+      \   \r\n\r\n\r\n    \r\n    <tr id=\"trs7511\">\r\n        <td class=\"td1\"
+      width=\"1%\">\r\n            <a class=\"lineb\"\r\n               href=\"#\"\r\n
+      \              onclick=\"showS(7511); return false;\">\r\n                <img
+      id=\"ims7511\" src=\"http://www.leonbets.com/img/bets102/sport_li.jpg\" border=\"0\"\r\n
+      \                    alt=\"\"/><br/>\r\n            </a>\r\n        </td>\r\n
+      \       <td height=\"20\" class=\"td2\">\r\n            <a class=\"lineb\"\r\n
+      \              href=\"#\"\r\n               onclick=\"showS(7511); return false;\">\r\n
+      \               Baseball\r\n            </a>\r\n        </td>\r\n    </tr>\r\n
+      \   \r\n\r\n    <tr>\r\n        <td colspan=\"2\">\r\n            <div style=\"display:
+      none\" id=\"lg7511\">\r\n                <!--table border=\"0\" cellspacing=\"0\"
+      cellpadding=\"1\" bgcolor=\"#ffffff\" width=\"100%\"-->\r\n                <div>\r\n
+      \                   \r\n                        <div class=\"leagueitem leagueitemlast\">\r\n
+      \                           <a href=\"http://www.leonbets.com/betoffer/7511/5603\"\r\n
+      \                               class=\"line\">MLB 2011\r\n                            </a>\r\n
+      \                       </div>\r\n                    \r\n                                <div
+      class=\"leagueitemlast\">\r\n                                    <table width=\"100%\"
+      cellpadding=\"0\" cellspacing=\"0\">\r\n                                        <tr>\r\n
+      \                                           <td class=\"l1\">\r\n                                            </td>\r\n
+      \                                           <td class=\"l2\">\r\n                                            </td>\r\n
+      \                                       </tr>\r\n                                    </table>\r\n
+      \                               </div>\r\n                            \r\n                </div>\r\n
+      \               <!--/table-->\r\n            </div>\r\n        </td>\r\n    </tr>\r\n\r\n
+      \   \r\n\r\n\r\n    \r\n    <tr id=\"trs4\">\r\n        <td class=\"td1\" width=\"1%\">\r\n
+      \           <a class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(4);
+      return false;\">\r\n                <img id=\"ims4\" src=\"http://www.leonbets.com/img/bets102/sport_li.jpg\"
+      border=\"0\"\r\n                     alt=\"\"/><br/>\r\n            </a>\r\n
+      \       </td>\r\n        <td height=\"20\" class=\"td2\">\r\n            <a
+      class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(4);
+      return false;\">\r\n                Cricket\r\n            </a>\r\n        </td>\r\n
+      \   </tr>\r\n    \r\n\r\n    <tr>\r\n        <td colspan=\"2\">\r\n            <div
+      style=\"display: none\" id=\"lg4\">\r\n                <!--table border=\"0\"
+      cellspacing=\"0\" cellpadding=\"1\" bgcolor=\"#ffffff\" width=\"100%\"-->\r\n
+      \               <div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitem\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/4/5631\"\r\n
+      \                               class=\"line\">Group C - English Domestic -
+      County Championship 2011 - Division One\r\n                            </a>\r\n
+      \                       </div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitemlast\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/4/5847\"\r\n
+      \                               class=\"line\">Group C - English Domestic -
+      Friends Life T20 2011\r\n                            </a>\r\n                        </div>\r\n
+      \                   \r\n                                <div class=\"leagueitemlast\">\r\n
+      \                                   <table width=\"100%\" cellpadding=\"0\"
+      cellspacing=\"0\">\r\n                                        <tr>\r\n                                            <td
+      class=\"l1\">\r\n                                            </td>\r\n                                            <td
+      class=\"l2\">\r\n                                            </td>\r\n                                        </tr>\r\n
+      \                                   </table>\r\n                                </div>\r\n
+      \                           \r\n                </div>\r\n                <!--/table-->\r\n
+      \           </div>\r\n        </td>\r\n    </tr>\r\n\r\n    \r\n\r\n\r\n    \r\n
+      \   <tr id=\"trs998917\">\r\n        <td class=\"td1\" width=\"1%\">\r\n            <a
+      class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(998917);
+      return false;\">\r\n                <img id=\"ims998917\" src=\"http://www.leonbets.com/img/bets102/sport_li.jpg\"
+      border=\"0\"\r\n                     alt=\"\"/><br/>\r\n            </a>\r\n
+      \       </td>\r\n        <td height=\"20\" class=\"td2\">\r\n            <a
+      class=\"lineb\"\r\n               href=\"#\"\r\n               onclick=\"showS(998917);
+      return false;\">\r\n                Volleyball\r\n            </a>\r\n        </td>\r\n
+      \   </tr>\r\n    \r\n\r\n    <tr>\r\n        <td colspan=\"2\">\r\n            <div
+      style=\"display: none\" id=\"lg998917\">\r\n                <!--table border=\"0\"
+      cellspacing=\"0\" cellpadding=\"1\" bgcolor=\"#ffffff\" width=\"100%\"-->\r\n
+      \               <div>\r\n                    \r\n                        <div
+      class=\"leagueitem leagueitemlast\">\r\n                            <a href=\"http://www.leonbets.com/betoffer/998917/5916\"\r\n
+      \                               class=\"line\">World League 2011\r\n                            </a>\r\n
+      \                       </div>\r\n                    \r\n                                <div
+      class=\"leagueitemlast\">\r\n                                    <table width=\"100%\"
+      cellpadding=\"0\" cellspacing=\"0\">\r\n                                        <tr>\r\n
+      \                                           <td class=\"l1\">\r\n                                            </td>\r\n
+      \                                           <td class=\"l2\">\r\n                                            </td>\r\n
+      \                                       </tr>\r\n                                    </table>\r\n
+      \                               </div>\r\n                            \r\n                </div>\r\n
+      \               <!--/table-->\r\n            </div>\r\n        </td>\r\n    </tr>\r\n\r\n
+      \   \r\n\r\n\r\n\r\n\r\n</table>\r\n</td></tr></table>\r\n\r\n<img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"10\" alt=\"\"/><br />\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<img
+      src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"1\" height=\"5\"
+      alt=\"\"/><br />\r\n\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"3\"
+      width=\"100%\"><tr><td>\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"
+      width=\"100%\">\r\n<tr>\r\n  <td>\r\n\r\n    <table border=\"0\" cellpadding=\"0\"
+      cellspacing=\"0\" width=\"100%\">\r\n    <tr>\r\n        <td align=\"center\">\r\n
+      \           <a href=\"https://www.leonbets.com/bonuses-and-promotions\" class=\"odd\">\r\n
+      \               <div class=\"menutlt bonus\"></div>\r\n            </a>\r\n
+      \       </td>\r\n    </tr>\r\n    <tr><td bgcolor=\"white\" align=\"left\">\r\n
+      \   <a href=\"https://www.leonbets.com/bonuses-and-promotions\">\r\n        <img
+      src=\"http://www.leonbets.com/img/bets102/en/bonus100.jpg\" border=\"0\" alt=\"\"/>\r\n
+      \   </a>\r\n\t\t\r\n        <br />\r\n        <br />\r\n    <a href=\"https://www.leonbets.com/bonuses-and-promotions\">\r\n
+      \       <img src=\"http://www.leonbets.com/img/bets102/en/bonus_leons.jpg\"
+      border=\"0\" alt=\"\"/>\r\n    </a>\r\n    </td></tr>\r\n\r\n    </table>\r\n</td></tr></table>\r\n</td></tr></table>\r\n<br/>\r\n
+      \         <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n            <tr>\r\n
+      \             <td class=\"thtxt\" colspan=\"2\"><div class=\"menutlt contact\"></div></td>\r\n
+      \           </tr>\r\n            <tr><td>\r\n\t      E-mail:&nbsp;</td><td><a
+      href=\"mailto:info@leonbets.com\">info@leonbets.com</a>\r\n            </td></tr>\r\n
+      \           <tr>\r\n              <td colspan=\"2\">\r\n                <a href=\"http://www.leonbets.com/sportsbook?do=showcontacts\"\r\n
+      \                 title=\"Send message\"><strong>Send message</strong></a>\r\n
+      \             </td></tr>\r\n            </table>\r\n\r\n\r\n<img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"15\" alt=\"\"/><br />\r\n\r\n\r\n<img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"160\" height=\"1\" alt=\"\" /><br />\r\n\r\n<img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"170\" alt=\"\" /><br />\r\n\r\n\r\n</td>\r\n<td>\r\n<img
+      src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"5\" height=\"1\"
+      alt=\"\" /><br />\r\n</td>\r\n\r\n<td width=\"558\" valign=\"top\">\r\n\r\n\r\n\r\n
+      \           \r\n\r\n\r\n\r\n\r\n\r\n\r\n    <img src='./img/tr.gif' border='0'
+      width='1' height='5' alt='' /><br />\r\n\t<object classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\"
+      codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0\"
+      width=\"552\" height=\"282\" id=\"banner\" align=\"center\">\r\n\t<param name=\"allowScriptAccess\"
+      value=\"always\" />\r\n\t<param name=\"allowFullScreen\" value=\"false\" />\r\n\t<param
+      name=\"movie\" value=\"http://www.leonbets.com/img/bets102/banner.swf?vers=103&lang=en\"
+      />\r\n    <param name=\"quality\" value=\"high\" />\r\n    <param name=\"wmode\"
+      value=\"transparent\" />\r\n    <param name=\"bgcolor\" value=\"#ffffff\" />\r\n
+      \   <embed src=\"http://www.leonbets.com/img/bets102/banner.swf?vers=103&lang=en\"
+      quality=\"high\" wmode=\"transparent\" bgcolor=\"#ffffff\" width=\"552\" height=\"282\"
+      name=\"banner\" align=\"center\" allowScriptAccess=\"sameDomain\" allowFullScreen=\"false\"
+      type=\"application/x-shockwave-flash\"/>\r\n\t</object>\r\n\r\n           <br/>\r\n
+      \          <br/>\r\n\r\n\r\n\r\n<table border='0' cellspacing='0' cellpadding='0'
+      width='100%'>\r\n<tr>\r\n<td>\r\n<img src='./img/title_left.gif' border='0'
+      width='6' height='24' alt='' /><br />\r\n\r\n</td>\r\n<td width='100%' background='./img/title_bg.gif'>\r\n<span
+      class='headtlt'>Coming up</span>\r\n</td>\r\n<td nowrap=\"nowrap\" background='./img/title_bg.gif'>\r\n\r\n
+      \ <strong><a href=\"/bet-on-live-matches\" class=\"lineblive2\">\r\n    In-play
+      - scheduled&nbsp;(19)</a>\r\n  </strong>\r\n\r\n</td>\r\n<td>\r\n<img src='./img/title_right.gif'
+      border='0' width='6' height='24' alt='' /><br />\r\n</td>\r\n</tr>\r\n</table>\r\n<img
+      src='./img/tr.gif' border='0' width='1' height='5' alt='' /><br />\r\n\r\n\r\n<table
+      border=\"0\" cellspacing=\"1\" cellpadding=\"2\" width=\"552\">\r\n<form action=\"https://www.leonbets.com/acceptbet\"
+      method=\"post\" name=\"betform\">\r\n<input type=\"hidden\" name=\"do\" value=\"setstake\"
+      id=\"formDo\" />\r\n<input type=\"hidden\" name=\"sport\" value=\"\" />\r\n<input
+      type=\"hidden\" name=\"league\" value=\"\" />\r\n<input type=\"hidden\" name=\"oid\"
+      value=\"\" />\r\n<input type=\"hidden\" name=\"odd\" value=\"\" />\r\n<input
+      type=\"hidden\" name=\"trg\" value=\"6\" />\r\n</form>\r\n<tr>\r\n  <th width=\"11\">\r\n
+      \   <img src=\"/img/tr.gif\" border=\"0\" width=\"9\" height=\"9\" alt=\"\"/><br
+      />\r\n  </th>\r\n  <th width=\"55\" align=\"left\">\r\n    Time\r\n  </th>\r\n
+      \ <th width=\"235\" align=\"left\">\r\n    Event\r\n  </th>\r\n  <th width=\"70\"
+      align=\"right\">\r\n    Home\r\n  </th>\r\n  <th width=\"70\" align=\"right\">\r\n
+      \  Draw\r\n  </th>\r\n  <th width=\"70\" align=\"right\">\r\n   Away\r\n  </th>\r\n</tr>\r\n\r\n\r\n<tr
+      class=\"row1\">\r\n  <td>\r\n\r\n  <img src=\"/img/tr.gif\" border=\"0\" width=\"9\"
+      height=\"9\" alt=\"\"/><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309341600000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>JEF United - Shonan Bellmare</strong>\r\n<br>\r\n<a
+      title=\"Go to league: Soccer - Japanese Soccer - J2 League\"\r\n  href=\"betoffer/1/5715\"
+      class=\"smallgreya\">Soccer - Japanese Soccer - J2 League</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715,
+      103145229|1107246|0, 1.44\" class=\"oddj\" title='Bet on home win'><strong>1.44</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">580 USD</span></td>\r\n\r\n<td align=\"right\">\r\n
+      \ <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145229|58805|0,
+      3.97\" class=\"oddj\" title='Bet on draw'><strong>3.97</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n  <a
+      href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145229|5495202|0, 6.40\"
+      class=\"oddj\" title='Bet on away win'><strong>6.40</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr class=\"row2\">\r\n
+      \ <td>\r\n\r\n  <img src=\"/img/tr.gif\" border=\"0\" width=\"9\" height=\"9\"
+      alt=\"\"/><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309341600000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Kyoto Sanga - Roasso Kumamoto</strong>\r\n<br>\r\n<a
+      title=\"Go to league: Soccer - Japanese Soccer - J2 League\"\r\n  href=\"betoffer/1/5715\"
+      class=\"smallgreya\">Soccer - Japanese Soccer - J2 League</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715,
+      103145295|5518966|0, 2.40\" class=\"oddj\" title='Bet on home win'><strong>2.40</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n
+      \ <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145295|58805|0,
+      3.11\" class=\"oddj\" title='Bet on draw'><strong>3.11</strong></a>\r\n  <br><span
+      class=\"smallgrey\">380 USD</span></td>\r\n\r\n<td align=\"right\">\r\n  <a
+      href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145295|5519076|0, 2.67\"
+      class=\"oddj\" title='Bet on away win'><strong>2.67</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr class=\"row1\">\r\n
+      \ <td>\r\n\r\n  <img src=\"/img/tr.gif\" border=\"0\" width=\"9\" height=\"9\"
+      alt=\"\"/><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309341600000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Oita Trinita - Yokohama FC</strong>\r\n<br>\r\n<a
+      title=\"Go to league: Soccer - Japanese Soccer - J2 League\"\r\n  href=\"betoffer/1/5715\"
+      class=\"smallgreya\">Soccer - Japanese Soccer - J2 League</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715,
+      103147360|350949|0, 2.45\" class=\"oddj\" title='Bet on home win'><strong>2.45</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n
+      \ <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103147360|58805|0,
+      3.34\" class=\"oddj\" title='Bet on draw'><strong>3.34</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n  <a
+      href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103147360|2319612|0, 2.65\"
+      class=\"oddj\" title='Bet on away win'><strong>2.65</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr class=\"row2\">\r\n
+      \ <td>\r\n\r\n  <img src=\"/img/tr.gif\" border=\"0\" width=\"9\" height=\"9\"
+      alt=\"\"/><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309341600000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Sagan Tosu - Tochigi</strong>\r\n<br>\r\n<a title=\"Go
+      to league: Soccer - Japanese Soccer - J2 League\"\r\n  href=\"betoffer/1/5715\"
+      class=\"smallgreya\">Soccer - Japanese Soccer - J2 League</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715,
+      103145362|5518967|0, 2.24\" class=\"oddj\" title='Bet on home win'><strong>2.24</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n
+      \ <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145362|58805|0,
+      3.52\" class=\"oddj\" title='Bet on draw'><strong>3.52</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n  <a
+      href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145362|3455678|0, 2.84\"
+      class=\"oddj\" title='Bet on away win'><strong>2.84</strong></a>\r\n  <br><span
+      class=\"smallgrey\">330 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr class=\"row1\">\r\n
+      \ <td>\r\n\r\n  <img src=\"/img/tr.gif\" border=\"0\" width=\"9\" height=\"9\"
+      alt=\"\"/><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309341600000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Sussex - Warwickshire</strong>\r\n<br>\r\n<a title=\"Go
+      to league: Cricket - Group C - English Domestic - County Championship 2011 -
+      Division One\"\r\n  href=\"betoffer/4/5631\" class=\"smallgreya\">Cricket -
+      Group C - English Domestic - County Championship 2011 - Division One</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"4, 5631,
+      102917985|31379|0, 2.04\" class=\"oddj\" title='Bet on home win'><strong>2.04</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n
+      \ <a href=\"#\" isauthorized=\"false\" betdata=\"4, 5631, 102917985|60443|0,
+      3.34\" class=\"oddj\" title='Bet on draw'><strong>3.34</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n  <a
+      href=\"#\" isauthorized=\"false\" betdata=\"4, 5631, 102917985|2120|0, 3.07\"
+      class=\"oddj\" title='Bet on away win'><strong>3.07</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr class=\"row2\">\r\n
+      \ <td>\r\n\r\n  <img src=\"/img/tr.gif\" border=\"0\" width=\"9\" height=\"9\"
+      alt=\"\"/><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309341600000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Thespa Kusatsu - Ehime</strong>\r\n<br>\r\n<a title=\"Go
+      to league: Soccer - Japanese Soccer - J2 League\"\r\n  href=\"betoffer/1/5715\"
+      class=\"smallgreya\">Soccer - Japanese Soccer - J2 League</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715,
+      103145425|5497348|0, 2.29\" class=\"oddj\" title='Bet on home win'><strong>2.29</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n
+      \ <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145425|58805|0,
+      3.25\" class=\"oddj\" title='Bet on draw'><strong>3.25</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n  <a
+      href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145425|3455675|0, 2.74\"
+      class=\"oddj\" title='Bet on away win'><strong>2.74</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr class=\"row1\">\r\n
+      \ <td>\r\n\r\n  <img src=\"/img/tr.gif\" border=\"0\" width=\"9\" height=\"9\"
+      alt=\"\"/><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309341600000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Tokyo Verdy - Mito HollyHock</strong>\r\n<br>\r\n<a
+      title=\"Go to league: Soccer - Japanese Soccer - J2 League\"\r\n  href=\"betoffer/1/5715\"
+      class=\"smallgreya\">Soccer - Japanese Soccer - J2 League</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715,
+      103145488|5519003|0, 1.52\" class=\"oddj\" title='Bet on home win'><strong>1.52</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">550 USD</span></td>\r\n\r\n<td align=\"right\">\r\n
+      \ <a href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145488|58805|0,
+      3.65\" class=\"oddj\" title='Bet on draw'><strong>3.65</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n<td align=\"right\">\r\n  <a
+      href=\"#\" isauthorized=\"false\" betdata=\"1, 5715, 103145488|5508150|0, 6.04\"
+      class=\"oddj\" title='Bet on away win'><strong>6.04</strong></a>\r\n  <br><span
+      class=\"smallgrey\">200 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr class=\"row2\">\r\n
+      \ <td>\r\n\r\n  <img src=\"/img/tr.gif\" border=\"0\" width=\"9\" height=\"9\"
+      alt=\"\"/><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309345200000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Lisicki/Stosur - Cirstea/Morita</strong>\r\n<br>\r\n<a
+      title=\"Go to league: Tennis - Wimbledon 2011 - Womens Doubles\"\r\n  href=\"betoffer/2/5932\"
+      class=\"smallgreya\">Tennis - Wimbledon 2011 - Womens Doubles</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"2, 5932,
+      103150413|5646110|0, 1.23\" class=\"oddj\" title='Bet on home win'><strong>1.23</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">10000 USD</span></td>\r\n\r\n<td align=\"right\">-</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"2, 5932,
+      103150413|5646111|0, 4.06\" class=\"oddj\" title='Bet on away win'><strong>4.06</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">200 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr
+      class=\"row1\">\r\n  <td>\r\n\r\n  <img src=\"/img/live_event_2.gif\" border=\"0\"
+      width=\"9\" height=\"9\"\r\n    alt=\"In-play scheduled\"\r\n    title=\"In-play
+      scheduled\" /><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309348800000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Bernard Tomic - Novak Djokovic</strong>\r\n<br>\r\n<a
+      title=\"Go to league: Tennis - Wimbledon 2011 - Mens Tournament\"\r\n  href=\"betoffer/2/5905\"
+      class=\"smallgreya\">Tennis - Wimbledon 2011 - Mens Tournament</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"2, 5905,
+      103149881|3588868|0, 7.30\" class=\"oddj\" title='Bet on home win'><strong>7.30</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">1400 USD</span></td>\r\n\r\n<td align=\"right\">-</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"2, 5905,
+      103149881|2249229|0, 1.11\" class=\"oddj\" title='Bet on away win'><strong>1.11</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">10000 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n<tr
+      class=\"row2\">\r\n  <td>\r\n\r\n  <img src=\"/img/live_event_2.gif\" border=\"0\"
+      width=\"9\" height=\"9\"\r\n    alt=\"In-play scheduled\"\r\n    title=\"In-play
+      scheduled\" /><br />\r\n\r\n</td>\r\n\r\n<td><script>printShortDate(1309348800000)</script></td>\r\n\r\n<td
+      width=\"295\">\r\n<strong>Jo Wilfried Tsonga - Roger Federer</strong>\r\n<br>\r\n<a
+      title=\"Go to league: Tennis - Wimbledon 2011 - Mens Tournament\"\r\n  href=\"betoffer/2/5905\"
+      class=\"smallgreya\">Tennis - Wimbledon 2011 - Mens Tournament</a>\r\n</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"2, 5905,
+      103150237|2444577|0, 5.50\" class=\"oddj\" title='Bet on home win'><strong>5.50</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">10000 USD</span></td>\r\n\r\n<td align=\"right\">-</td>\r\n\r\n<td
+      align=\"right\">\r\n  <a href=\"#\" isauthorized=\"false\" betdata=\"2, 5905,
+      103150237|2251402|0, 1.16\" class=\"oddj\" title='Bet on away win'><strong>1.16</strong></a>\r\n
+      \ <br><span class=\"smallgrey\">10000 USD</span></td>\r\n\r\n</tr>\r\n\r\n\r\n\r\n</table>\r\n\r\n<img
+      src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"3\" alt=\"\" /><br />\r\n\r\n<table
+      border=\"0\" cellpadding=\"3\" cellspacing=\"0\" width=\"100%\">\r\n<tr>\r\n
+      \ <td class=\"row1\">\r\n    <strong>Hint</strong> You must be logged in to
+      bet. If you don't have an account yet, you need to <a href=\"https://www.leonbets.com/registration\">register.</a>\r\n\r\n
+      \   <p>\r\n    The stake limits are shown under the outcomes odds. To bet on
+      an outcome, click on its odds and enter your stake in the bet confirmation page
+      that will follow.\r\n    <p>\r\n    For viewing all the events in league, please
+      follow the events title link or use the SPORTING EVENTS menu.\r\n\r\n  </td>\r\n</tr>\r\n</table>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<img
+      src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"10\" alt=\"\" /><br />\r\n<table
+      border='0' cellspacing='0' cellpadding='0' width='100%'>\n<tr>\n<td>\n<img src='http://www.leonbets.com/img/title_left.gif'
+      border='0' width='6' height='24' alt='' /><br />\n</td>\n<td width='100%' background='http://www.leonbets.com/img/title_bg.gif'>\n<span
+      class='headtlt'>LeonBets News</span>\n</td>\n<td>\n<img src='http://www.leonbets.com/img/title_right.gif'
+      border='0' width='6' height='24' alt='' /><br />\n</td>\n</tr>\n</table>\n<img
+      src='http://www.leonbets.com/img/tr.gif' border='0' width='1' height='5' alt=''
+      /><br />\n\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"1\" width=\"100%\">\r\n\r\n\t<tr>\r\n\t<td
+      valign=\"top\">\r\n\t09 May 2011\r\n\t<br><img src=\"/img/tr.gif\" border=\"0\"
+      width=\"60\" height=\"1\" alt=\"\" /><br />\r\n\t</td>\r\n\t<td valign=\"top\"
+      width=\"100%\">\r\n\t<strong>New payment method - Sofortüberweisung\r\n</strong>\r\n\t<br><img
+      src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"3\" alt=\"\" /><br />\r\n\t\tAn
+      instant bank transfer? Easily. With Sofortüberweisung. You don't need a credit
+      card,\r\n\t\tonly a bank account and you are one click away from a deposit to
+      our system and an exclusive\r\n\t\t<a href=\"https://www.leonbets.com/account?do=depsofort\"
+      class=\"odd\" style=\"font-weight:normal\">150% up to $150 signup bonus</a>.\r\n\r\n\t</td>\r\n\t</tr>\r\n\t<tr><td
+      colspan=\"2\">\r\n\t<img src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\"
+      alt=\"\" /><br />\r\n\t</td></tr>\r\n\r\n\t<tr>\r\n\t<td valign=\"top\">\r\n\t25
+      Feb 2011\r\n\t<br><img src=\"/img/tr.gif\" border=\"0\" width=\"60\" height=\"1\"
+      alt=\"\" /><br />\r\n\t</td>\r\n\t<td valign=\"top\" width=\"100%\">\r\n\t<strong>Neteller
+      - now on LEON\r\n</strong>\r\n\t<br><img src=\"/img/tr.gif\" border=\"0\" width=\"1\"
+      height=\"3\" alt=\"\" /><br />\r\n\t\tNow you can deposit and withdraw funds
+      using the NETELLER payment system which through years\r\n\t\thas become a synonym
+      for safety to all the players throughout the world.\r\n\t\t<a href=\"https://www.leonbets.com/account?do=depneteller\"
+      class=\"odd\" style=\"font-weight:normal\">Deposit via Neteller</a>.\t\t\r\n\r\n\t</td>\r\n\t</tr>\r\n\t<tr><td
+      colspan=\"2\">\r\n\t<img src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\"
+      alt=\"\" /><br />\r\n\t</td></tr>\r\n\r\n\t<tr>\r\n\t<td valign=\"top\">\r\n\t14
+      Feb 2011\r\n\t<br><img src=\"/img/tr.gif\" border=\"0\" width=\"60\" height=\"1\"
+      alt=\"\" /><br />\r\n\t</td>\r\n\t<td valign=\"top\" width=\"100%\">\r\n\t<strong>New
+      payment system: Ukash\r\n</strong>\r\n\t<br><img src=\"/img/tr.gif\" border=\"0\"
+      width=\"1\" height=\"3\" alt=\"\" /><br />\r\n\t\tThe new online payment method
+      added - Ukash.\r\n\t\tGet use of a simple, fast and convenient way to deposit
+      and withdraw\r\n\t\tfunds using the Ukash vouchers. No financial details needed.
+      You don't\r\n\t\teven need a card.\r\n\r\n\t</td>\r\n\t</tr>\r\n\t<tr><td colspan=\"2\">\r\n\t<img
+      src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\" alt=\"\" /><br />\r\n\t</td></tr>\r\n\r\n\t<tr>\r\n\t<td
+      valign=\"top\">\r\n\t17 Dec 2009\r\n\t<br><img src=\"/img/tr.gif\" border=\"0\"
+      width=\"60\" height=\"1\" alt=\"\" /><br />\r\n\t</td>\r\n\t<td valign=\"top\"
+      width=\"100%\">\r\n\t<strong>New payment method: paysafecard\r\n</strong>\r\n\t<br><img
+      src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"3\" alt=\"\" /><br />\r\n\t\tWe
+      have phased in the ultra-secure, prepaid Paysafecards. Make instant deposits
+      without\r\n\t\ta credit card or a bank account. Supported currencies: EUR, USD,
+      GBP, PLN.\r\n\t</td>\r\n\t</tr>\r\n\t<tr><td colspan=\"2\">\r\n\t<img src=\"/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"2\" alt=\"\" /><br />\r\n\t</td></tr>\r\n\r\n\t<tr>\r\n\t<td
+      valign=\"top\">\r\n\t27 Oct 2009\r\n\t<br><img src=\"/img/tr.gif\" border=\"0\"
+      width=\"60\" height=\"1\" alt=\"\" /><br />\r\n\t</td>\r\n\t<td valign=\"top\"
+      width=\"100%\">\r\n\t<strong>New countries - new currencies\r\n</strong>\r\n\t<br><img
+      src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"3\" alt=\"\" /><br />\r\n\t\tWe
+      are happy to see more and more customers coming in from the UK, Norway and Sweden.\r\n\t\tThe
+      following account currencies have been added for maximum user convenience:\r\n\t\tGBP
+      (British pounds), SEK (Swedish kronors), NOK (Norwegian kroners).\r\n\r\n\t</td>\r\n\t</tr>\r\n\t<tr><td
+      colspan=\"2\">\r\n\t<img src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\"
+      alt=\"\" /><br />\r\n\t</td></tr>\r\n\r\n\r\n\r\n</table>\r\n\r\n\r\n\n\n\n\n\n\n\n\n<img
+      src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"10\" alt=\"\" /><br />\n\n\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<img
+      src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"10\" alt=\"\" /><br />\r\n\r\n<table
+      border='0' cellspacing='0' cellpadding='0' width='100%'>\r\n<tr>\r\n<td>\r\n<img
+      src='img/title_left.gif' border='0' width='6' height='24' alt='' /><br />\r\n\r\n</td>\r\n<td
+      width='100%' background='/img/title_bg.gif'>\r\n<span class='headtlt'>Sport
+      News</span>\r\n</td>\r\n<td nowrap=\"nowrap\" background='/img/title_bg.gif'>\r\n
+      \ <strong><a href=\"news\" title=\"News Archive\">\r\n    News Archive\r\n   </a>\r\n
+      \ </strong>\r\n</td>\r\n<td>\r\n<img src='/img/title_right.gif' border='0' width='6'
+      height='24' alt='' /><br />\r\n</td>\r\n</tr>\r\n</table>\r\n<img src='/img/tr.gif'
+      border='0' width='1' height='5' alt='' /><br />\r\n\r\n<table border=\"0\" cellspacing=\"0\"
+      cellpadding=\"1\" width=\"100%\">\r\n\r\n<tr>\r\n<td valign=\"top\">\r\n29/06
+      04:10\r\n<br><img src=\"/img/tr.gif\" border=\"0\" width=\"60\" height=\"1\"
+      alt=\"\" /><br />\r\n</td>\r\n<td valign=\"top\" width=\"100%\">\r\n<a href=\"news/353238\"><strong>NHL
+      - Islanders acquire Ehrhoff rights </strong></a>\r\n<br><img src=\"/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"3\" alt=\"\" /><br />\r\n<span class=\"newsblog\">\r\nThe
+      New York Islanders acquired the rights to Vancouver Canucks defenseman Christian
+      for a 2012 fourth round draft pick.\r\n</span>\r\n&nbsp;<a href=\"news/353238\">More</a>\r\n</td>\r\n</tr>\r\n<tr><td
+      colspan=\"2\">\r\n<img src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\"
+      alt=\"\" /><br />\r\n</td></tr>\r\n\r\n<tr>\r\n<td valign=\"top\">\r\n28/06
+      23:42\r\n<br><img src=\"/img/tr.gif\" border=\"0\" width=\"60\" height=\"1\"
+      alt=\"\" /><br />\r\n</td>\r\n<td valign=\"top\" width=\"100%\">\r\n<a href=\"news/353209\"><strong>Wickets
+      tumble in second Test</strong></a>\r\n<br><img src=\"/img/tr.gif\" border=\"0\"
+      width=\"1\" height=\"3\" alt=\"\" /><br />\r\n<span class=\"newsblog\">\r\nIndia
+      and West Indies both suffered woeful batting collapses as 13 wickets tumbled
+      on the opening day of the second Test in Barbados.\r\n</span>\r\n&nbsp;<a href=\"news/353209\">More</a>\r\n</td>\r\n</tr>\r\n<tr><td
+      colspan=\"2\">\r\n<img src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\"
+      alt=\"\" /><br />\r\n</td></tr>\r\n\r\n<tr>\r\n<td valign=\"top\">\r\n28/06
+      23:42\r\n<br><img src=\"/img/tr.gif\" border=\"0\" width=\"60\" height=\"1\"
+      alt=\"\" /><br />\r\n</td>\r\n<td valign=\"top\" width=\"100%\">\r\n<a href=\"news/353210\"><strong>Copa
+      Am�rica - Keeper injured in Rodallega collision</strong></a>\r\n<br><img src=\"/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"3\" alt=\"\" /><br />\r\n<span class=\"newsblog\">\r\nColombia
+      first choice goalkeeper David Ospina was injured after colliding with team-mate
+      Hugo Rodallega during a Copa America practice game.\r\n</span>\r\n&nbsp;<a href=\"news/353210\">More</a>\r\n</td>\r\n</tr>\r\n<tr><td
+      colspan=\"2\">\r\n<img src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\"
+      alt=\"\" /><br />\r\n</td></tr>\r\n\r\n<tr>\r\n<td valign=\"top\">\r\n28/06
+      21:34\r\n<br><img src=\"/img/tr.gif\" border=\"0\" width=\"60\" height=\"1\"
+      alt=\"\" /><br />\r\n</td>\r\n<td valign=\"top\" width=\"100%\">\r\n<a href=\"news/353202\"><strong>Champions
+      League qualification first round results</strong></a>\r\n<br><img src=\"/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"3\" alt=\"\" /><br />\r\n<span class=\"newsblog\">\r\nFirst
+      leg: Tre Fiori (San Marino) 0-3 Valletta FC (Malta); FC Santa Coloma (Andorra)
+      0-2 F91 Dudelange (Luxembourg)\r\n</span>\r\n&nbsp;<a href=\"news/353202\">More</a>\r\n</td>\r\n</tr>\r\n<tr><td
+      colspan=\"2\">\r\n<img src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\"
+      alt=\"\" /><br />\r\n</td></tr>\r\n\r\n<tr>\r\n<td valign=\"top\">\r\n28/06
+      21:23\r\n<br><img src=\"/img/tr.gif\" border=\"0\" width=\"60\" height=\"1\"
+      alt=\"\" /><br />\r\n</td>\r\n<td valign=\"top\" width=\"100%\">\r\n<a href=\"news/353194\"><strong>Anderson
+      spearheads England stroll</strong></a>\r\n<br><img src=\"/img/tr.gif\" border=\"0\"
+      width=\"1\" height=\"3\" alt=\"\" /><br />\r\n<span class=\"newsblog\">\r\nEngland
+      romped to a 110-run victory against Sri Lanka in a rain-affected ODI at The
+      Oval to take a 1-0 lead in the five match series.\r\n</span>\r\n&nbsp;<a href=\"news/353194\">More</a>\r\n</td>\r\n</tr>\r\n<tr><td
+      colspan=\"2\">\r\n<img src=\"/img/tr.gif\" border=\"0\" width=\"1\" height=\"2\"
+      alt=\"\" /><br />\r\n</td></tr>\r\n\r\n</table>\r\n\r\n\r\n\r\n<p>&nbsp;</p>\r\n\r\n\r\n
+      \           \r\n\r\n</td>\r\n\r\n<td width=\"6\">\r\n  <img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"6\" height=\"1\" alt=\"\" /><br />\r\n</td>\r\n<td width=\"160\"
+      valign=\"top\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n  <div id=\"betslip\">\r\n<script
+      language=\"JavaScript\">\r\n  var urls         = Array();\r\n  urls[\"login\"]
+      \   = 'https://www.leonbets.com/login';\r\n  urls[\"bet\"]      = 'https://www.leonbets.com/acceptbet';\r\n
+      \ urls[\"combibet\"] = 'https://www.leonbets.com/acceptcombibet';\r\n  var titleSlip
+      \   = 'Remove from slip';\r\n  var minCombiSize = 2;\r\n  var minCombiErr  =
+      'The minimum number of bets in a multiple is 2.';\r\n  var imgRoot      = 'http://www.leonbets.com/img';\r\n</script>\r\n
+      \ <form action=\"https://www.leonbets.com/acceptbet\" method=\"post\" name=\"slipform\">\r\n
+      \  <input type=\"hidden\" name=\"do\" value=\"setstake\" id=\"formDo\" />\r\n
+      \ <table border=\"0\" cellspacing=\"0\" cellpadding=\"3\"><tr><td>\r\n  <table
+      border=\"0\" cellspacing=\"0\" cellpadding=\"1\" width=\"154\">\r\n  <tr>\r\n
+      \ <td width=\"15\">\r\n  <img src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\"
+      width=\"1\" height=\"1\" alt=\"\" /><br />\r\n  </td>\r\n  <td width=\"92\">\r\n
+      \ <img src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"1\" height=\"1\"
+      alt=\"\" /><br />\r\n  </td>\r\n  <td width=\"32\">\r\n  <img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"30\" height=\"1\" alt=\"\" /><br />\r\n  </td>\r\n      <td
+      id=\"btslip1\" style=\"display:none;\" width=\"15\">\r\n      <img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"1\" alt=\"\" /><br />\r\n      </td>\r\n  </tr>\r\n\r\n
+      \ <tr>\r\n  <td colspan=\"4\" id=\"btslip2\">\r\n    <div class=\"menutlt cupon\"></div>\r\n
+      \ </td>\r\n  </tr>\r\n\r\n<tr id=\"emptySlip\">\r\n  <td colspan=\"4\">\r\n
+      \   <span class=\"grey\">\r\n      No bets selected. To choose one, please click
+      on event odds.\r\n    </span>\r\n<br /><img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"10\" alt=\"\" /><br />\r\n  </td>\r\n</tr>\r\n\r\n\r\n<tr
+      id=\"headerSlip1\" style=\"display:none;\">\r\n  <td height=\"24\">\r\n    <a
+      href=\"#\" id=\"cleanSlip\"><img src=\"http://www.leonbets.com/img/delslipall.gif\"
+      border=\"0\" width=\"13\" height=\"13\" alt=\"Remove all\" title=\"Remove all\"/></a><br
+      />\r\n  </td>\r\n  <td colspan=\"2\" class=\"thcolor slipbg\">\r\n    <span
+      id=\"typeSlip\" style=\"font-weight: bold;\">\r\n\r\n      <input type=\"hidden\"
+      name=\"typeExpress\" id=\"typeExpress\" value=\"1\"/>\r\n      \r\n\r\n  </span>\r\n
+      \ </td>\r\n    <td class=\"slipbg\" id=\"btslip3\" style=\"display:none;\">\r\n
+      \     <span class=\"menutlt\">B</span>\r\n    </td>\r\n</tr>\r\n<tr id=\"headerSlip2\"
+      style=\"display:none;\">\r\n  <td colspan=\"4\" align=\"right\" class=\"slipbborder\">\r\n
+      \   <img src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"1\"
+      height=\"1\" alt=\"\" /><br />\r\n  </td>\r\n</tr>\r\n\r\n<tr id=\"bankerSlip0\"
+      style=\"display:none;\">\r\n<td colspan=\"4\" align=\"right\">\r\n  <img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"1\" alt=\"\" /><br />\r\n</td>\r\n</tr>\r\n<tr
+      id=\"bankerSlip1\" style=\"display:none;\">\r\n  <td colspan=\"4\" class=\"thcolor\"
+      align=\"right\">\r\n    <a href=\"#\" onclick=\"showBanker()\" id=\"withBankerText\"
+      class=\"small2\">With bankers</a>\r\n  </td>\r\n</tr>\r\n\r\n<tr id=\"footerSlip0\"
+      style=\"display:none;\">\r\n  <td colspan=\"4\" class=\"slipbborder\" id=\"btslip4\">\r\n
+      \   <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\">\r\n
+      \     <tr id=\"totalOddTr\">\r\n        <td class=\"thcolor\" width=\"50%\"
+      align=\"right\">Odds:&nbsp;</td>\r\n        <td width=\"50%\" align=\"right\"><span
+      id=\"totalOddSlip\" style=\"font-weight: bold;\"></span></td>\r\n      </tr>\r\n
+      \       <tr id=\"countBetsTr\" style=\"display:none;\">\r\n          <td class=\"thcolor\"
+      align=\"right\">Number of bets:&nbsp;</td>\r\n          <td class=\"greyb2\"
+      align=\"right\"><span id=\"countBetsSlip\" style=\"font-weight: bold;\">0</span></td>\r\n
+      \       </tr>\r\n      <tr>\r\n        <td class=\"thcolor\" align=\"right\">Min
+      stake:&nbsp;</td>\r\n        <td align=\"right\" class=\"greyb2\" id=\"minStakeSlip\"></td>\r\n
+      \     </tr>\r\n      <tr>\r\n        <td class=\"thcolor\" align=\"right\">Max
+      stake:&nbsp;</td>\r\n        <td align=\"right\" class=\"greyb2\" id=\"maxStakeSlip\"></td>\r\n
+      \     </tr>\r\n    </table>\r\n  </td>\r\n</tr>\r\n\r\n<tr id=\"footerSlip1\"
+      style=\"display:none;\">\r\n  <td colspan=\"4\" align=\"right\">\r\n    <img
+      src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"1\" height=\"1\"
+      alt=\"\" /><br />\r\n  </td>\r\n</tr>\r\n<tr id=\"footerSlip2\" style=\"display:none;\">\r\n
+      \ <td colspan=\"4\" align=\"center\" class=\"slipbg\">\r\n    <input id=\"buttonSlip\"
+      countitems=\"0\" type=\"button\" class=\"formbutton\" style=\"width: 115px\"\r\n
+      \     value=\"Place bet\" />\r\n  </td>\r\n</tr>\r\n\r\n  </table>\r\n  </td></tr>\r\n
+      \ </table>\r\n</form>\r\n</div>\r\n\r\n\r\n<table border=\"0\" cellspacing=\"0\"
+      cellpadding=\"3\" width=\"100%\"><tr><td>\r\n<table border=\"0\" cellspacing=\"0\"
+      cellpadding=\"0\" width=\"100%\">\r\n<tr>\r\n  <td class=\"thtxt\" width=\"180\"><div
+      class=\"menutlt dobets\"></div></td>\r\n</tr>\r\n<tr>\r\n  <td class=\"dobets\">\r\n\r\n
+      \   <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\r\n
+      \   <tr><td bgcolor=\"white\">\r\n    <img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"3\" alt=\"\"/><br />\r\n\r\n    <table border=\"0\"
+      cellspacing=\"0\" cellpadding=\"0\">\r\n    <tr>\r\n      <td>\r\n        <table
+      border=\"0\" cellspacing=\"0\" cellpadding=\"1\">\r\n            <tr>\r\n              <td
+      class=\"smallgrey\">\r\n                <a href=\"http://www.leonbets.com/how-to-place-a-bet\"><strong>How
+      do I place a bet?</strong></a>\r\n              </td>\r\n            </tr>\r\n
+      \           <tr>\r\n              <td class=\"smallgrey\">\r\n\r\n    <a href=\"http://www.leonbets.com/how-to-make-deposit\"><strong>How
+      to deposit?</strong></a>\r\n              </td>\r\n            </tr>\r\n            <tr>\r\n
+      \             <td class=\"smallgrey\">\r\n                <a href=\"http://www.leonbets.com/how-to-withdraw\"><strong>How
+      to withdraw?</strong></a>\r\n              </td>\r\n            </tr>\r\n\t
+      \   </table>\r\n\r\n      </td>\r\n    </tr>\r\n    </table>\r\n    <img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"5\" alt=\"\"/><br />\r\n    </td></tr></table>\r\n</td></tr></table>\r\n</td></tr></table>\r\n<img
+      src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"1\" height=\"5\"
+      alt=\"\"/><br /><br />\r\n\r\n\r\n\r\n<table border=\"0\" cellspacing=\"0\"
+      cellpadding=\"0\" width=\"110\" class=\"step_bets\">\r\n\t<tr>\r\n\t\t<td class=\"thtxt\"
+      width=\"180\" colspan=\"3\">\r\n\t\t\t<div class=\"menutlt games\"></div>\r\n\t\t</td>\r\n\t</tr>\r\n\t\r\n<!------------------------------------------------------------------------------>\r\n\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t\t<a
+      \ href=\"javascript: playRealNone('Lord_of_the_rings', 'http://www.leonbets.com/casino?do=play');\">\r\n
+      \                   <img src=\"http://www.leonbets.com/img/bets102/games/lord_of_the_ring.jpg\"
+      border=\"0\"/>\r\n                </a>\r\n\t\t\t</td>\r\n\t\t\t<td align=\"left\"
+      class=\"desc\">\r\n\t\t\t\t<strong>Lord of the Rings &trade;</strong>\r\n\t\t\t\t<input
+      type=\"button\" class=\"play\" value=\"\" onclick=\"playRealNone('Lord_of_the_rings',
+      'http://www.leonbets.com/casino?do=play')\"/>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td
+      colspan=\"2\">\r\n\t\t\t\t<a  href=\"javascript: playRealNone('Lord_of_the_rings',
+      'http://www.leonbets.com/casino?do=play');\" style=\"text-decoration: none;\">\r\n\t\t\t\t\tThe
+      Lord of the Rings: The Fellowship of the Ring&trade;.\r\n\t\t\t\t</a>\r\n\t\t\t\t<br/>\r\n\t\t\t\t<br/>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\r\n\r\n<!------------------------------------------------------------------------------>\r\n\t\t\r\n<!------------------------------------------------------------------------------>\r\n\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t\t<a
+      \ href=\"javascript: playRealNone('Thunderstruck', 'http://www.leonbets.com/casino?do=play');\">\r\n
+      \                   <img src=\"http://www.leonbets.com/img/bets102/games/thanders_truck.jpg\"
+      border=\"0\"/>\r\n                </a>\r\n\t\t\t</td>\r\n\t\t\t<td align=\"left\"
+      class=\"desc\">\r\n\t\t\t\t<strong>Thunderstruck</strong>\r\n\t\t\t\t<input
+      type=\"button\" class=\"play\" value=\"\" onclick=\"playRealNone('Thunderstruck',
+      'http://www.leonbets.com/casino?do=play')\"/>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td
+      colspan=\"2\">\r\n\t\t\t\t<a  href=\"javascript: playRealNone('Thunderstruck',
+      'http://www.leonbets.com/casino?do=play');\" style=\"text-decoration: none;\">\r\n\t\t\t\t\tThe
+      hammer of Thor will strike thunder and coins across this machine, so you've
+      got to be ware - and be there.\r\n\t\t\t\t</a>\r\n\t\t\t\t<br/>\r\n\t\t\t\t<br/>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\r\n\r\n<!------------------------------------------------------------------------------>\r\n\t\t\r\n<!------------------------------------------------------------------------------>\r\n\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t\t<a
+      \ href=\"javascript: playRealNone('Mermaids_Millions', 'http://www.leonbets.com/casino?do=play');\">\r\n
+      \                   <img src=\"http://www.leonbets.com/img/bets102/games/mermaids_millions.jpg\"
+      border=\"0\"/>\r\n                </a>\r\n\t\t\t</td>\r\n\t\t\t<td align=\"left\"
+      class=\"desc\">\r\n\t\t\t\t<strong>Mermaids Millions</strong>\r\n\t\t\t\t<input
+      type=\"button\" class=\"play\" value=\"\" onclick=\"playRealNone('Mermaids_Millions',
+      'http://www.leonbets.com/casino?do=play')\"/>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td
+      colspan=\"2\">\r\n\t\t\t\t<a  href=\"javascript: playRealNone('Mermaids_Millions',
+      'http://www.leonbets.com/casino?do=play');\" style=\"text-decoration: none;\">\r\n\t\t\t\t\tSlot
+      game - 5 reels, 15 paylines, the treasures await.\r\n\t\t\t\t</a>\r\n\t\t\t\t<br/>\r\n\t\t\t\t<br/>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\r\n\r\n<!------------------------------------------------------------------------------>\r\n\t\t\r\n\r\n\t\t<tr>\r\n\t\t\t<td
+      colspan=\"2\" class=\"allgames\">\r\n\t\t\t\t<a href=\"http://www.leonbets.com/casino\">\r\n
+      \                   <strong>\r\n                        All Games\r\n                    </strong>\r\n
+      \               </a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n</table>\r\n<br/>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<table
+      border=\"0\" cellspacing=\"0\" cellpadding=\"3\" width=\"100%\"><tr><td>\r\n<table
+      border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\">\r\n<tr>\r\n
+      \ <td>\r\n\r\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\r\n
+      \   <tr><td bgcolor=\"white\">\r\n    <img src=\"http://www.leonbets.com/img/tr.gif\"
+      border=\"0\" width=\"1\" height=\"3\" alt=\"\"/><br />\r\n\r\n    <table border=\"0\"
+      cellspacing=\"0\" cellpadding=\"0\">\r\n    <tr>\r\n      <td>\r\n          \r\n\r\n
+      \     </td>\r\n    </tr>\r\n\r\n\t\t\t<tr><td align=\"center\" valign=\"top\">\r\n\t\t\t\t<a
+      href=\"/bonuses-and-promotions\">\r\n\t\t\t\t\t<img src=\"http://www.leonbets.com/img/bets102/150_bonus_banner.gif\"
+      vspace=\"3\" border=\"0\" alt=\"\" /><br/>\r\n\t\t\t\t</a>\r\n\t\t\t</td></tr>\r\n\r\n
+      \   </table>\r\n    <div align=\"center\">\r\n\r\n    </div>\r\n    \r\n\r\n
+      \   <img src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"1\"
+      height=\"5\" alt=\"\"/> <br/>\r\n    </td></tr></table>\r\n</td></tr></table>\r\n</td></tr></table>\r\n\r\n\r\n<img
+      src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"1\" height=\"10\"
+      alt=\"\"/><br />\r\n\r\n<img src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\"
+      width=\"160\" height=\"1\" alt=\"\" /><br />\r\n</td>\r\n\r\n\r\n\r\n</tr>\r\n</table>\r\n\r\n<img
+      src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\" width=\"633\" height=\"1\"
+      alt=\"\" /><br />\r\n<img src=\"http://www.leonbets.com/img/tr.gif\" border=\"0\"
+      width=\"1\" height=\"3\" alt=\"\" /><br />\r\n\r\n</td>\r\n</tr>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</table>\r\n\r\n</div>\r\n<div
+      class=\"footer en\" align=\"center\">\r\n    <div class=\"we\">\r\n        <div
+      class=\"ln\">\r\n            <div class=\"left\"><nobr>we accept</nobr></div>\r\n
+      \           <div><nobr>trusted</nobr></div>\r\n        </div>\r\n        <div
+      class=\"logos\">\r\n            <div class=\"left\">\r\n                <br/>\r\n
+      \           </div>\r\n            <div>\r\n\t\t\t\t<table border=\"0\" cellpadding=\"0\"
+      cellspacing=\"0\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td><img src=\"http://www.leonbets.com/img/bets102/inst_ssl.jpg\"
+      border=\"0\"/><br /></td>\r\n\t\t\t\t\t\t<td><img src=\"http://www.leonbets.com/img/tr.gif\"
+      width=\"7\" height=\"1\" border=\"0\"/><br /></td>\r\n\t\t\t\t\t\t<td class=\"kahn\"
+      valign=\"top\"><a href=\"https://certificates.gamingcommission.ca/KGCCertificates.aspx?id=05086d1e-9f76-4a43-bb68-26dcc8f12ea2\"
+      target=\"_blank\"><img src=\"http://www.leonbets.com/img/bets102/kahn.jpg\"
+      border=\"0\"/></a></td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n            </div>\r\n
+      \       </div>\r\n    </div>\r\n</div>\r\n<div class=\"subfooter\">\r\n    <!--
+      Powered by LeonGaming.com -->\r\n    <a class=\"logo\" href=\"http://www.leongaming.com\"
+      target=\"_blank\">\r\n        <img alt=\"LeonGaming.com\" title=\"&copy;2008-11,
+      Leon Gaming Ltd\" src=\"http://www.leonbets.com/img/bets102/sublogo.jpg\" border=\"0\"/></a>\r\n
+      \   <!-- Link menu in footer -->\r\n    <div class=\"menu\">\r\n    <ul>\r\n
+      \       <li class=\"bord\"><a title=\"Home\" href=\"http://www.leonbets.com/\">\r\n
+      \           Home</a></li>\r\n        <li class=\"bord\"><a title=\"Register\"
+      href=\"https://www.leonbets.com/registration\">\r\n            Register</a></li>\r\n
+      \       <li class=\"bord\"><a title=\"Terms and Conditions\" href=\"http://www.leonbets.com/terms\">\r\n
+      \           Terms and Conditions</a></li>\r\n        <li class=\"bord\"><a title=\"Sports
+      Betting Rules\" href=\"/betting-rules\">\r\n            Rules</a></li>\r\n        <li
+      class=\"bord\"><a title=\"Responsible Gambling Policy\" href=\"http://www.leonbets.com/responsible-gambling\">\r\n
+      \           Responsible Gambling</a></li>\r\n        <li class=\"bord\"><a title=\"About
+      the Company\" href=\"/about-company\">\r\n            About us</a></li>\r\n
+      \       <li class=\"bord\"><a title=\"Contact us\" href=\"http://www.leonbets.com/sportsbook?do=showcontacts\">\r\n
+      \           Contact</a></li>\r\n\r\n        <li class=\"bord\"><a title=\"Promotions\"
+      href=\"/bonuses-and-promotions\">\r\n            Promotions</a></li>\r\n\r\n
+      \       <li class=\"bord\"><a title=\"Affiliates\" href=\"http://www.leonbets.com/sportsbook?do=affiliate\">\r\n
+      \           Affiliates</a></li>\r\n    </ul>\r\n    </div>\r\n    <!-- Over
+      18s sign linking to responsible gambling policy -->\r\n    <a class=\"copy\"
+      href=\"http://www.leonbets.com/responsible-gambling#underage\">\r\n        <img
+      alt=\"18+ only\" title=\"Over 18s only\" src=\"http://www.leonbets.com/img/bets102/18.jpg\"/></a>\r\n\r\n\r\n<div
+      class=\"link\">\r\n\r\n\r\n\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n<script
+      type=\"text/javascript\">\r\nvar gaJsHost = ((\"https:\" == document.location.protocol)
+      ? \"https://ssl.\" :\r\n\"http://www.\");\r\ndocument.write(unescape(\"%3Cscript
+      src='\" + gaJsHost +\r\n\"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n</script>\r\n<script
+      type=\"text/javascript\">\r\nvar pageTracker = _gat._getTracker(\"UA-5410098-2\");\r\npageTracker._trackPageview();\r\n</script>\r\n\r\n\r\n</body>\r\n\r\n</html>\r\n
+      \           \r\n"
+    http_version: '1.1'

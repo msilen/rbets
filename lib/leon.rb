@@ -8,8 +8,12 @@ require 'config/environment'
 #Debugger.start
 
 class Leon
-@@bookmaker=Bookmaker.where(:name => "Leonbets").first
+  @@bookmaker=Bookmaker.where(:name => "Leonbets").first
   #запуск скрипта
+  def initialize
+    @sports_synonyms=YAML.load_file("./lib/config/sports_synonyms.yml")
+  end
+
   def run
     connect
     sport_links=get_list_of_sport_links
@@ -29,19 +33,31 @@ class Leon
     @mainpage.css('.leagueitem a')
   end
 
+  #возвращает синоним к спорту если таковой есть, либо сам входящий аргумент если синонима нет
+  def synonym_to_standard(sport)
+    @sports_synonyms[sport]||sport
+  end
+
   #вспомогательный метод для нахождения ближайшего элемента внутри документа
   Nokogiri::XML::Node.class_eval do
     def find_next_sibling(tag)
       #tag=строка, название тега
-      sibling=self.next
+      sibling=self.next_element
+      return nil unless sibling.respond_to? "name"
       sibling.name==tag ? sibling : sibling.find_next_sibling(tag)
     end
+  end
+
+  #определяет вид спорта у текущей обрабатываемой ссылки
+  def find_sport(link)
+    link.ancestors.detect{|element|element.name=="tr"}.previous_element.css(".lineb")[1].text.strip.chomp
   end
 
   #заходим в каждую ссылку и обрабатываем ставки
   def iterate_through_bet_offers(links)
     links.each do |link|
       puts "\e[34m#{link.text.chomp.strip}\e[0m"
+      @sport=synonym_to_standard(find_sport(link))#преобразуем в стандартное название, если синоним
       @current_doc=connect(link['href'])
       parse_page(@current_doc)
     end
@@ -79,7 +95,7 @@ class Leon
     else
       home, away=*odds
     end
-    record=@@bookmaker.bets.new(:competition => @title_obj.text, :competitor_one=>sides[0], :competitor_one_coef => home, :competitor_two => sides[1], :competitor_two_coef => away, :event_date =>date, :draw =>draw)
+    record=@@bookmaker.bets.new(:sport =>@sport, :competition => @title_obj.text, :competitor_one=>sides[0], :competitor_one_coef => home, :competitor_two => sides[1], :competitor_two_coef => away, :event_date =>date, :draw =>draw)
     print "\e[32m"
     print "\e[31m" unless record.valid?
     record.save

@@ -30,7 +30,7 @@ class Gamebookers < Celerity::Browser
 
   #проходим по ссылке если ставки на этом виде спорта подходят.
   def iterate_through_valid_sports
-    @mainpage_links_of_sports_hrefs.select do |url|
+    @mainpage_links_of_sports_hrefs.each do |url|
       goto(url)
       get_data(url) if page_with_actual_matches?
     end
@@ -49,6 +49,7 @@ class Gamebookers < Celerity::Browser
     select_list_of_leagues_options=select_list(:id, 'leaguesSelect') #список опций лиг в Select List
     leagues_to_scan=reject_redundant_today_options(select_list_of_leagues_options) #список лиг, без событий "сегодня или завтра", т.к они избыточны
     leagues_to_scan.each do |league|
+      @league=league #лига, соревнование
       puts "going in: \e[34m" + league +"\e[0m"
       goto league_url(league, select_list_of_leagues_options) #идем на страничку текущей итерируемой лиги
       parse_page if page_with_actual_matches? && appropriate_bet_type?# обработаем страницу, если подходит по параметрам
@@ -57,11 +58,12 @@ class Gamebookers < Celerity::Browser
   end
 
   def parse_page
-    odds=browser.elements_by_xpath "//a[@class='bfhref']"# массив коэффициентов
+    odds=elements_by_xpath "//a[@class='bfhref']"# массив коэффициентов
     first_x_second(odds) #проверяется является ли ставка 1Х2, и записывает в перем.экземпляра с аналогичным именем
     box=[] #сюда временно(построчно) записываются коэф. в порядке их обработки (1й,2й) либо (1й,ничья,2й)
     odds.each do |odd|
       sides=find_sides(odd)#определим стороны
+      @sport=link(:class => "selectedBtn").text.strip.chomp# вид спорта
       time=parse_date_string_to_utc(odd.parent.parent.parent.text)#дата события, класс Time
       required_size= (@first_x_second) ? 3 : 2 #задаем размер кол-ва ставок на 1 событие (3 ставки для 1х2)
       box<<odd.text
@@ -81,9 +83,9 @@ class Gamebookers < Celerity::Browser
     c_1_cf=box[0] #коэффициент первого участника
     print "\e[32m"
     box.size==3 ? (draw, c_2_cf=box[1], box[2]) : (draw, c_2_cf=nil, box[1]) #задаются значения коэффициентов в зависимости от типа ставки
-    s=@bookmaker.bets.new(:competitor_one=>sides[0], :competitor_one_coef => c_1_cf, :draw => draw, :competitor_two => sides[1], :competitor_two_coef => c_2_cf , :event_date =>time)
-    print "\e[31m" unless s.valid?
-    s.save
+    record=@bookmaker.bets.new(:competition => @league,:sport =>@sport, :competitor_one=>sides[0], :competitor_one_coef => c_1_cf, :draw => draw, :competitor_two => sides[1], :competitor_two_coef => c_2_cf , :event_date =>time)
+    print "\e[31m#{record.errors.first} " unless record.valid?
+    record.save
     puts %Q(#{coef1} #{sides[0]} VS #{sides[1]} #{coef2} #{time} draw:#{draw}\e[0m)
   end
 end

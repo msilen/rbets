@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'active_record'
 require 'yaml'
-#require 'logger'
+require 'logger'
 
 
 dbconfig = YAML::load(File.open(File.join(File.dirname(__FILE__), DATABASEYML)))
