@@ -1,151 +1,143 @@
 ---
-- - Gimnasia La Plata
-  - Gimnasia LP
-- - San Martin de San Juan
-  - San Martin
-- - Atletico Go
-  - Atletico GO
-- - Internacional
-  - Internacional RS
-- - Haka
-  - FC Haka
-- - FC Basel
-  - Basel
-- - Zestafoni
-  - FC Zestafoni
-- - Grotta
-  - Grotta Seltjarnarnes
-- - IA Akranes
-  - ÍA Akranes
-- - Fjolnir
-  - Fjolnir Reykjavik
-- - Leiknir
-  - Leiknir Reykjavik
-- - Keflavik
-  - Keflavík
-- - Mervue Utd
-  - Mervue United
-- - Drogheda
-  - Drogheda United
-- - Derry
-  - Derry City
-- - Fukuoka
-  - Avispa Fukuoka
-- - C-Osaka
-  - Cerezo Osaka
-- - Kashiwa
-  - Kashiwa Reysol
-- - Sarpsborg
-  - Sarpsborg 08
-- - Hougang
-  - Hougang United FC
-- - Gombak
-  - Gombak United
-- - Trelleborgs
-  - Trelleborgs FF
-- - IFK Goteborg
-  - IFK Göteborg
-- - Gefle
-  - Gefle IF
-- - Qviding
-  - Qviding FIF
-- - Vasteras SK
-  - Västerås SK
-- - England U17
-  - England (U17)
-- - Argentina U17
-  - Argentina (U17)
-- - Germany U17
-  - Germany (U17)
-- - USA U17
-  - USA (U17)
-- - Rustavi
-  - Olimpi Rustavi
-- - Banga
-  - Banga Gargzdai
-- - Karabakh
-  - FK Karabakh Agdam
-- - Trans Narva
-  - JK Trans Narva
-- - Rabotnicki
-  - FK Rabotnicki
-- - FC Daugava
-  - Daugava
-- - Tromso
-  - Tromsø
-- - Nomme Kalju
-  - JK Nomme Kalju
-- - Elfsborg
-  - IF Elfsborg
-- - Fola Esch
-  - CS Fola Esch
-- - Varazdin
-  - NK Varteks
-- - FC Lusitans
-  - FC Lusitanos
-- - Aalesunds
-  - Aalesund
-- - Milsami
-  - FC Milsami
-- - Zeta
-  - FK Zeta
-- - Paks
-  - Paksi
-- - FC Ulysses
-  - FC Ulisses Yerevan
-- - IBV
-  - Vestmannæyjar
-- - St Patricks
-  - St. Patrick's Athletic
-- - Kaerjeng
-  - UN Kaerjeng 97
-- - Hacken
-  - BK Hacken
-- - Cliftonville
-  - Cliftonville FC Belfast
-- - Birkirkara
-  - Birkirkara FC
-- - Glentoran
-  - Glentoran FC Belfast
-- - NSI Runavik
-  - NSÌ Runavík
-- - Jagiellonia
-  - ! 'Jagiellonia Bialystok '
-- - Irtysh Pavlodar
-  - FC Irtysh Pavlodar
-- - Olimpija
-  - Olimpia Ljubljana
-- - Flamurtari
-  - KS Flamurtari Vlorë
-- - Canada (W)
+- - NY Yankees
+  - NY Yankees (I Nova)
+- - NY Mets
+  - NY Mets (J Niese)
+- - LA Dodgers
+  - LA Dodgers (H Kuroda)
+- - LA Angels
+  - LA Angels (T Chatwood)
+- - Canada (U19)
   - Canada
-- - France (W)
-  - France
-- - Germany (W)
-  - Germany
-- - Nigeria (W)
-  - Nigeria
-- - Japan (W)
-  - Japan
-- - Mexico (W)
-  - Mexico
-- - New Zealand (W)
-  - New Zealand
-- - England (W)
-  - England
-- - North Korea (W)
-  - North Korea
-- - Sweden (W)
-  - Sweden
-- - USA (W)
-  - USA
-- - Colombia (W)
-  - Colombia
-- - Jo Wilfried Tsonga
-  - Tsonga J.-W.
-- - Novak Djokovic
-  - Djokovic N.
-- - Milwaukee (R Wolf)
-  - MIL Brewers
-- - NY Yankees (C Sabathia)
-  - NY Yankees
+- - Croatia (U19)
+  - Croatia
+- - Bragantino
+  - Bragantino SP
+- - Americana SP
+  - Americana
+- - Salgueiro PE
+  - Salgueiro
+- - Vila Nova Go
+  - Vila Nova
+- - ASA AL
+  - asa
+- - Portuguesa
+  - Portuguesa SP
+- - Sport
+  - Sport Recife
+- - RoPS Rovaniemi
+  - RoPS
+- - Athlone Town
+  - Athlone
+- - Mervue United
+  - Mervue Utd
+- - Waterford United
+  - Waterford
+- - Longford Town
+  - Longford
+- - Monaghan United
+  - Monaghan Utd
+- - Drogheda United
+  - Drogheda
+- - Derry City
+  - Derry
+- - St. Patrick's Athletic
+  - St Patricks
+- - Vegalta Sendai
+  - Sendai
+- - Grampus Eight
+  - Nagoya
+- - Avispa Fukuoka
+  - Fukuoka
+- - Albirex Niigata
+  - Niigata
+- - Cerezo Osaka
+  - C-Osaka
+- - Kashiwa Reysol
+  - Kashiwa
+- - Jubilo Iwata
+  - Iwata
+- - Vissel Kobe
+  - Kobe
+- - Strømmen
+  - Strommen
+- - Ham Kam
+  - Ham-Kam
+- - Vålerenga
+  - Valerenga
+- - Strømsgodset
+  - Stromsgodset
+- - Stabæk
+  - Stabaek
+- - Lillestrøm
+  - Lillestrom
+- - Sarpsborg 08
+  - Sarpsborg
+- - Aalesund
+  - Aalesunds
+- - Trelleborgs FF
+  - Trelleborgs
+- - IFK Göteborg
+  - IFK Goteborg
+- - Gefle IF
+  - Gefle
+- - Örebro
+  - Orebro
+- - IF Elfsborg
+  - Elfsborg
+- - BK Hacken
+  - Hacken
+- - Mjällby AIF
+  - Mjallby
+- - Halmstads BK
+  - Halmstads
+- - AIK Solna
+  - AIK
+- - Qviding FIF
+  - Qviding
+- - Västerås SK
+  - Vasteras SK
+- - FC Dallas
+  - Dallas
+- - VfL Bochum
+  - Bochum
+- - MSV Duisburg
+  - Duisburg
+- - New Zealand
+  - New Zealand (W)
+- - England
+  - England (W)
+- - North Korea
+  - North Korea (W)
+- - Sweden
+  - Sweden (W)
+- - USA
+  - USA (W)
+- - Colombia
+  - Colombia (W)
+- - Australia
+  - Australia (W)
+- - Equatorial Guinea
+  - Equatorial Guinea (W)
+- - Brazil
+  - Brazil (W)
+- - Norway
+  - Norway (W)
+- - Salford
+  - Castleford
+  - Salford
+- - Harlequins RL
+  - Warrington
+  - Harlequins
+- - St.Helens
+  - St Helens
+- - Hull FC
+  - Hull
+- - Sharapova M.
+  - Maria Sharapova
+- - Kvitova P.
+  - Petra Kvitova
+- - PoPA
+  - Popa
+- - OPS-jp
+  - OPS

@@ -4,8 +4,8 @@ require 'open-uri'
 DATABASEYML='database_ruby.yml'
 require 'db_ar_setup'
 require 'config/environment'
-#require 'ruby-debug'
-#Debugger.start
+require 'ruby-debug'
+Debugger.start
 
 class Leon
   @@bookmaker=Bookmaker.where(:name => "Leonbets").first
@@ -68,6 +68,7 @@ class Leon
     #найдем заголовок на странице(тип состязания, лиги|события)
     @title_obj=page.at_css('.headtlt')
     raise "Error occured, no title" if @title_obj.nil?
+    debugger if @title_obj.text.scan(/[^-]+-(.+)/).flatten.first.nil?
     title_text=@title_obj.text.scan(/[^-]+-(.+)/).flatten.first.chomp
     odds_table=@title_obj.ancestors.detect { |tag| tag.name=='table' }.find_next_sibling("table") #найдем таблицу ставок по отношению к заголовку
     odds_rows=odds_table.children.select { |row| row.attr("class")=~/row/ } #строки ставок
