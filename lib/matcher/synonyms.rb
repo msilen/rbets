@@ -4,9 +4,11 @@ require 'db_ar_setup'
 require 'config/environment'
 require 'amatch'
 require 'ruby-debug'
+Debugger.start
 
 class Synonyms
   include Amatch
+  @@synonyms_file="./lib/config/team_synonyms.yml"
 
   def initialize
     @bets=Bet.all #все ставки
@@ -14,6 +16,7 @@ class Synonyms
   end
 
   def run
+    #поиск одинаковых линий в базе данных, с разными букмекерами, составление из него хэша соответствий.
     @bets.each do |current_bet|
       @bets.each do |compared_bet|
         if (current_bet.event_date==compared_bet.event_date&&
@@ -32,17 +35,37 @@ class Synonyms
     puts synonyms.size
   end
 
+  def load_synonyms_if_exist
+    begin
+      synonyms=YAML.load_file @@synonyms_file
+      synonyms={} unless synonyms.instance_of? Hash
+    rescue Errno::ENOENT
+      return {}
+    end
+    synonyms
+  end
+
   def save_to_yaml
-    synonyms={}
-    @similar_events.each do |bet_key, bet_value|
-      raise "Unexpected Error, bet_value array size is greater then 1" if bet_value.size!=1
-      synonyms[bet_key.competitor_one]=bet_value.first.competitor_one
-      synonyms[bet_key.competitor_two]=bet_value.first.competitor_two
+    synonyms_new={}
+    @similar_events.each do |bet_key, bet_value| #similar_events- хэш объектов Bet
+      synonyms_new[bet_key.competitor_one]=bet_value.map &:competitor_one
+      synonyms_new[bet_key.competitor_two]=bet_value.map &:competitor_two
     end
 
-    synonyms.delete_if{|k,v|k==v} #удаляются полные совпадения из события (до этого удалялись только полные совпадения по обоим соперникам)
+    synonyms_new.each { |team, team_synonyms_arr| team_synonyms_arr.delete(team) } #удаляются полные совпадения из события (до этого удалялись только полные совпадения по обоим соперникам)
+    synonyms_new.delete_if { |k, v| v.empty? }
 
-    File.open("./lib/config/team_synonyms.yml", 'a') do |f|
+    old_synonyms=load_synonyms_if_exist #уже имеющиеся синонимы, загруженные из файла
+    synonyms=old_synonyms.merge(synonyms_new) do |key, old, new|
+      new_value=new-old #смешиваем только новые значения, если они есть, если их нету, возвращаем старые
+      unless new_value.empty?
+        old+new_value
+      else
+        old
+      end
+    end
+
+    File.open(@@synonyms_file, 'w') do |f|
       YAML.dump(synonyms, f)
     end
     synonyms
