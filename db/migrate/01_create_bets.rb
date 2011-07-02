@@ -9,6 +9,8 @@ class CreateBets < ActiveRecord::Migration
      t.float :competitor_two_coef
      t.float :draw
      t.datetime :event_date
+     t.datetime :created_at
+     t.datetime :updated_at
    end
   end
 

@@ -45,4 +45,9 @@ module GamebookersHelper
   def find_sides(odd)
     odd.parent.parent.html.scan(/<td class="ltbf ltbfnone".*\s+([\S ]+) v ([\S ]+)/).flatten
   end
+
+  #вырезает из строки часть, заключенную в квадратные скобки
+  def strip_brackets(string)
+    string.gsub(/(.*)\[.+\]/, '\1')
+  end
 end

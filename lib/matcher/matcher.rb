@@ -73,7 +73,7 @@ class Matcher
       if margin<1
         arb+=1
         puts "==========================================================================="
-        puts "#{k1} #{twobets.first.competitor_one}-#{twobets.first.competitor_two} #{k2},draw=#{kx}"
+        puts "| #{twobets.first.sport} | #{k1} #{twobets.first.competitor_one}-#{twobets.first.competitor_two} #{k2},draw=#{kx}"
         puts "margin=#{((1/margin)*100-100).round(2)}%"
         puts "==========================================================================="
       end

@@ -23,10 +23,20 @@
   - asa
 - - Portuguesa
   - Portuguesa SP
+- - Guarani
+  - Guarani SP
 - - Sport
   - Sport Recife
 - - RoPS Rovaniemi
   - RoPS
+- - FC Haka
+  - Haka
+- - KuPS Kuopio
+  - KuPS
+- - KPV Kokkola
+  - KPV
+- - Kooteepee
+  - KooTeePee
 - - Athlone Town
   - Athlone
 - - Mervue United
@@ -49,12 +59,24 @@
   - Nagoya
 - - Avispa Fukuoka
   - Fukuoka
+- - Urawa Reds
+  - Urawa
+- - Gamba Osaka
+  - G-Osaka
+- - Shimizu S-Pulse
+  - Shimizu
+- - Kashima Antlers
+  - Kashima
 - - Albirex Niigata
   - Niigata
 - - Cerezo Osaka
   - C-Osaka
 - - Kashiwa Reysol
   - Kashiwa
+- - Yokohama Marinos
+  - Yokohama FM
+- - Kawasaki Frontale
+  - Kawasaki
 - - Jubilo Iwata
   - Iwata
 - - Vissel Kobe
@@ -75,6 +97,8 @@
   - Sarpsborg
 - - Aalesund
   - Aalesunds
+- - Tromsø
+  - Tromso
 - - Trelleborgs FF
   - Trelleborgs
 - - IFK Göteborg
@@ -93,12 +117,36 @@
   - Halmstads
 - - AIK Solna
   - AIK
+- - Djurgården
+  - Djurgardens
+- - Helsingborgs IF
+  - Helsingborgs
+- - Kristianstads FF
+  - Kristianstads
+- - IK Oddevold
+  - Oddevold
 - - Qviding FIF
   - Qviding
 - - Västerås SK
   - Vasteras SK
+- - Ängelholms FF
+  - Angelholms
+- - Ljungskile SK
+  - Ljungskile
+- - Åtvidabergs FF
+  - Atvidabergs
+- - Falkenbergs FF
+  - Falkenbergs
+- - Landskrona BoIS
+  - Landskrona
+- - IFK Värnamo
+  - Varnamo
 - - FC Dallas
   - Dallas
+- - CD Chivas
+  - Chivas USA
+- - Chicago
+  - Chicago Fire
 - - VfL Bochum
   - Bochum
 - - MSV Duisburg
@@ -133,11 +181,37 @@
   - St Helens
 - - Hull FC
   - Hull
+- - Catalans
+  - Catalan Dragons
 - - Sharapova M.
   - Maria Sharapova
 - - Kvitova P.
   - Petra Kvitova
+- - Thor
+  - Thor Akureyri
+- - Grindavik
+  - Grindavík
+- - Shonan Bellmare
+  - Shonan
+- - Tokyo Verdy
+  - Verdy
 - - PoPA
   - Popa
 - - OPS-jp
   - OPS
+- - Suwon Bluewings
+  - Suwon Samsung Bluewings
+- - Etoile
+  - Etoile FC
+- - Woodlands Wellington
+  - Woodlands
+- - Incheon Utd
+  - Incheon
+- - Gangwon
+  - Gangwon FC
+- - Jeju Utd
+  - Jeju
+- - Sangju Sangmu
+  - Sangju Sangmu Phoenix
+- - Daegu FC
+  - Daegu

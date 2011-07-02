@@ -50,25 +50,35 @@ class Leon
 
   #определяет вид спорта у текущей обрабатываемой ссылки
   def find_sport(link)
-    link.ancestors.detect{|element|element.name=="tr"}.previous_element.css(".lineb")[1].text.strip.chomp
+    link.ancestors.detect { |element| element.name=="tr" }.previous_element.css(".lineb")[1].text.strip.chomp
   end
 
   #заходим в каждую ссылку и обрабатываем ставки
   def iterate_through_bet_offers(links)
     links.each do |link|
       puts "\e[34m#{link.text.chomp.strip}\e[0m"
-      @sport=synonym_to_standard(find_sport(link))#преобразуем в стандартное название, если синоним
-      @current_doc=connect(link['href'])
+      @sport=synonym_to_standard(find_sport(link)) #преобразуем в стандартное название, если синоним
+      begin
+        @current_doc=connect(link['href'])
+      rescue
+        next
+      end
+      next unless parseable?(@current_doc) #Если страница с ошибкой, к следующей ссылке уходим.
       parse_page(@current_doc)
     end
+  end
+
+  #Проверяет не будет ли ошибки при разборе страницы.
+  def parseable?(page)
+    page.at_css('.headtlt')
   end
 
   #обрабатывает переданную страницу (объект нокогири)
   def parse_page(page)
     #найдем заголовок на странице(тип состязания, лиги|события)
     @title_obj=page.at_css('.headtlt')
-    raise "Error occured, no title" if @title_obj.nil?
-    debugger if @title_obj.text.scan(/[^-]+-(.+)/).flatten.first.nil?
+#    raise "Error occured, no title" if @title_obj.nil?
+#    debugger if @title_obj.text.scan(/[^-]+-(.+)/).flatten.first.nil?
     title_text=@title_obj.text.scan(/[^-]+-(.+)/).flatten.first.chomp
     odds_table=@title_obj.ancestors.detect { |tag| tag.name=='table' }.find_next_sibling("table") #найдем таблицу ставок по отношению к заголовку
     odds_rows=odds_table.children.select { |row| row.attr("class")=~/row/ } #строки ставок
@@ -85,7 +95,7 @@ class Leon
       raise "Parse Error!!" unless sides.size ==2 #приостановим скрипт если ошибка в кол-ве соперников
       string=odds.join ' '
       save_data_to_db(sides, odds, date)
-      puts "#{date.strftime("%d.%m.%Y %H:%M")} #{sides} #{string}"
+      puts "#{date.strftime("%d.%m.%Y %H:%M")} #{sides} #{string}" unless @red_noprint
     end
   end
 
@@ -99,6 +109,7 @@ class Leon
     record=@@bookmaker.bets.new(:sport =>@sport, :competition => @title_obj.text, :competitor_one=>sides[0], :competitor_one_coef => home, :competitor_two => sides[1], :competitor_two_coef => away, :event_date =>date, :draw =>draw)
     print "\e[32m"
     print "\e[31m" unless record.valid?
+    @red_noprint=!record.valid? #печатать только новые
     record.save
   end
 end

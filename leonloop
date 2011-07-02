@@ -1,0 +1,4 @@
+while :
+do
+	bin/leon
+done

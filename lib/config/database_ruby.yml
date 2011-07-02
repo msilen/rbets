@@ -1,6 +1,16 @@
-adapter: postgresql
-database: rbets
-username: postgres
-password: plyckwosg54
-host: localhost
-encoding: utf8
+development:
+  adapter: postgresql
+  database: rbets
+  username: postgres
+  password: plyckwosg54
+  host: localhost
+  encoding: utf8
+
+test:
+  adapter: postgresql
+  database: rbets_test
+  username: postgres
+  password: plyckwosg54
+  host: localhost
+  encoding: utf8
+

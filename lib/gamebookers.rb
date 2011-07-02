@@ -7,6 +7,9 @@ require 'config/environment'
 #настройка Celerity для индексов с 0
 Celerity.index_offset = 0
 
+require 'ruby-debug'
+Debugger.start
+
 class Gamebookers < Celerity::Browser
   include GamebookersHelper
 
@@ -63,6 +66,9 @@ class Gamebookers < Celerity::Browser
     box=[] #сюда временно(построчно) записываются коэф. в порядке их обработки (1й,2й) либо (1й,ничья,2й)
     odds.each do |odd|
       sides=find_sides(odd)#определим стороны
+      processed_sides=[] #обработанные стороны-соперники (вырезаны скобки если они есть)
+      debugger if sides.nil?
+      sides.flatten.each{|side|processed_sides<<strip_brackets(side)}
       @sport=link(:class => "selectedBtn").text.strip.chomp# вид спорта
       time=parse_date_string_to_utc(odd.parent.parent.parent.text)#дата события, класс Time
       required_size= (@first_x_second) ? 3 : 2 #задаем размер кол-ва ставок на 1 событие (3 ставки для 1х2)
@@ -71,7 +77,7 @@ class Gamebookers < Celerity::Browser
         coef1=box[0]
         coef2=box[required_size-1] #второй коэфициент является либо 2м(если обычная ставка) либо 3м(если 1х2) после ничьи
         draw=box[1] if @first_x_second
-        write_to_db(box, coef1, coef2, sides, time, draw)
+        write_to_db(box, coef1, coef2, processed_sides, time, draw)
         draw=nil #сброс значения после записи
         box.clear
       end
@@ -84,8 +90,9 @@ class Gamebookers < Celerity::Browser
     print "\e[32m"
     box.size==3 ? (draw, c_2_cf=box[1], box[2]) : (draw, c_2_cf=nil, box[1]) #задаются значения коэффициентов в зависимости от типа ставки
     record=@bookmaker.bets.new(:competition => @league,:sport =>@sport, :competitor_one=>sides[0], :competitor_one_coef => c_1_cf, :draw => draw, :competitor_two => sides[1], :competitor_two_coef => c_2_cf , :event_date =>time)
-    print "\e[31m#{record.errors.first} " unless record.valid?
+    @red_noprint=!record.valid? #печатать только новые
     record.save
-    puts %Q(#{coef1} #{sides[0]} VS #{sides[1]} #{coef2} #{time} draw:#{draw}\e[0m)
+    puts %Q(#{coef1} #{sides[0]} VS #{sides[1]} #{coef2} #{time} draw:#{draw}\e[0m) unless @red_noprint
+    print "\e[0m"
   end
 end
