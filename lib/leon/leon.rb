@@ -70,7 +70,7 @@ class Leon
 
   #Проверяет не будет ли ошибки при разборе страницы.
   def parseable?(page)
-    page.at_css('.headtlt')
+    page.at_css('.headtlt') ? true :false
   end
 
   #обрабатывает переданную страницу (объект нокогири)
@@ -79,7 +79,7 @@ class Leon
     @title_obj=page.at_css('.headtlt')
 #    raise "Error occured, no title" if @title_obj.nil?
 #    debugger if @title_obj.text.scan(/[^-]+-(.+)/).flatten.first.nil?
-    title_text=@title_obj.text.scan(/[^-]+-(.+)/).flatten.first.chomp
+#    title_text=@title_obj.text.scan(/[^-]+-(.+)/).flatten.first.chomp
     odds_table=@title_obj.ancestors.detect { |tag| tag.name=='table' }.find_next_sibling("table") #найдем таблицу ставок по отношению к заголовку
     odds_rows=odds_table.children.select { |row| row.attr("class")=~/row/ } #строки ставок
     process_rows(odds_rows)

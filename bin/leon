@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
+DBENV="development"
 $LOAD_PATH.unshift File.expand_path("../../lib",__FILE__)
-require 'leon'
+require 'leon/leon'
 
 script=Leon.new
 script.run

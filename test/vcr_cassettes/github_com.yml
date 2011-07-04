@@ -1,0 +1,263 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: https://github.com:443/
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.0.4
+      date:
+      - Mon, 04 Jul 2011 05:46:33 GMT
+      content-type:
+      - text/html; charset=utf-8
+      connection:
+      - keep-alive
+      status:
+      - 200 OK
+      etag:
+      - ! '"b127d901a45b6038ae2adbcbdf0dc4b5"'
+      x-runtime:
+      - 8ms
+      content-length:
+      - '18691'
+      set-cookie:
+      - csrf_id=8b98638d1ff1fbf090b88a1d70bbca39; path=/
+      - _gh_sess=BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--ed7eadd474fd37850b68bd3c08a5c55ad0c3c833;
+        path=/; expires=Fri, 01 Jan 2021 00:00:00 GMT; secure; HttpOnly
+      cache-control:
+      - private, max-age=0, must-revalidate
+      strict-transport-security:
+      - max-age=2592000
+    body: ! "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset='utf-8'>\n    <meta
+      http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n    <script type=\"text/javascript\">var
+      NREUMQ=[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n
+      \       <title>Secure source code hosting and collaborative development - GitHub</title>\n
+      \   <link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"/opensearch.xml\"
+      title=\"GitHub\" />\n    <link rel=\"fluid-icon\" href=\"https://github.com/fluidicon.png\"
+      title=\"GitHub\" />\n\n    <link href=\"https://a248.e.akamai.net/assets.github.com/b061594e73bd47cde0b406f0ccd1cee8b0aa96ec/stylesheets/bundle_github.css\"
+      media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n    \n\n    <script
+      type=\"text/javascript\">\n      if (typeof console == \"undefined\" || typeof
+      console.log == \"undefined\")\n        console = { log: function() {} }\n    </script>\n
+      \   <script type=\"text/javascript\" charset=\"utf-8\">\n      var GitHub =
+      {\n        assetHost: 'https://a248.e.akamai.net/assets.github.com'\n      }\n
+      \     var github_user = null\n      \n    </script>\n    <script src=\"https://a248.e.akamai.net/assets.github.com/javascripts/jquery/jquery-1.6.1.min.js\"
+      type=\"text/javascript\"></script>\n    <script src=\"https://a248.e.akamai.net/assets.github.com/9a8d4d0be567a85129ca26f93f40eb76dcc8bfbb/javascripts/bundle_github.js\"
+      type=\"text/javascript\"></script>\n\n\n    \n    <script type=\"text/javascript\"
+      charset=\"utf-8\">\n      GitHub.spy({\n        repo: \"\"\n      })\n    </script>\n\n
+      \   \n\n        <script type=\"text/javascript\">\n      var _gaq = _gaq ||
+      [];\n      _gaq.push(['_setAccount', 'UA-3769691-2']);\n      _gaq.push(['_setDomainName',
+      'none']);\n      _gaq.push(['_trackPageview']);\n      _gaq.push(['_trackPageLoadTime']);\n
+      \     (function() {\n        var ga = document.createElement('script');\n        ga.src
+      = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+      '.google-analytics.com/ga.js';\n        ga.setAttribute('async', 'true');\n
+      \       document.documentElement.firstChild.appendChild(ga);\n      })();\n
+      \   </script>\n\n    \n  </head>\n\n  \n\n  <body class=\"logged_out page-home
+      \ env-production\">\n    \n\n    \n\n    \n\n    <div class=\"\" id=\"main\">\n
+      \     <div id=\"header\" class=\"true\">\n        \n          <a class=\"logo
+      boring\" href=\"https://github.com\">\n            \n            <img alt=\"github\"
+      class=\"default\" height=\"45\" src=\"https://a248.e.akamai.net/assets.github.com/images/modules/header/logov5.png\"
+      />\n            <!--[if (gt IE 8)|!(IE)]><!-->\n            <img alt=\"github\"
+      class=\"hover\" height=\"45\" src=\"https://a248.e.akamai.net/assets.github.com/images/modules/header/logov5-hover.png\"
+      />\n            <!--<![endif]-->\n          </a>\n        \n        \n        <div
+      class=\"topsearch\">\n  \n    <ul class=\"nav logged_out\">\n      \n      <li
+      class=\"pricing\"><a href=\"/plans\">Pricing and Signup</a></li>\n      \n      <li
+      class=\"explore\"><a href=\"/explore\">Explore GitHub</a></li>\n      <li class=\"features\"><a
+      href=\"/features\">Features</a></li>\n      \n      <li class=\"blog\"><a href=\"/blog\">Blog</a></li>\n
+      \     \n      <li class=\"login\"><a href=\"/login\">Login</a></li>\n    </ul>\n
+      \ \n</div>\n\n      </div>\n\n      \n      \n        <div class=\"site\">\n
+      \         \n\n\n<div class=\"pagehead homehead\">\n  <div class=\"hero\">\n
+      \   \n      <h1>\n        <strong>857,207</strong> people hosting over <strong>2,366,920</strong>
+      git repositories\n      </h1>\n    \n    <div class=\"textographic\">\n      <form
+      action=\"/search\" id=\"top_search_form\" method=\"get\">\n        <p>\n          <a
+      class=\"repo\" href=\"/jquery/jquery\">jQuery</a>,\n          <a class=\"repo\"
+      href=\"/reddit/reddit\">reddit</a>,\n          <a class=\"repo\" href=\"/andymatuschak/Sparkle\">Sparkle</a>,\n
+      \         <a class=\"repo\" href=\"/bagder/curl\">curl</a>,\n          <a class=\"repo\"
+      href=\"/rails/rails\">Ruby on Rails</a>,\n          <a class=\"repo\" href=\"/ry/node\">node.js</a>,\n
+      \         <a class=\"repo\" href=\"/rentzsch/clicktoflash\">ClickToFlash</a>,\n
+      \         <a class=\"repo\" href=\"/erlang/otp\">Erlang/OTP</a>,\n          <a
+      class=\"repo\" href=\"/cakephp/cakephp\">CakePHP</a>,\n          <a class=\"repo\"
+      href=\"/antirez/redis\">Redis</a>,\n          and <strong><a href=\"/repositories\">many
+      more</a></strong>\n\n          <input type=\"text\" class=\"search\" name=\"q\"
+      placeholder=\"Find any repository\" />\n          <input type=\"hidden\" name=\"type\"
+      value=\"Everything\" />\n          <input type=\"hidden\" name=\"repo\" value=\"\"
+      />\n          <input type=\"hidden\" name=\"langOverride\" value=\"\" />\n          <input
+      type=\"hidden\" name=\"start_value\" value=\"1\" />\n        </p>\n      </form>\n
+      \   </div>\n  </div>\n</div>\n\n<div class=\"logos\">\n  <a href=\"/twitter\"><img
+      alt=\"Twitter\" height=\"25\" src=\"https://a248.e.akamai.net/assets.github.com/images/modules/home/logos/twitter.png\"
+      width=\"115\" /></a>\n  <a href=\"/facebook\"><img alt=\"facebook\" height=\"37\"
+      src=\"https://a248.e.akamai.net/assets.github.com/images/modules/home/logos/facebook.png\"
+      width=\"100\" /></a>\n  <a href=\"/rackspace\"><img alt=\"Rackspace\" height=\"30\"
+      src=\"https://a248.e.akamai.net/assets.github.com/images/modules/home/logos/rackspace.png?v2\"
+      width=\"105\" /></a>\n  <a href=\"/digg\"><img alt=\"Digg\" height=\"27\" src=\"https://a248.e.akamai.net/assets.github.com/images/modules/home/logos/digg.png\"
+      width=\"50\" /></a>\n  <a href=\"/yahoo\"><img alt=\"Yahoo!\" height=\"23\"
+      src=\"https://a248.e.akamai.net/assets.github.com/images/modules/home/logos/yahoo.png\"
+      width=\"123\" /></a>\n  <a href=\"/shopify\"><img alt=\"Shopify\" height=\"27\"
+      src=\"https://a248.e.akamai.net/assets.github.com/images/modules/home/logos/shopify.png\"
+      width=\"100\" /></a>\n  <a href=\"/emi\"><img alt=\"EMI\" height=\"37\" src=\"https://a248.e.akamai.net/assets.github.com/images/modules/home/logos/emi.png\"
+      width=\"76\" /></a>\n  <a href=\"/sixapart\"><img alt=\"Six Apart\" height=\"35\"
+      src=\"https://a248.e.akamai.net/assets.github.com/images/modules/home/logos/sixapart.png\"
+      width=\"62\" /></a>\n</div>\n\n<div class=\"definitions\">\n  <div class=\"inner
+      columns equacols\">\n    <div class=\"column main\">\n      <h2>git <em>/'ɡɪt/</em></h2>\n
+      \     <p>Git is an extremely fast, efficient, distributed version control system
+      ideal for the collaborative development of software.</p>\n    </div><!-- /.column.left
+      -->\n\n    <div class=\"column secondary\">\n      <h2>git·hub <em>/'ɡɪtˌhʌb/</em></h2>\n
+      \     <p>GitHub is the best way to collaborate with others.  Fork, send pull
+      requests and manage all your <strong>public</strong> and <strong>private</strong>
+      git repositories.</p>\n    </div><!-- /.column.right -->\n  </div><!-- /.columns.inner
+      -->\n</div><!-- /.definitions -->\n\n<div class=\"signup-entice\">\n  <a href=\"/plans\"
+      class=\"signup-button\"><strong>Plans, Pricing and Signup</strong> Unlimited
+      public repositories are <em>free!</em></a>\n  <p>Free public repositories, collaborator
+      management, issue tracking, wikis, downloads, code review, graphs and much more…</p>\n</div>\n\n<div
+      class=\"rule\"></div>\n\n<div class=\"columns fourcols feature-overview\">\n
+      \ <div class=\"column leftmost\">\n    <h3>Team management</h3>\n    <p><strong>30
+      seconds</strong> to give people access to code. No SSH key required. Activity
+      feeds keep you updated on progress.</p>\n    <p><strong><a href=\"/features/projects/collaboration\">More
+      about collaboration</a></strong></p>\n  </div><!-- /.leftmost -->\n  <div class=\"column
+      leftmid\">\n    <h3>Code review</h3>\n    <p>Comment on changes, track issues,
+      compare branches, send pull requests and merge forks.</p>\n    <p><strong><a
+      href=\"/features/projects/codereview\">More about code review</a></strong></p>\n
+      \ </div><!-- /.leftmid -->\n  <div class=\"column rightmid\">\n    <h3>Reliable
+      code hosting</h3>\n    <p>We spend all day and  night making sure your repositories
+      are <strong>secure</strong>, <strong>backed up</strong> and <strong>always available</strong>.</p>\n
+      \   <p><strong><a href=\"/features/hosting\">More about code hosting</a></strong></p>\n
+      \ </div><!-- /.rightmid -->\n  <div class=\"column rightmost\">\n    <h3>Open
+      source collaboration</h3>\n    <p>Participate in the most important open source
+      community in the world today—online or at one of our meetups.</p>\n    <p><strong><a
+      href=\"/features/community\">More about our community</a></strong></p>\n  </div><!--
+      /.rightmost -->\n</div>\n\n        </div>\n      \n    </div>\n\n    <div id=\"footer\"
+      class=\"clearfix\">\n      <div class=\"site\">\n        \n          <div class=\"sponsor\">\n
+      \           <a href=\"http://www.rackspace.com\" class=\"logo\">\n              <img
+      alt=\"Dedicated Server\" height=\"36\" src=\"https://a248.e.akamai.net/assets.github.com/images/modules/footer/rackspace_logo.png?v2\"
+      width=\"38\" />\n            </a>\n            Powered by the <a href=\"http://www.rackspace.com
+      \">Dedicated\n            Servers</a> and<br/> <a href=\"http://www.rackspacecloud.com\">Cloud\n
+      \           Computing</a> of Rackspace Hosting<span>&reg;</span>\n          </div>\n
+      \       \n\n        <ul class=\"links\">\n          \n            <li class=\"blog\"><a
+      href=\"https://github.com/blog\">Blog</a></li>\n            <li><a href=\"https://github.com/about\">About</a></li>\n
+      \           <li><a href=\"https://github.com/contact\">Contact &amp; Support</a></li>\n
+      \           <li><a href=\"https://github.com/training\">Training</a></li>\n
+      \           <li><a href=\"http://jobs.github.com\">Job Board</a></li>\n            <li><a
+      href=\"http://shop.github.com\">Shop</a></li>\n            <li><a href=\"http://developer.github.com\">API</a></li>\n
+      \           <li><a href=\"http://status.github.com\">Status</a></li>\n          \n
+      \       </ul>\n        <ul class=\"sosueme\">\n          <li class=\"main\">&copy;
+      2011 <span id=\"_rrt\" title=\"0.01108s from fe3.rs.github.com\">GitHub</span>
+      Inc. All rights reserved.</li>\n          <li><a href=\"/site/terms\">Terms
+      of Service</a></li>\n          <li><a href=\"/site/privacy\">Privacy</a></li>\n
+      \         <li><a href=\"https://github.com/security\">Security</a></li>\n        </ul>\n
+      \     </div>\n    </div><!-- /#footer -->\n\n    <script>window._auth_token
+      = \"5a23e09c732e2f00ad36d39d1b7429072e12fc64\"</script>\n    \n\n<div id=\"keyboard_shortcuts_pane\"
+      class=\"instapaper_ignore readability-extra\" style=\"display:none\">\n  <h2>Keyboard
+      Shortcuts <small><a href=\"#\" class=\"js-see-all-keyboard-shortcuts\">(see
+      all)</a></small></h2>\n\n  <div class=\"columns threecols\">\n    <div class=\"column
+      first\">\n      <h3>Site wide shortcuts</h3>\n      <dl class=\"keyboard-mappings\">\n
+      \       <dt>s</dt>\n        <dd>Focus site search</dd>\n      </dl>\n      <dl
+      class=\"keyboard-mappings\">\n        <dt>?</dt>\n        <dd>Bring up this
+      help dialog</dd>\n      </dl>\n    </div><!-- /.column.first -->\n\n    <div
+      class=\"column middle\" style='display:none'>\n      <h3>Commit list</h3>\n
+      \     <dl class=\"keyboard-mappings\">\n        <dt>j</dt>\n        <dd>Move
+      selected down</dd>\n      </dl>\n      <dl class=\"keyboard-mappings\">\n        <dt>k</dt>\n
+      \       <dd>Move selected up</dd>\n      </dl>\n      <dl class=\"keyboard-mappings\">\n
+      \       <dt>t</dt>\n        <dd>Open tree</dd>\n      </dl>\n      <dl class=\"keyboard-mappings\">\n
+      \       <dt>p</dt>\n        <dd>Open parent</dd>\n      </dl>\n      <dl class=\"keyboard-mappings\">\n
+      \       <dt>c <em>or</em> o <em>or</em> enter</dt>\n        <dd>Open commit</dd>\n
+      \     </dl>\n      <dl class=\"keyboard-mappings\">\n        <dt>y</dt>\n        <dd>Expand
+      URL to its canonical form</dd>\n      </dl>\n    </div><!-- /.column.first -->\n\n
+      \   <div class=\"column last\" style='display:none'>\n      <h3>Pull request
+      list</h3>\n      <dl class=\"keyboard-mappings\">\n        <dt>j</dt>\n        <dd>Move
+      selected down</dd>\n      </dl>\n      <dl class=\"keyboard-mappings\">\n        <dt>k</dt>\n
+      \       <dd>Move selected up</dd>\n      </dl>\n      <dl class=\"keyboard-mappings\">\n
+      \       <dt>o <em>or</em> enter</dt>\n        <dd>Open issue</dd>\n      </dl>\n
+      \   </div><!-- /.columns.last -->\n\n  </div><!-- /.columns.equacols -->\n\n
+      \ <div style='display:none'>\n    <div class=\"rule\"></div>\n\n    <h3>Issues</h3>\n\n
+      \   <div class=\"columns threecols\">\n      <div class=\"column first\">\n
+      \       <dl class=\"keyboard-mappings\">\n          <dt>j</dt>\n          <dd>Move
+      selected down</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>k</dt>\n          <dd>Move selected up</dd>\n        </dl>\n        <dl
+      class=\"keyboard-mappings\">\n          <dt>x</dt>\n          <dd>Toggle select
+      target</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n          <dt>o
+      <em>or</em> enter</dt>\n          <dd>Open issue</dd>\n        </dl>\n      </div><!--
+      /.column.first -->\n      <div class=\"column middle\">\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>I</dt>\n          <dd>Mark selected as read</dd>\n        </dl>\n
+      \       <dl class=\"keyboard-mappings\">\n          <dt>U</dt>\n          <dd>Mark
+      selected as unread</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>e</dt>\n          <dd>Close selected</dd>\n        </dl>\n        <dl
+      class=\"keyboard-mappings\">\n          <dt>y</dt>\n          <dd>Remove selected
+      from view</dd>\n        </dl>\n      </div><!-- /.column.middle -->\n      <div
+      class=\"column last\">\n        <dl class=\"keyboard-mappings\">\n          <dt>c</dt>\n
+      \         <dd>Create issue</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>l</dt>\n          <dd>Create label</dd>\n        </dl>\n        <dl
+      class=\"keyboard-mappings\">\n          <dt>i</dt>\n          <dd>Back to inbox</dd>\n
+      \       </dl>\n        <dl class=\"keyboard-mappings\">\n          <dt>u</dt>\n
+      \         <dd>Back to issues</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>/</dt>\n          <dd>Focus issues search</dd>\n        </dl>\n
+      \     </div>\n    </div>\n  </div>\n\n  <div style='display:none'>\n    <div
+      class=\"rule\"></div>\n\n    <h3>Network Graph</h3>\n    <div class=\"columns
+      equacols\">\n      <div class=\"column first\">\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt><span class=\"badmono\">←</span> <em>or</em> h</dt>\n          <dd>Scroll
+      left</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n          <dt><span
+      class=\"badmono\">→</span> <em>or</em> l</dt>\n          <dd>Scroll right</dd>\n
+      \       </dl>\n        <dl class=\"keyboard-mappings\">\n          <dt><span
+      class=\"badmono\">↑</span> <em>or</em> k</dt>\n          <dd>Scroll up</dd>\n
+      \       </dl>\n        <dl class=\"keyboard-mappings\">\n          <dt><span
+      class=\"badmono\">↓</span> <em>or</em> j</dt>\n          <dd>Scroll down</dd>\n
+      \       </dl>\n        <dl class=\"keyboard-mappings\">\n          <dt>t</dt>\n
+      \         <dd>Toggle visibility of head labels</dd>\n        </dl>\n      </div><!--
+      /.column.first -->\n      <div class=\"column last\">\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>shift <span class=\"badmono\">←</span> <em>or</em> shift h</dt>\n
+      \         <dd>Scroll all the way left</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>shift <span class=\"badmono\">→</span> <em>or</em> shift l</dt>\n
+      \         <dd>Scroll all the way right</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>shift <span class=\"badmono\">↑</span> <em>or</em> shift k</dt>\n
+      \         <dd>Scroll all the way up</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>shift <span class=\"badmono\">↓</span> <em>or</em> shift j</dt>\n
+      \         <dd>Scroll all the way down</dd>\n        </dl>\n      </div><!--
+      /.column.last -->\n    </div>\n  </div>\n\n  <div style='display:none'>\n    <div
+      class=\"rule\"></div>\n    <div class=\"columns threecols\">\n      <div class=\"column
+      first\" style='display:none'>\n        <h3>Source Code Browsing</h3>\n        <dl
+      class=\"keyboard-mappings\">\n          <dt>t</dt>\n          <dd>Activates
+      the file finder</dd>\n        </dl>\n        <dl class=\"keyboard-mappings\">\n
+      \         <dt>l</dt>\n          <dd>Jump to line</dd>\n        </dl>\n        <dl
+      class=\"keyboard-mappings\">\n          <dt>y</dt>\n          <dd>Expand URL
+      to its canonical form</dd>\n        </dl>\n      </div>\n    </div>\n  </div>\n</div>\n\n
+      \   <div id=\"markdown-help\" class=\"instapaper_ignore readability-extra\">\n
+      \ <h2>Markdown Cheat Sheet</h2>\n\n  <div class=\"cheatsheet-content\">\n\n
+      \ <div class=\"mod\">\n    <div class=\"col\">\n      <h3>Format Text</h3>\n
+      \     <p>Headers</p>\n      <pre>\n# This is an &lt;h1&gt; tag\n## This is an
+      &lt;h2&gt; tag\n###### This is an &lt;h6&gt; tag</pre>\n     <p>Text styles</p>\n
+      \    <pre>\n*This text will be italic*\n_This will also be italic_\n**This text
+      will be bold**\n__This will also be bold__\n\n*You **can** combine them*\n</pre>\n
+      \   </div>\n    <div class=\"col\">\n      <h3>Lists</h3>\n      <p>Unordered</p>\n
+      \     <pre>\n* Item 1\n* Item 2\n  * Item 2a\n  * Item 2b</pre>\n     <p>Ordered</p>\n
+      \    <pre>\n1. Item 1\n2. Item 2\n3. Item 3\n   * Item 3a\n   * Item 3b</pre>\n
+      \   </div>\n    <div class=\"col\">\n      <h3>Miscellaneous</h3>\n      <p>Images</p>\n
+      \     <pre>\n![GitHub Logo](/images/logo.png)\nFormat: ![Alt Text](url)\n</pre>\n
+      \    <p>Links</p>\n     <pre>\nhttp://github.com - automatic!\n[GitHub](http://github.com)</pre>\n<p>Blockquotes</p>\n
+      \    <pre>\nAs Kanye West said:\n> We're living the future so\n> the present
+      is our past.\n</pre>\n    </div>\n  </div>\n  <div class=\"rule\"></div>\n\n
+      \ <h3>Code Examples in Markdown</h3>\n  <div class=\"col\">\n      <p>Syntax
+      highlighting with <a href=\"http://github.github.com/github-flavored-markdown/\"
+      title=\"GitHub Flavored Markdown\" target=\"_blank\">GFM</a></p>\n      <pre>\n```javascript\nfunction
+      fancyAlert(arg) {\n  if(arg) {\n    $.facebox({div:'#foo'})\n  }\n}\n```</pre>\n
+      \   </div>\n    <div class=\"col\">\n      <p>Or, indent your code 4 spaces</p>\n
+      \     <pre>\nHere is a Python code example\nwithout syntax highlighting:\n\n
+      \   def foo:\n      if not bar:\n        return true</pre>\n    </div>\n    <div
+      class=\"col\">\n      <p>Inline code for comments</p>\n      <pre>\nI think
+      you should use an\n`&lt;addr&gt;` element here instead.</pre>\n    </div>\n
+      \ </div>\n\n  </div>\n</div>\n    \n\n    <!--[if IE 8]>\n    <script type=\"text/javascript\"
+      charset=\"utf-8\">\n      $(document.body).addClass(\"ie8\")\n    </script>\n
+      \   <![endif]-->\n\n    <!--[if IE 7]>\n    <script type=\"text/javascript\"
+      charset=\"utf-8\">\n      $(document.body).addClass(\"ie7\")\n    </script>\n
+      \   <![endif]-->\n\n    \n    \n    \n  \n\n  <script>\n  if (window.addEventListener)
+      {\n    var kkeys = [], konami = \"38,38,40,40,37,39,37,39,66,65\"\n    window.addEventListener(\"keydown\",
+      function(e) {\n      kkeys.push(e.keyCode)\n      if (kkeys.toString().indexOf(
+      konami ) >= 0) window.location = \"http://logicalawesome.com\"\n    }, true)\n
+      \ }\n  </script>\n\n    <script type=\"text/javascript\">(function(){var d=document;var
+      e=d.createElement(\"script\");e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/14/eum/rum.js\t\";e.type=\"text/javascript\";var
+      s=d.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(e,s);})();NREUMQ.push([\"nrf2\",\"beacon-1.newrelic.com\",\"2f94e4d8c2\",64799,\"dw1bEBZcX1RWRhoCB0cKVwsFQVcXWlpRAx4=\",0.0,9,new
+      Date().getTime()])</script>\n  </body>\n</html>\n"
+    http_version: '1.1'

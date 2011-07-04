@@ -1,7 +1,7 @@
 DATABASEYML=(RUBY_PLATFORM=="java" ? 'database_jruby.yml' :"database_ruby.yml")
+DBENV="test"
 require './lib/config/environment'
 $LOAD_PATH.unshift File.expand_path("./lib", File.dirname(__FILE__))
-
 namespace :db do
   desc 'Migrate the database'
   task :migrate do
@@ -13,5 +13,11 @@ namespace :db do
     require "./lib/db_ar_setup"
     Bookmaker.create(:name=>"Leonbets", :website => "http://www.leonbets.com")
     Bookmaker.create(:name=>"Gamebookers", :website => "https://www.gamebookers.com")
+  end
+
+
+  desc 'Migrate the database_test'
+  task :migrate_test do
+    ActiveRecord::Migrator.migrate('db/migrate')
   end
 end

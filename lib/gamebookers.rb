@@ -1,14 +1,10 @@
 require 'rubygems'
 require 'celerity'
 require 'gamebookers_helper'
-require 'db_ar_setup'
-DATABASEYML='database_jruby.yml'
-require 'config/environment'
-#настройка Celerity для индексов с 0
-Celerity.index_offset = 0
-
 require 'ruby-debug'
 Debugger.start
+
+Celerity.index_offset = 0 #настройка Celerity для индексов с 0
 
 class Gamebookers < Celerity::Browser
   include GamebookersHelper
@@ -34,6 +30,7 @@ class Gamebookers < Celerity::Browser
   #проходим по ссылке если ставки на этом виде спорта подходят.
   def iterate_through_valid_sports
     @mainpage_links_of_sports_hrefs.each do |url|
+      debugger
       goto(url)
       get_data(url) if page_with_actual_matches?
     end

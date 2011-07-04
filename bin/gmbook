@@ -1,6 +1,10 @@
 #!/usr/bin/env ruby
 $LOAD_PATH.unshift File.expand_path("../../lib",__FILE__)
 require 'gamebookers'
+DATABASEYML='database_jruby.yml'
+DBENV="development"
+require 'config/environment'
+require 'db_ar_setup'
 
 script=Gamebookers.new
 script.run

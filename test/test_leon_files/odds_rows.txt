@@ -1,0 +1,27 @@
+<tr class="row1">
+<td><script>printShortDate(1309910400000)</script></td>
+<td width="255">
+<strong>
+  <a href="http://www.leonbets.com/betevent/1/3168/26725904" class="nou2">
+  Criciuma - Goias
+  </a>
+</strong>
+</td>
+
+<td align="right">
+  <a href="#" isauthorized="false" betdata="1, 3168, 103151050|356589|0, 1.63" class="oddj" title="Bet on home win"><strong>1.63</strong></a>
+  <br><span class="smallgrey">210 USD</span>
+</td>
+
+<td align="right">
+  <a href="#" isauthorized="false" betdata="1, 3168, 103151050|58805|0, 3.52" class="oddj" title="Bet on draw"><strong>3.52</strong></a>
+  <br><span class="smallgrey">200 USD</span>
+</td>
+
+<td align="right">
+  <a href="#" isauthorized="false" betdata="1, 3168, 103151050|198131|0, 5.32" class="oddj" title="Bet on away win"><strong>5.32</strong></a>
+  <br><span class="smallgrey">200 USD</span>
+</td>
+<td><a href="#" title="More odds" class="odd" onclick='show("ev26725904"); return false'>More (5)...</a></td>
+
+</tr>
