@@ -3,7 +3,6 @@ require 'nokogiri'
 require 'open-uri'
 DATABASEYML='database_ruby.yml'
 require 'db_ar_setup'
-require 'config/environment'
 require 'ruby-debug'
 Debugger.start
 

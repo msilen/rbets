@@ -1,4 +1,5 @@
 #encoding: UTF-8
+DBENV="development"
 require 'testunit_helper'
 require 'rubygems'
 require 'matcher/matcher'

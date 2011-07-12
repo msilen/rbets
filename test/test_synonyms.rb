@@ -1,4 +1,5 @@
 #encoding: UTF-8
+DBENV="development"
 require 'testunit_helper'
 require 'rubygems'
 require 'matcher/synonyms'
@@ -7,34 +8,36 @@ require 'yaml'
 class TestSynonyms < Test::Unit::TestCase
   def setup
     @script= Synonyms.new
-    Synonyms.class_eval {
-      def self.synonyms_file=(path)
-        ; @@synonyms_file=path;
-      end }
+    #заменим стандартный файл синонимов на тестовый
+    Synonyms.class_eval { def self.synonyms_file=(path) ; @@synonyms_file=path; end }
   end
 
+  #проверка что файл с синонимами грузится в массив
   def test_load_synonyms_if_exist
     Synonyms.synonyms_file="./test/test_synonyms_files/team_synonyms.yml"
     loaded=@script.load_synonyms_if_exist
-    assert_kind_of(Hash, loaded)
+    assert_kind_of(Array, loaded)
     assert !loaded.empty?
-
   end
 
-  def test_load_synonyms_if_exist_should_return_empty_hash_if_file_is_bad
+  #если формат неверный, пустой массив
+  def test_load_synonyms_if_exist_should_return_empty_array_if_file_is_bad
     Synonyms.synonyms_file="./test/test_synonyms_files/bad.yml"
-    assert_equal({}, @script.load_synonyms_if_exist)
+    assert_equal([], @script.load_synonyms_if_exist)
   end
 
+  #пустой массив, если файла нет
   def test_load_synonyms_if_exist_should_return_empty_hash_if_file_doesnt_exist
     Synonyms.synonyms_file="./test_synonyms_files/not_existed.yml"
-    assert_equal({}, @script.load_synonyms_if_exist)
+    assert_equal([], @script.load_synonyms_if_exist)
+  end
+
+  def test_similar_with_wrong_arguments
+    orig, test="Dinamo", nil
+    assert_raise(ArgumentError) { @script.similar?(orig, test) }
   end
 
   def test_similar_should_properly_find_similar_strings
-    orig, test="Dinamo", nil
-    assert_raise(ArgumentError) { @script.similar?(orig, test) }
-
     orig=test="Dinamo"
     assert @script.similar?(orig, test)
 

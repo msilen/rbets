@@ -1,23 +1,22 @@
 require 'rubygems'
-DATABASEYML='database_ruby.yml'
 require 'db_ar_setup'
-require 'config/environment'
 require 'amatch'
 require 'ruby-debug'
 Debugger.start
 
 class Synonyms
   include Amatch
-  @@synonyms_file="./lib/config/team_synonyms.yml"
+  @@synonyms_file="lib/config/team_synonyms.yml"
 
   def initialize
     @bets=Bet.all #все ставки
-    @similar_events={} #хэш похожих событий
+    @similar_events={} #инициализируем хэш похожих событий (будет составляться в методе run)
   end
 
   def run
     #поиск одинаковых линий в базе данных, с разными букмекерами, составление из него хэша соответствий.
-    @bets.each do |current_bet|
+    @bets.length.times do #итерируем каждый шаг
+      current_bet=@bets.shift #на каждом шагу удаляем ставку, которую уже проверили
       @bets.each do |compared_bet|
         if (current_bet.event_date==compared_bet.event_date&&
             current_bet.bookmaker_id!=compared_bet.bookmaker_id&&
@@ -49,9 +48,9 @@ class Synonyms
     synonyms_new=[]
     @similar_events.each_with_index do |event_array, index| #similar_events- хэш объектов Bet
       synonyms_new[index*2]=[event_array[0].competitor_one]
-      synonyms_new[index*2]+=event_array[1].map &:competitor_one
+      synonyms_new[index*2]+=event_array[1].map(&:competitor_one).uniq
       synonyms_new[index*2+1]=[event_array[0].competitor_two]
-      synonyms_new[index*2+1]+=event_array[1].map &:competitor_two
+      synonyms_new[index*2+1]+=event_array[1].map(&:competitor_two).uniq
     end
 
     synonyms_new.map! { |subarray_synonyms| subarray_synonyms[0]==subarray_synonyms[1] ? nil : subarray_synonyms }.compact!
@@ -59,6 +58,7 @@ class Synonyms
     old_synonyms=load_synonyms_if_exist #уже имеющиеся синонимы, загруженные из файла
     synonyms=synonyms_new
 
+    debugger
     File.open(@@synonyms_file, 'w') do |f|
       YAML.dump(synonyms, f)
     end
@@ -72,7 +72,7 @@ class Synonyms
     distance=matcher.match(longer_string.downcase)
     longest_substring=LongestSubstring.new(shorter_string.downcase).match(longer_string) #размер самой длинной подстроки в сравниваемых строках
 #    puts distance.to_s+" "+longest_substring.to_s
-    (distance<longer_string.size/1.5)&&(longest_substring > shorter_string.length/2) #строки схожи если расстояние левенштейна меньше чем длина короткой сравниваемой строки /1.5
+    (distance<longer_string.size/1.5)&&(longest_substring > shorter_string.length/2.3) #строки схожи если расстояние левенштейна меньше чем длина короткой сравниваемой строки /1.5
   end
 
 end
