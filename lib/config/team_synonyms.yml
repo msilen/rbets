@@ -1,0 +1,862 @@
+---
+- - KuPS
+  - KuPS Kuopio
+- - Haka
+  - FC Haka
+- - KooTeePee
+  - Kooteepee
+- - Dinamo Bucharest
+  - Dinamo B.
+- - Tromso
+  - Tromsø
+- - Yenisey Krasnoyarsk
+  - Yenisey
+- - SKA-Energiya
+  - SKA-Jenergija
+- - Metallurg Kuzbass
+  - Metalurg - Kuzbass Novokuznetsk
+- - Chelyabinsk
+  - FC Chelyabinsk
+- - Gazovik
+  - Gazovik Orenburg
+- - Mordovia Saransk
+  - Mordovya Saransk
+- - Tekstilshchik
+  - Tekstilshik-Telecom Ivanovo
+- - Zhemchuzhina
+  - Zhemchuzhina Sotchi
+- - Baltika
+  - ! 'Baltika Kaliningrad '
+- - Volgar-Gazprom
+  - Volgar
+- - Vityaz
+  - Vityaz Podolsk
+- - Khimki
+  - FC Khimki
+- - Dinamo Bryansk
+  - Dinamo Brajnsk
+  - Dynamo Bryansk
+- - FC Istra
+  - Istra
+- - Chernomorets N
+  - Chernomorets Novorossijsk
+- - Gombak Utd
+  - Gombak United
+- - Albirex Niigata (S)
+  - Albirex Niigata FC (S)
+  - Albirex Niigata
+  - Niigata
+- - Djurgardens
+  - Djurgården
+- - Helsingborgs
+  - Helsingborgs IF
+- - Jonkopings Sodra
+  - Jönköpings Södra IF
+- - Germany U17
+  - Germany (U17)
+- - England U17
+  - England (U17)
+- - Shakhtar
+  - Shakhtar Donetsk
+- - Dinamo Kiev
+  - Dynamo Kyiv
+- - Seattle
+  - SEA Sounders
+- - England (W)
+  - England
+- - Japan (W)
+  - Japan
+- - New Zealand (W)
+  - New Zealand
+- - Mexico (W)
+  - Mexico
+- - Canada (W)
+  - Canada
+  - Canada (U19)
+- - Nigeria (W)
+  - Nigeria
+- - France (W)
+  - France
+  - France (ladies)
+  - France (U20)
+- - Germany (W)
+  - Germany
+  - Germany (U20)
+- - Equatorial Guinea (W)
+  - Equatorial Guinea
+- - Brazil (W)
+  - Brazil
+  - Brazil (U19)
+  - Russia
+  - Brazil (ladies)
+- - Sweden (W)
+  - Sweden
+  - Sweden (U20)
+- - USA (W)
+  - USA
+  - USA (U19)
+- - Klara Zakopalova
+  - Zakopalova K.
+- - Xinyun Han
+  - Han X.
+- - Anabel Medina Garrigues
+  - Medina Garrigues A.
+- - Anastasia Pivovarova
+  - Pivovarova A.
+- - Ajla Tomljanovic
+  - Tomljanovic A.
+- - Vanda Lukacs
+  - Lukacs V.
+- - Alona Bondarenko
+  - Bondarenko A.
+- - Sandra Zahlavova
+  - Zahlavova S.
+- - Mischa Zverev
+  - Zverev M.
+- - Alex Bogomolov Jr
+  - Bogomolov Jr. A.
+- - Denis Kudla
+  - Kudla D.
+- - Ivo Karlovic
+  - Karlovic I.
+- - Polona Hercog
+  - Hercog P.
+- - Anna Tatishvili
+  - Tatishvili A.
+- - NY Yankees
+  - NY Yankees (A Burnett)
+  - NY Yankees (P Hughes)
+  - NY Yankees (B Colon)
+  - New York Yankees (F Garcia)
+  - NY Yankees (C Sabathia)
+- - CLE Indians
+  - Cleveland (J Tomlin)
+  - Cleveland (J Masterson)
+- - DET Tigers
+  - Detroit (C Furbush)
+  - Detroit (J Verlander)
+  - Detroit (B Penny)
+- - LA Angels
+  - LA Angels (J Pineiro)
+  - LA Angels (D Haren)
+  - LA Angels (T Chatwood)
+  - LA Angels (J Weaver)
+  - LA Angels (E Santana)
+- - Australia (U19)
+  - Australia
+  - Australia (W)
+- - South Korea (U19)
+  - Korea
+- - China (U19)
+  - China
+  - China (ladies)
+- - Latvia (U19)
+  - Latvia
+  - Latvia (U20)
+- - Tunisia (U19)
+  - Tunisia
+- - Chinese Taipei (U19)
+  - Chinese Taipei
+- - Argentina (U19)
+  - Argentina
+- - Poland (U19)
+  - Poland
+  - Poland (ladies)
+  - Poland (U20)
+- - Kjelsås
+  - Kjelsas
+- - Valerenga2
+  - Valerenga II
+- - Rusichi Orel
+  - Rusichi
+- - North Korea
+  - North Korea (W)
+- - Colombia
+  - Colombia (W)
+- - Urawa Reds
+  - Urawa
+- - Kitakyushu
+  - Giravanz
+  - Giravanz Kitakyushu
+- - Cruzeiro MG
+  - Cruzeiro
+- - Gremio RS
+  - Gremio
+- - Internacional RS
+  - Internacional
+- - Corinthians SP
+  - Corinthians
+- - Flamengo RJ
+  - Flamengo
+- - Sao Paulo SP
+  - Sao Paulo
+- - Atletico GO
+  - Atletico Go
+- - Gremio Prudente SP
+  - Gremio Prudente
+- - Norway
+  - Norway (W)
+- - Santa Coloma (AND)
+  - FC Santa Coloma
+- - FC Beslan Fayur
+  - Beslan
+- - Fakel Voronezh
+  - Fakel
+- - Eva Birnerova
+  - Birnerova E.
+- - Lucie Hradecka
+  - Hradecka L.
+- - Valletta
+  - Valletta FC
+- - Tre Fiori
+  - SP Tre Fiori
+- - FC Ulysses
+  - FC Ulisses Yerevan
+- - Flamurtari
+  - KS Flamurtari Vlorë
+- - Balestier Khalsa
+  - BAL Khalsa
+- - Tanjong Pagar Utd
+  - Tanjong Pagar
+- - Milsami
+  - FC Milsami
+- - Fola Esch
+  - CS Fola Esch
+- - Elfsborg
+  - IF Elfsborg
+- - Nomme Kalju
+  - JK Nomme Kalju
+- - FC Lusitans
+  - FC Lusitanos
+- - Varazdin
+  - NK Varteks
+- - Hacken
+  - BK Hacken
+- - Kaerjeng
+  - UN Kaerjeng 97
+- - NSI Runavik
+  - NSÌ Runavík
+- - Olimpija
+  - Olimpia Ljubljana
+- - Rabotnicki
+  - FK Rabotnicki
+- - Trans Narva
+  - JK Trans Narva
+- - St Patricks
+  - St. Patrick's Athletic
+- - IBV
+  - Vestmannæyjar
+- - New York Red Bulls
+  - NY Red Bulls
+- - Katalin Marosi
+  - Marosi K.
+- - Andrea Hlavackova
+  - Hlavackova A.
+- - Sofia Arvidsson
+  - Arvidsson S.
+- - Maria Jose Martinez Sanchez
+  - Martinez Sanchez M.J.
+- - Iveta Benesova
+  - Benesova I.
+- - Mona Barthel
+  - Barthel M.
+- - Vera Dushevina
+  - Dushevina V.
+- - Nuria Llagostera Vives
+  - Llagostera Vives N.
+  - Meusburger Y.
+- - Alize Lim
+  - Lim A.
+- - NY Mets
+  - NY Mets (M Pelfrey)
+  - NY Mets (J Niese)
+  - NY Mets (D Gee)
+- - LA Dodgers
+  - LA Dodgers (T Lilly)
+  - LA Dodgers (H Kuroda)
+  - LA Dodgers (C Kershaw)
+  - LA Dodgers (C Billingsley)
+  - LA Dodgers (R De La Rosa)
+- - FH Hafnarfjordur
+  - Hafnarfjordur
+- - Keflavík
+  - Keflavik
+- - Grindavík
+  - Grindavik
+- - Fram Reykjavik
+  - Fram
+  - Vikingur
+  - Vikingur R.
+- - Thor Akureyri
+  - Thor
+- - Breidablik Kopavogur
+  - Breidablik
+- - Begu I.
+  - Irina Begu
+- - Lithuania
+  - Lithuania (U19)
+  - Lithuania (U20)
+- - Kunitsyn I.
+  - Igor Kunitsyn
+- - Wang J.
+  - Jimmy Wang
+- - Roger-Vasselin E.
+  - Edouard Roger Vasselin
+- - Bloomfield R.
+  - Richard Bloomfield
+- - Remondina A.
+  - Anna Remondina
+- - Babos T.
+  - Timea Babos
+- - Slovacko
+  - 1.FC Slovacko
+- - Ruzomberok
+  - MFK Ruzomberok
+- - Croatia (U19)
+  - Croatia
+  - Croatia (ladies)
+- - Serbia (U19)
+  - Serbia
+  - Serbia (ladies)
+  - Serbia (U20)
+- - Chivas USA
+  - CD Chivas
+- - Groningen
+  - FC Groningen
+- - Alex Bogdanovic
+  - Bogdanovic A.
+- - Tobias Kamke
+  - Kamke T.
+- - Tromsø IL 2
+  - Tromso IL II
+- - Hearts
+  - Heart Of Midlothian
+- - Tours FC
+  - Tours
+- - ! 'Laval '
+  - Laval
+- - Karabakh
+  - FK Karabakh Agdam
+- - Banga
+  - Banga Gargzdai
+- - Sparta Prague
+  - Sparta Praha
+- - Gefle IF
+  - Gefle
+- - Trelleborgs FF
+  - Trelleborgs
+- - Stromsgodset
+  - Strømsgodset
+- - IFK Göteborg
+  - IFK Goteborg
+- - Mjällby AIF
+  - Mjallby
+- - Örebro
+  - Orebro
+- - AIK Solna
+  - AIK
+- - Halmstads BK
+  - Halmstads
+- - FC Irtysh Pavlodar
+  - Irtysh Pavlodar
+- - ! 'Jagiellonia Bialystok '
+  - Jagiellonia
+- - Olimpi Rustavi
+  - Rustavi
+- - AZAL PFC Baku
+  - Olimpik-Suvalan
+- - Daugava
+  - FC Daugava
+- - Birkirkara FC
+  - Birkirkara
+- - Neath Athletic
+  - Neath
+- - Aalesund
+  - Aalesunds
+- - Paksi
+  - Paks
+- - SP Tre Penne
+  - Tre Penne
+- - RAD Beograd
+  - Rad
+- - Cliftonville FC Belfast
+  - Cliftonville
+- - Glentoran FC Belfast
+  - Glentoran
+- - Vålerenga
+  - Valerenga
+- - Uruguay (U17)
+  - Uruguay U17
+- - Brazil (U17)
+  - Brazil U17
+- - LA Sparks
+  - Los Angeles Sparks
+- - PHX Mercury
+  - Phoenix Mercury
+  - Phoenix Suns
+- - Derry City
+  - Derry
+- - Drogheda United
+  - Drogheda
+- - Zuzana Kucova
+  - Kucova Z.
+- - Savchuk O.
+  - Olga Savchuk
+- - Krunic A.
+  - Aleksandra Krunic
+- - Tsurenko L.
+  - Lesia Tsurenko
+- - Home United
+  - Home Utd
+- - Ruben Bemelmans
+  - Bemelmans R.
+- - Caroline Wozniacki
+  - Wozniacki C.
+- - Dominguez Lino L.
+  - Lourdes Dominguez Lino
+- - Parra Santonja A.
+  - Arantxa Parra Santonja
+- - Netherlands
+  - Netherlands (ladies)
+  - Netherlands (U20)
+- - Olimps
+  - JFK Olimps
+- - FK Ventspils
+  - Ventspils
+- - Gulbene 2005
+  - Gulbene
+- - Liepajas
+  - SK Liepajas
+- - GIF Sundsvall
+  - Sundsvall
+- - Degerfors IF
+  - Degerfors
+- - Cracowia Krakow
+  - Cracovia Krakow
+  - ! 'MKS Cracovia Krakow '
+- - Korona Kielce
+  - Korona
+- - VfL Bochum
+  - Bochum
+- - AEK Larnaca FC
+  - AEK Larnaca
+- - SKN St. Pölten
+  - St Polten
+- - Rapid Wien
+  - Rapid Vienna
+- - Steaua Bucuresti
+  - Steaua Bucharest
+- - Zeta
+  - FK Zeta Golubovci
+- - St. Catharines Wolves
+  - St Catharines Wolves
+- - Brampton Lions
+  - Brampton
+- - Inter Turku
+  - FC Inter
+- - MyPa Myllykoski
+  - MyPa
+- - FC Flora
+  - Flora Tallinn
+- - KRC Genk
+  - Genk
+- - Bulgaria (ladies)
+  - Bulgaria
+  - Bulgaria (U20)
+- - Czech Republic (ladies)
+  - Czech Republic
+- - Turkey (ladies)
+  - Turkey
+  - Turkey (U20)
+- - Hungary (ladies)
+  - Hungary
+- - Israel (ladies)
+  - Israel
+  - Israel (U20)
+- - Romania (ladies)
+  - Romania
+  - Romania (U20)
+- - Belarus (ladies)
+  - Belarus
+  - Belarus (U20)
+- - Spain (ladies)
+  - Spain
+  - Spain (U20)
+- - Greece (ladies)
+  - Greece
+- - Cork City FORAS
+  - Cork City
+- - Mervue United
+  - Mervue Utd
+- - Athlone Town
+  - Athlone
+- - Waterford United
+  - Waterford
+- - Monaghan United
+  - Monaghan Utd
+- - Atletico Nacional
+  - Atletico Huila
+- - Independiente Medellin
+  - Quindio
+  - Indep. Medellin
+  - CD Quindio
+- - ! 'FC Fehervar '
+  - Videoton
+  - Videoton FC
+- - Estrella Cabeza Candela
+  - Cabeza Candela E.
+- - Woodlands Wellington
+  - Woodlands
+- - Hougang United FC
+  - Hougang
+  - Hougang Utd
+- - Espoo
+  - FC Espoo
+- - Popa
+  - PoPA
+- - Viikingit
+  - FC Viikingit
+- - Ismaily
+  - Ismaily SC
+- - TB Rays
+  - Tampa Bay (J Niemann)
+  - Tampa Bay (J Hellickson)
+  - Tampa Bay (D Price)
+  - Tampa Bay (J Shields)
+- - SEA Mariners
+  - Seattle (D Fister)
+  - Seattle (B Beavan)
+  - Seattle (M Pineda)
+  - Seattle (F Hernandez)
+- - Italy (U20)
+  - Italy
+- - Slovakia (U20)
+  - Slovakia
+- - Great Britain (U20)
+  - Great Britain
+- - Portugal (U20)
+  - Portugal U20
+  - Portugal
+- - Egypt (U20)
+  - Egypt U20
+- - Vorskla Poltava
+  - Vorskla
+- - PFC Olexandria
+  - Oleksandria
+- - Illichivec Mariupol
+  - Illychivets
+- - Karpaty Lviv
+  - Karpaty
+- - Kryvbas K Rog
+  - Kryvbas
+- - Volyn Lutsk
+  - Volyn
+- - Obolon Kyiv
+  - Obolon
+- - Metallist Kharkiv
+  - Metalist
+- - Chernomorets Odessa
+  - Odesa
+- - Metalurg Donetsk
+  - Metalurg D
+- - Arsenal Kyiv
+  - Arsenal Kiev
+- - Dnipro Dnipropetrovsk
+  - Dnipro
+- - ! 'Gornik Zabrze '
+  - Gornik Zabrze
+- - MSK Zilina
+  - Zilina
+- - Shimizu S-Pulse
+  - Shimizu
+- - Yokohama Marinos
+  - Yokohama FM
+- - Kashiwa Reysol
+  - Kashiwa
+- - Vegalta Sendai
+  - Sendai
+- - Vissel Kobe
+  - Kobe
+- - Grampus Eight
+  - Nagoya
+- - Kashima Antlers
+  - Kashima
+- - Omiya Ardija
+  - Omiya
+- - Hiroshima
+  - Sanfrecce Hiroshima
+- - Kawasaki Frontale
+  - Kawasaki
+- - Avispa Fukuoka
+  - Fukuoka
+- - Celtic Crusaders
+  - Crusaders
+- - Harlequins RL
+  - Harlequins
+- - St.Helens
+  - St Helens
+- - Etoile
+  - Etoile FC
+- - Mito
+  - Mito HollyHock
+- - Verdy
+  - Tokyo Verdy
+- - FC Gifu
+  - Gifu
+- - Kumamoto
+  - Roasso Kumamoto
+- - Kyoto
+  - Kyoto Sanga
+- - Toyama
+  - Kataller Toyama
+- - Johanna Larsson
+  - Larsson J.
+- - Michael Ryderstedt
+  - Ryderstedt M.
+- - Viktor Troicki
+  - Troicki V.
+- - Chicago Fire
+  - Chicago
+- - Portuguesa SP
+  - Portuguesa
+- - Salgueiro
+  - Salgueiro PE
+- - St Pauli
+  - FC St. Pauli
+- - Brondby
+  - Brøndby
+- - SDG Padres
+  - San Diego (M Latos)
+  - San Diego (A Harang)
+  - San Diego (T Stauffer)
+- - Vila Nova
+  - Vila Nova Go
+- - Dallas
+  - FC Dallas
+- - Bolivia
+  - Costa Rica
+- - Mainz
+  - FSV Mainz 05
+- - Young Boys
+  - Young Boys Bern
+- - H Berlin
+  - Hertha Berlin
+- - Bragantino SP
+  - Bragantino
+- - Maribor
+  - NK Maribor
+  - Maribor Lazko
+- - Philadelphia Union
+  - Philadelphia
+- - Belgium (U20)
+  - Belgium
+- - Americana SP
+  - Americana
+- - Sport
+  - Sport Recife
+- - Guarani
+  - Guarani SP
+- - IFK Luleå
+  - IFK Lulea
+- - Väsby United
+  - Vasby
+- - Syrianska IF Kerbura
+  - Syrianska IF Kerburan
+- - Bodens BK
+  - Bodens
+- - IF Sirius FK
+  - Sirius
+- - Umeå FC
+  - Umea FC
+- - Husqvarna FF
+  - Husqvarna
+- - Örgryte IS
+  - Orgryte
+- - IK Oddevold
+  - Oddevold
+- - FC Trollhättan
+  - Trollhattan
+- - ! 'Limhamn Bunkeflo '
+  - Limhamn Bunkeflo
+- - Motala AIF FK
+  - Motala
+- - Skövde AIK
+  - Skovde AIK
+- - FC Rosengard
+  - Rosengard
+- - Kristianstads FF
+  - Kristianstads
+- - NY Liberty
+  - New York Liberty
+- - SA Silver Stars
+  - San Antonio Silver Stars
+- - TUL Shock
+  - Tulsa Shock
+- - Sangju Sangmu
+  - Sangju Sangmu Phoenix
+- - Gangwon
+  - Gangwon FC
+- - Daegu FC
+  - Daegu
+- - Busan lPark
+  - Busan I Park
+- - Jeju
+  - Jeju Utd
+- - Gyeongnam FC
+  - Gyeongnam
+- - Longford
+  - Longford Town
+- - Vinci R.
+  - Roberta Vinci
+- - F Lopez/Verdasco
+  - Lopez F./Verdasco
+- - B Munich
+  - Bayern Munich
+- - FC Zwolle
+  - Zwolle
+- - ! 'Sion '
+  - Sion
+- - PSG
+  - Paris St-G
+- - FC Nordsjælland
+  - FC Nordsj
+- - Ukraine (U20)
+  - Ukraine
+- - Seattle Storm
+  - SEA Storm
+- - ATL Dream
+  - Atlanta Dream
+- - CHI Sky
+  - Chicago Sky
+- - Toronto FC Academy
+  - Toronto FC II
+- - Nottinghamshire
+  - Yorkshire
+  - Sussex
+  - Derbyshire
+- - Somerset
+  - Worcestershire
+  - Hampshire
+  - Glamorgan
+- - Saarbrucken
+  - FC Saarbrücken
+- - Suwon Samsung Bluewings
+  - Suwon Bluewings
+- - Seongnam Ilhwa Chunma
+  - Seongnam Ilhwa
+- - Incheon
+  - Incheon Utd
+- - Ulsan Hyandai Horang - I
+  - Ulsan Hyundai Horang i
+- - Turks and Caicos Islands
+  - Turks And Caicos
+- - WAS Mystics
+  - Washington Mystics
+- - IND Fever
+  - Indiana Fever
+- - Janko Tipsarevic
+  - Tipsarevic J.
+- - Servette
+  - Servette FC
+- - Brantford Galaxy SC
+  - Brantford
+- - Mississauga Eagles FC
+  - Mississauga
+- - Hansa Rostock
+  - H Rostock
+- - Anorthosis Famagusta
+  - Anorthosis
+- - FYR Macedonia (U20)
+  - FYR Macedonia
+- - Austria (U20)
+  - Austria
+- - Enppi
+  - ENPPI
+- - Lyngby
+  - Lyngby BK
+- - FC Vestsjaelland
+  - Vestsjaelland
+- - Oberhausen
+  - Rot-Weiss Oberhausen
+- - Paderborn
+  - SC Paderborn 07
+- - Standard Wetteren
+  - Standaard Wetteren
+- - KAA Gent
+  - Gent
+- - First Vienna FC
+  - First Vienna
+- - Blau Weiss Linz
+  - BW Linz
+- - TSV Sparkasse Hartberg
+  - Hartberg
+- - St. Andrä
+  - WAC St Andra
+- - SV Scholz Grödig
+  - SV Grodig
+- - Julien Benneteau
+  - Benneteau J.
+- - Blaz Kavcic
+  - Kavcic B.
+- - Luch-Energia
+  - Luch-Energiya
+- - ! 'Sibir Novosibirsk '
+  - Sibir
+- - Ural Ekaterinburg
+  - Ural
+- - Stakhovsky S.
+  - Sergiy Stakhovsky
+- - Pospisil J.
+  - Jaroslav Pospisil
+- - Garcia-Lopez G.
+  - Guillermo Garcia Lopez
+- - Stepanek R.
+  - Radek Stepanek
+- - Partizan Belgrade
+  - FK Partizan
+- - Skendija
+  - Skendija 79
+- - Maximo Gonzalez
+  - Gonzalez M.
+- - Mogren
+  - FK Mogren Budva
+- - Gojnea M.
+  - Madalina Gojnea
+- - Amanmuradova A.
+  - Akgul Amanmuradova
+- - Pironkova T.
+  - Tsvetana Pironkova
+- - Malmo FF
+  - Malmö FF
+- - Linfield
+  - Linfield FC Belfast
+- - FC Heidenheim
+  - 1. FC Heidenheim
+- - 1860 Munich
+  - 1860 München
+- - Nikolay Davydenko
+  - Davydenko N.
+- - Cedrik Marcel Stebe
+  - Stebe C.M.
+- - FC Basel
+  - Basel
+- - Wadi Degla
+  - Wadi degla
+- - Smouha SC
+  - Smouha
+- - Sturm Graz
+  - SK Sturm Graz
+- - APOEL
+  - Apoel Nicosia
+- - FK Ekranas
+  - Ekranas
+- - Tobol Kostanay (Kzk)
+  - Tobol Kostanay
+- - Youzhny M.
+  - Mikhail Youzhny
+- - Petzschner P.
+  - Philipp Petzschner
+- - Grotta Seltjarnarnes
+  - Grotta
+- - HK Kopavogs
+  - HK Kopavogur

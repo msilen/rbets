@@ -16,19 +16,26 @@ class Synonyms
   def run
     #поиск одинаковых линий в базе данных, с разными букмекерами, составление из него хэша соответствий.
     @bets.length.times do #итерируем каждый шаг
-      current_bet=@bets.shift #на каждом шагу удаляем ставку, которую уже проверили
-      @bets.each do |compared_bet|
-        if (current_bet.event_date==compared_bet.event_date&&
-            current_bet.bookmaker_id!=compared_bet.bookmaker_id&&
-            current_bet.sport==compared_bet.sport&&
-            (similar?(current_bet.competitor_one, compared_bet.competitor_one)||similar?(current_bet.competitor_two, compared_bet.competitor_two)))
-          unless @similar_events[compared_bet]
+      current_bet=@bets.shift #на каждом шагу удаляем ставку, которую уже проверили (а также задается ставка, с которой будут сравниваться остальные)
+      puts @similar_events.size if @similar_events.size%10==0&&@similar_events.size>0
+      compared_bets=Bet.where("event_date='#{current_bet.event_date}' AND bookmaker_id !=#{current_bet.bookmaker_id} AND sport='#{current_bet.sport}'")
+      compared_bets.each do |psb| #Perhaps Similar Bet
+        if (similar?(current_bet.competitor_one, psb.competitor_one)||similar?(current_bet.competitor_two, psb.competitor_two))
+          unless @similar_events[psb] #не добавляем , если ставка в обратную сторону уже есть, чтобы не плодить копии вроде (spartak=>spartac,spartac=>spartak), метод similar? выдает идентичный результат независимо от порядка входящих аргументов
             @similar_events[current_bet]||=[] #Хэш [#Bet(ставка букмек.№1)=>[#Bet(ставки других букмекеров , ... ]]
-            @similar_events[current_bet]<<compared_bet #не добавляем , если ставка в обратную сторону уже есть, чтобы не плодить копии вроде (spartak=>spartac,spartac=>spartak), метод similar? выдает идентичный результат независимо от порядка входящих аргументов
+            @similar_events[current_bet]<<psb
           end
         end
       end
+#      @bets.each do |compared_bet|
+#        if (current_bet.event_date==compared_bet.event_date&&
+#            current_bet.bookmaker_id!=compared_bet.bookmaker_id&&
+#            current_bet.sport==compared_bet.sport&&
+#            (similar?(current_bet.competitor_one, compared_bet.competitor_one)||similar?(current_bet.competitor_two, compared_bet.competitor_two)))
+#        end
+#      end
     end
+    puts "similar events:#{@similar_events.size}"
     @similar_events.delete_if { |betk, betv| betk.competitor_one==betv.first.competitor_one&&betk.competitor_two==betv.first.competitor_two }.size #удалим полные совпадения по названиям команд
     synonyms=save_to_yaml
     puts synonyms.size
@@ -47,18 +54,22 @@ class Synonyms
   def save_to_yaml
     synonyms_new=[]
     @similar_events.each_with_index do |event_array, index| #similar_events- хэш объектов Bet
-      synonyms_new[index*2]=[event_array[0].competitor_one]
-      synonyms_new[index*2]+=event_array[1].map(&:competitor_one).uniq
-      synonyms_new[index*2+1]=[event_array[0].competitor_two]
+      synonyms_new[index*2]=[event_array[0].competitor_one] #текущая команда1, для которой добавляются синонимы
+      synonyms_new[index*2]+=event_array[1].map(&:competitor_one).uniq #добавляется массив команд-синонимов ["dinamo"]+["dina","Dinam"]
+      synonyms_new[index*2+1]=[event_array[0].competitor_two] #аналогично для команды2
       synonyms_new[index*2+1]+=event_array[1].map(&:competitor_two).uniq
     end
 
     synonyms_new.map! { |subarray_synonyms| subarray_synonyms[0]==subarray_synonyms[1] ? nil : subarray_synonyms }.compact!
-
-    old_synonyms=load_synonyms_if_exist #уже имеющиеся синонимы, загруженные из файла
-    synonyms=synonyms_new
-
     debugger
+    #очистка дубликатов синонимов
+    s=[]
+    h=synonyms_new.map { |sub| (synonyms_new.map { |mat| (sub+mat).uniq.compact unless (sub&mat).empty? }.compact.flatten.uniq) }
+    h.each { |sub| s<<sub unless s.any? { |sub2| !(sub2&sub).empty? } }
+    debugger
+#    old_synonyms=load_synonyms_if_exist #уже имеющиеся синонимы, загруженные из файла
+    synonyms=s
+
     File.open(@@synonyms_file, 'w') do |f|
       YAML.dump(synonyms, f)
     end
